@@ -1,0 +1,32 @@
+##sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.csv
+
+
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix dcat:   <http://www.w3.org/ns/dcat#>
+
+select distinct
+?type
+?uri
+?notation
+?prefLabel
+?definition
+?collection
+?inScheme
+?theme
+?seeAlso
+?topConceptOf
+where 
+{?uri
+a ?type .
+optional {?uri skos:definition ?definition }
+optional {?uri skos:inScheme ?inScheme }
+optional {?uri skos:notation ?notation }
+optional {?uri skos:prefLabel ?prefLabel }
+optional {?uri rdfs:seeAlso ?seeAlso .}
+optional {?uri dcat:theme ?theme .}
+optional {?uri skos:topConceptOf ?topConceptOf .}
+optional {?uri a skos:Concept . ?collection skos:member ?uri .}
+}
+ORDER BY ?uri
+
