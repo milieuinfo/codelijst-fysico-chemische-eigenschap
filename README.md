@@ -1,4 +1,4 @@
-# codelijst-fysico-chemische_parameter
+# codelijst-fysico-chemische-eigenschap
 
 ## Samenvatting
 Lijst van fysico-chemische parameters, zoals die binnen het kader van het OSLO thema omgeving is opgesteld en tools om deze lijst te beheren en om te zetten naar webformaten.
@@ -6,7 +6,7 @@ Lijst van fysico-chemische parameters, zoals die binnen het kader van het OSLO t
 
 ## Gebruik
 
-- Voeg een definitie van een nieuwe fysico-chemische parameter toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.csv
+- Voeg een definitie van een nieuwe fysico-chemische eigenschap toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.csv
 
 ### csv naar rdf
 ```
