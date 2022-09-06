@@ -6,6 +6,15 @@ library(jsonlite)
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv", sep=",", na.strings=c("","NA"))
 
+for (col in list("https://data.omgeving.vlaanderen.be/id/collection/fysico-chemisch/water")) {
+  medium <- subset(df, collection == col ,
+                   select=c(uri, collection))
+  medium_members <- as.list(medium["uri"])
+  df2 <- data.frame(col, medium_members)
+  names(df2) <- c("uri","member")
+  df <- bind_rows(df, df2)
+}
+
 tco <- subset(df, topConceptOf == 'https://data.omgeving.vlaanderen.be/id/conceptscheme/fysico-chemisch' ,
                    select=c(uri, topConceptOf))
 htc <- as.list(tco["uri"])
