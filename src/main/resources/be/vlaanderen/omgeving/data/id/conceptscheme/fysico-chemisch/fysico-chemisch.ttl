@@ -1,0 +1,926 @@
+@prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix cf:    <https://data.omgeving.vlaanderen.be/id/concept/fysico-chemisch/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cof:   <https://data.omgeving.vlaanderen.be/id/collection/fysico-chemisch/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix cb:    <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+cf:60   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<8" ;
+        skos:prefLabel     "Korrelgrootte distributie <8µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1073"^^xsd:int .
+
+cf:32   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Turb. ps" ;
+        skos:prefLabel     "Turbiditeit, postsedimentair"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "108"^^xsd:int .
+
+cf:103  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC200-1000" ;
+        skos:prefLabel     "Deeltjesaantal 200-1000 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2084"^^xsd:int .
+
+cf:73   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dikte" ;
+        skos:prefLabel     "Dikte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1291"^^xsd:int .
+
+cf:45   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "dil.F" ;
+        skos:prefLabel     "Dilutie factor"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "453"^^xsd:int .
+
+cf:4    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d" ;
+        skos:prefLabel     "Densiteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "77"^^xsd:int .
+
+cf:17   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "IS" ;
+        skos:prefLabel     "Ionensterkte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "90"^^xsd:int .
+
+cf:86   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "N t rendement" ;
+        skos:prefLabel     "rendement N t tov influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1672"^^xsd:int .
+
+cf:58   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "FPFV" ;
+        skos:prefLabel     "Filterverzadiging"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1043"^^xsd:int .
+
+cf:99   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC50-70" ;
+        skos:prefLabel     "Deeltjesaantal 50-70 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2080"^^xsd:int .
+
+cf:11   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "GR" ;
+        skos:prefLabel     "Gloeirest"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "84"^^xsd:int .
+
+cf:110  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<2000" ;
+        skos:prefLabel     "Korrelgrootte distributie <2000µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2097"^^xsd:int .
+
+cf:80   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DE*ab" ;
+        skos:prefLabel     "CIE 1976 totaal kleurverschil"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1516"^^xsd:int .
+
+cf:52   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rad.act." ;
+        skos:prefLabel     "Radioactiviteit, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "691"^^xsd:int .
+
+cf:24   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH" ;
+        skos:prefLabel     "pH"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "100"^^xsd:int .
+
+cf:93   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Deelgewicht 2" ;
+        skos:prefLabel     "Gewicht fles 2 (neerslagwater)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1801"^^xsd:int .
+
+cf:65   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rel.vocht" ;
+        skos:prefLabel     "Relatieve vochtigheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1273"^^xsd:int .
+
+cf:37   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "ZS afm." ;
+        skos:prefLabel     "Zwevende stoffen, afmeting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "114"^^xsd:int .
+
+cf:108  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<500" ;
+        skos:prefLabel     "Korrelgrootte distributie <500µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2095"^^xsd:int .
+
+cf:78   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d13C" ;
+        skos:prefLabel     "Isotopenverhouding koolstof 13 en 12"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1326"^^xsd:int .
+
+cf:9    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "82"^^xsd:int .
+
+cf:31   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Turb." ;
+        skos:prefLabel     "Turbiditeit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "107"^^xsd:int .
+
+cf:102  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC200-500" ;
+        skos:prefLabel     "Deeltjesaantal 200-500 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2083"^^xsd:int .
+
+cf:72   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Diepte" ;
+        skos:prefLabel     "Bemonsteringsdiepte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1290"^^xsd:int .
+
+cf:44   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Beta" ;
+        skos:prefLabel     "Radioactiviteit, beta"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "448"^^xsd:int .
+
+cf:3    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "QI" ;
+        skos:prefLabel     "Kwaliteits Index"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "42"^^xsd:int .
+
+cf:16   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "IB" ;
+        skos:prefLabel     "Ionenbalans"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "89"^^xsd:int .
+
+cf:85   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV rendement" ;
+        skos:prefLabel     "rendement CZV tov influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1670"^^xsd:int .
+
+cf:57   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 25" ;
+        skos:prefLabel     "Geleidbaarheid (25°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "926"^^xsd:int .
+
+cf:29   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Smaak" ;
+        skos:prefLabel     "Smaak"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "105"^^xsd:int .
+
+cf:98   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC30-50" ;
+        skos:prefLabel     "Deeltjesaantal 30-50 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2079"^^xsd:int .
+
+cf:10   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC" ;
+        skos:prefLabel     "Geleidbaarheid ter plaatse"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "83"^^xsd:int .
+
+cf:51   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH-CO2" ;
+        skos:prefLabel     "pH (na ontgassen)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "616"^^xsd:int .
+
+cf:23   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Neerslag" ;
+        skos:prefLabel     "Neerslag"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "97"^^xsd:int .
+
+cf:92   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Deelgewicht 1" ;
+        skos:prefLabel     "Gewicht fles 1 (neerslagwater)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1800"^^xsd:int .
+
+cf:64   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Luchtdruk sh" ;
+        skos:prefLabel     "Luchtdruk op stationshoogte (QFE)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1266"^^xsd:int .
+
+cf:36   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Water" ;
+        skos:prefLabel     "Watergehalte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "112"^^xsd:int .
+
+cf:107  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<250" ;
+        skos:prefLabel     "Korrelgrootte distributie <250µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2094"^^xsd:int .
+
+cf:77   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling uv-B" ;
+        skos:prefLabel     "Straling, ultraviolet (type B)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1308"^^xsd:int .
+
+cf:49   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dagen" ;
+        skos:prefLabel     "Dagen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "611"^^xsd:int .
+
+cf:8    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DR180" ;
+        skos:prefLabel     "Droogresten (180°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "81"^^xsd:int .
+
+cf:30   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "T" ;
+        skos:prefLabel     "Temperatuur"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "106"^^xsd:int .
+
+cf:101  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC100-200" ;
+        skos:prefLabel     "Deeltjesaantal 100-200 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2082"^^xsd:int .
+
+cf:71   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Breedte" ;
+        skos:prefLabel     "Breedte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1289"^^xsd:int .
+
+cf:43   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Alpha" ;
+        skos:prefLabel     "Radioactiviteit, alpha"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "446"^^xsd:int .
+
+cf:2    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "OB" ;
+        skos:prefLabel     "Onbekend"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "-2"^^xsd:int .
+
+cf:15   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H t" ;
+        skos:prefLabel     "Hardheid, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "88"^^xsd:int .
+
+cf:114  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<20" ;
+        skos:prefLabel     "Korrelgrootte distributie <20µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2142"^^xsd:int .
+
+cf:84   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV5 rendement" ;
+        skos:prefLabel     "rendement BZV5 tov influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1669"^^xsd:int .
+
+cf:56   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran>50" ;
+        skos:prefLabel     "Korrelgrootte distributie >50µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "880"^^xsd:int .
+
+cf:28   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Salin." ;
+        skos:prefLabel     "Saliniteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "104"^^xsd:int .
+
+cf:97   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC20-30" ;
+        skos:prefLabel     "Deeltjesaantal 20-30 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2078"^^xsd:int .
+
+cf:69   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "FF" ;
+        skos:prefLabel     "Windsnelheid, vectorieel"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1282"^^xsd:int .
+
+cf:50   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Vol" ;
+        skos:prefLabel     "Volume"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "612"^^xsd:int .
+
+cf:22   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran>63" ;
+        skos:prefLabel     "Korrelgrootte distributie >63µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "96"^^xsd:int .
+
+cf:91   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV/N" ;
+        skos:prefLabel     "CZV/N-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1713"^^xsd:int .
+
+cf:63   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling n" ;
+        skos:prefLabel     "Straling, netto"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1264"^^xsd:int .
+
+cf:35   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Water" ;
+        skos:prefLabel     "Watergehalte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "112"^^xsd:int .
+
+cf:106  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<125" ;
+        skos:prefLabel     "Korrelgrootte distributie <125µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2093"^^xsd:int .
+
+cf:76   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H+" ;
+        skos:prefLabel     "Zuurtegraad"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1296"^^xsd:int .
+
+cf:48   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<2 bt" ;
+        skos:prefLabel     "Korrelgrootte distributie <2µm, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "571"^^xsd:int .
+
+cf:7    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DR105" ;
+        skos:prefLabel     "Droogresten (105°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "80"^^xsd:int .
+
+cf:89   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV/N" ;
+        skos:prefLabel     "BZV/N-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1703"^^xsd:int .
+
+cf:100  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC70-100" ;
+        skos:prefLabel     "Deeltjesaantal 70-100 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2081"^^xsd:int .
+
+cf:70   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Lengte" ;
+        skos:prefLabel     "Lengte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1288"^^xsd:int .
+
+cf:42   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "KW" ;
+        skos:prefLabel     "Kwaliteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "389"^^xsd:int .
+
+cf:1    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gemiddeld" ;
+        skos:prefLabel     "Gemiddeld"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "-101"^^xsd:int .
+
+cf:14   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H tijd." ;
+        skos:prefLabel     "Hardheid, tijdelijk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "87"^^xsd:int .
+
+cf:113  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H t na ZW" ;
+        skos:prefLabel     "Hardheid, totaal na Zahn Wellens"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2118"^^xsd:int .
+
+cf:83   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NH3-N" ;
+        skos:prefLabel     "niet te gebruiken"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1667"^^xsd:int .
+
+cf:55   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran>2<63" ;
+        skos:prefLabel     "Korrelgrootte distributie >2µm en <63µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "825"^^xsd:int .
+
+cf:27   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Reuk" ;
+        skos:prefLabel     "Reuk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "103"^^xsd:int .
+
+cf:96   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC10-20" ;
+        skos:prefLabel     "Deeltjesaantal 10-20 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2077"^^xsd:int .
+
+cf:68   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VM" ;
+        skos:prefLabel     "Windsnelheid, scalair"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1281"^^xsd:int .
+
+cf:21   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<63" ;
+        skos:prefLabel     "Korrelgrootte distributie <63µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "95"^^xsd:int .
+
+cf:90   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV/P" ;
+        skos:prefLabel     "BZV/P-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1704"^^xsd:int .
+
+cf:62   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling uv-A" ;
+        skos:prefLabel     "Straling, ultraviolet (type A)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1263"^^xsd:int .
+
+cf:34   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VP" ;
+        skos:prefLabel     "Vlampunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "110"^^xsd:int .
+
+cf:105  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "MUCd-EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2088"^^xsd:int .
+
+cf:75   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Tv" ;
+        skos:prefLabel     "Temperatuursverschil"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1293"^^xsd:int .
+
+vlcs:fysico-chemisch  skos:hasTopConcept
+                cf:114 , cf:82 , cf:43 , cf:102 , cf:23 , cf:70 , cf:67 , cf:50 , cf:62 , cf:31 , cf:11 , cf:94 , cf:55 , cf:107 , cf:28 , cf:104 , cf:25 , cf:88 , cf:85 , cf:16 , cf:13 , cf:76 , cf:73 , cf:110 , cf:46 , cf:97 , cf:39 , cf:34 , cf:19 , cf:7 , cf:2 , cf:78 , cf:58 , cf:40 , cf:84 , cf:64 , cf:113 , cf:91 , cf:52 , cf:81 , cf:61 , cf:106 , cf:101 , cf:42 , cf:27 , cf:22 , cf:96 , cf:87 , cf:66 , cf:30 , cf:15 , cf:10 , cf:93 , cf:75 , cf:54 , cf:48 , cf:45 , cf:99 , cf:89 , cf:72 , cf:69 , cf:36 , cf:33 , cf:4 , cf:1 , cf:77 , cf:57 , cf:109 , cf:38 , cf:63 , cf:18 , cf:6 , cf:112 , cf:90 , cf:83 , cf:51 , cf:80 , cf:103 , cf:60 , cf:44 , cf:41 , cf:24 , cf:100 , cf:21 , cf:95 , cf:71 , cf:68 , cf:9 , cf:65 , cf:32 , cf:12 , cf:92 , cf:56 , cf:53 , cf:47 , cf:105 , cf:26 , cf:86 , cf:35 , cf:3 , cf:14 , cf:111 , cf:79 , cf:74 , cf:59 , cf:49 , cf:108 , cf:29 , cf:98 , cf:20 , cf:37 , cf:8 , cf:17 , cf:5 .
+
+cf:47   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Sp.opp." ;
+        skos:prefLabel     "Specifiek oppervlak"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "514"^^xsd:int .
+
+cf:6    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DR" ;
+        skos:prefLabel     "Droogrest"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "79"^^xsd:int .
+
+cf:19   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<16" ;
+        skos:prefLabel     "Korrelgrootte distributie <16µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "93"^^xsd:int .
+
+cf:88   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV/BZV" ;
+        skos:prefLabel     "CZV/BZV-verhoudingen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1702"^^xsd:int .
+
+cf:41   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV f" ;
+        skos:prefLabel     "Chemisch zuurstofverbruik, gefiltreerd"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "289"^^xsd:int .
+
+cf:13   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H per." ;
+        skos:prefLabel     "Hardheid, permanent"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "86"^^xsd:int .
+
+cf:112  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 25 na ZW" ;
+        skos:prefLabel     "Geleidbaarheid (25°C) na Zahn Wellens"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2117"^^xsd:int .
+
+cf:82   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BioDegr" ;
+        skos:prefLabel     "Biodegradeerbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1541"^^xsd:int .
+
+cf:54   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<50" ;
+        skos:prefLabel     "Korrelgrootte distributie <50µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "722"^^xsd:int .
+
+cf:26   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Eh" ;
+        skos:prefLabel     "Redox potentiaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "102"^^xsd:int .
+
+cf:95   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Bem gem" ;
+        skos:prefLabel     "Gemiddelde vd wegingen bemonsterde filter"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1860"^^xsd:int .
+
+cf:67   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DD" ;
+        skos:prefLabel     "Windrichting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1280"^^xsd:int .
+
+cf:39   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV5" ;
+        skos:prefLabel     "Biochemisch zuurstofverbruik na 5d."@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "287"^^xsd:int .
+
+cf:20   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<2" ;
+        skos:prefLabel     "Korrelgrootte distributie <2µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "94"^^xsd:int .
+
+cf:61   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<32" ;
+        skos:prefLabel     "Korrelgrootte distributie <32µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1074"^^xsd:int .
+
+cf:33   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VP" ;
+        skos:prefLabel     "Vlampunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "110"^^xsd:int .
+
+cf:104  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "MUC-EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2087"^^xsd:int .
+
+cf:74   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dauwpunt" ;
+        skos:prefLabel     "Dauwpunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1292"^^xsd:int .
+
+cf:46   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rot" ;
+        skos:prefLabel     "Verrotbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "468"^^xsd:int .
+
+cf:5    a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Secchi" ;
+        skos:prefLabel     "Doorzichtigheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "78"^^xsd:int .
+
+cf:18   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Kleur" ;
+        skos:prefLabel     "Kleur"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "91"^^xsd:int .
+
+cf:87   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Fol h2o_vlucht" ;
+        skos:prefLabel     "met waterdamp vluchtige fenolen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1683"^^xsd:int .
+
+cf:59   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<4" ;
+        skos:prefLabel     "Korrelgrootte distributie <4µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1072"^^xsd:int .
+
+cf:40   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV" ;
+        skos:prefLabel     "Chemisch zuurstofverbruik"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "288"^^xsd:int .
+
+cf:12   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "GV" ;
+        skos:prefLabel     "Gloeiverlies"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "85"^^xsd:int .
+
+cf:111  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH na ZW" ;
+        skos:prefLabel     "pH na Zahn Wellens"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2116"^^xsd:int .
+
+cf:81   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gewicht" ;
+        skos:prefLabel     "Gewicht"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1517"^^xsd:int .
+
+cf:53   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Q" ;
+        skos:prefLabel     "Debiet"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "702"^^xsd:int .
+
+cf:25   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH-KCl" ;
+        skos:prefLabel     "pH (KCl)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "101"^^xsd:int .
+
+cf:94   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Bem verschil" ;
+        skos:prefLabel     "Verschil tss wegingen bemonsterde filter"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1858"^^xsd:int .
+
+cf:66   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Zon t" ;
+        skos:prefLabel     "Zonnestraling, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1279"^^xsd:int .
+
+cf:38   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "nSE" ;
+        skos:prefLabel     "Aantal systematische eenheden"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "115"^^xsd:int .
+
+cf:109  a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<1000" ;
+        skos:prefLabel     "Korrelgrootte distributie <1000µm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "2096"^^xsd:int .
+
+cf:79   a                  skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d15N" ;
+        skos:prefLabel     "Isotopenverhouding stikstof 15 en 14"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        <https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId>
+                "1327"^^xsd:int .

@@ -1,0 +1,1295 @@
+{
+  "@graph" : [ {
+    "@id" : "cf:1",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gemiddeld",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gemiddeld"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "-101"
+  }, {
+    "@id" : "cf:10",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "EC",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid ter plaatse"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "83"
+  }, {
+    "@id" : "cf:100",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC70-100",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 70-100 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2081"
+  }, {
+    "@id" : "cf:101",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC100-200",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 100-200 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2082"
+  }, {
+    "@id" : "cf:102",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC200-500",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 200-500 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2083"
+  }, {
+    "@id" : "cf:103",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC200-1000",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 200-1000 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2084"
+  }, {
+    "@id" : "cf:104",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "MUC-EC 20",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid (20°C), MUC project"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2087"
+  }, {
+    "@id" : "cf:105",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "MUCd-EC 20",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid (20°C), MUC project"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2088"
+  }, {
+    "@id" : "cf:106",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<125",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <125µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2093"
+  }, {
+    "@id" : "cf:107",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<250",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <250µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2094"
+  }, {
+    "@id" : "cf:108",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<500",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <500µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2095"
+  }, {
+    "@id" : "cf:109",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<1000",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <1000µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2096"
+  }, {
+    "@id" : "cf:11",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "GR",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gloeirest"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "84"
+  }, {
+    "@id" : "cf:110",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<2000",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <2000µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2097"
+  }, {
+    "@id" : "cf:111",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "pH na ZW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pH na Zahn Wellens"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2116"
+  }, {
+    "@id" : "cf:112",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "EC 25 na ZW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid (25°C) na Zahn Wellens"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2117"
+  }, {
+    "@id" : "cf:113",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "H t na ZW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid, totaal na Zahn Wellens"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2118"
+  }, {
+    "@id" : "cf:114",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<20",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <20µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2142"
+  }, {
+    "@id" : "cf:12",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "GV",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gloeiverlies"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "85"
+  }, {
+    "@id" : "cf:13",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "H per.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid, permanent"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "86"
+  }, {
+    "@id" : "cf:14",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "H tijd.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid, tijdelijk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "87"
+  }, {
+    "@id" : "cf:15",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "H t",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "88"
+  }, {
+    "@id" : "cf:16",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "IB",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ionenbalans"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "89"
+  }, {
+    "@id" : "cf:17",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "IS",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ionensterkte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "90"
+  }, {
+    "@id" : "cf:18",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Kleur",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "91"
+  }, {
+    "@id" : "cf:19",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<16",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <16µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "93"
+  }, {
+    "@id" : "cf:2",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "OB",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Onbekend"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "-2"
+  }, {
+    "@id" : "cf:20",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<2",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <2µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "94"
+  }, {
+    "@id" : "cf:21",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<63",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <63µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "95"
+  }, {
+    "@id" : "cf:22",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran>63",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie >63µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "96"
+  }, {
+    "@id" : "cf:23",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Neerslag",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Neerslag"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "97"
+  }, {
+    "@id" : "cf:24",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "pH",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pH"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "100"
+  }, {
+    "@id" : "cf:25",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "pH-KCl",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pH (KCl)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "101"
+  }, {
+    "@id" : "cf:26",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Eh",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Redox potentiaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "102"
+  }, {
+    "@id" : "cf:27",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Reuk",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reuk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "103"
+  }, {
+    "@id" : "cf:28",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Salin.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Saliniteit"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "104"
+  }, {
+    "@id" : "cf:29",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Smaak",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Smaak"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "105"
+  }, {
+    "@id" : "cf:3",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "QI",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kwaliteits Index"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "42"
+  }, {
+    "@id" : "cf:30",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "T",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Temperatuur"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "106"
+  }, {
+    "@id" : "cf:31",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Turb.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Turbiditeit"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "107"
+  }, {
+    "@id" : "cf:32",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Turb. ps",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Turbiditeit, postsedimentair"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "108"
+  }, {
+    "@id" : "cf:33",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "VP",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vlampunt"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "110"
+  }, {
+    "@id" : "cf:34",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "VP",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vlampunt"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "110"
+  }, {
+    "@id" : "cf:35",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Water",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Watergehalte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "112"
+  }, {
+    "@id" : "cf:36",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Water",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Watergehalte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "112"
+  }, {
+    "@id" : "cf:37",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "ZS afm.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende stoffen, afmeting"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "114"
+  }, {
+    "@id" : "cf:38",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "nSE",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aantal systematische eenheden"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "115"
+  }, {
+    "@id" : "cf:39",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "BZV5",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Biochemisch zuurstofverbruik na 5d."
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "287"
+  }, {
+    "@id" : "cf:4",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "d",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Densiteit"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "77"
+  }, {
+    "@id" : "cf:40",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "CZV",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chemisch zuurstofverbruik"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "288"
+  }, {
+    "@id" : "cf:41",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "CZV f",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chemisch zuurstofverbruik, gefiltreerd"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "289"
+  }, {
+    "@id" : "cf:42",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "KW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kwaliteit"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "389"
+  }, {
+    "@id" : "cf:43",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Alpha",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Radioactiviteit, alpha"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "446"
+  }, {
+    "@id" : "cf:44",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Beta",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Radioactiviteit, beta"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "448"
+  }, {
+    "@id" : "cf:45",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "dil.F",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dilutie factor"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "453"
+  }, {
+    "@id" : "cf:46",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Rot",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Verrotbaarheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "468"
+  }, {
+    "@id" : "cf:47",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Sp.opp.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Specifiek oppervlak"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "514"
+  }, {
+    "@id" : "cf:48",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<2 bt",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <2µm, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "571"
+  }, {
+    "@id" : "cf:49",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Dagen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dagen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "611"
+  }, {
+    "@id" : "cf:5",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Secchi",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorzichtigheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "78"
+  }, {
+    "@id" : "cf:50",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Vol",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Volume"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "612"
+  }, {
+    "@id" : "cf:51",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "pH-CO2",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pH (na ontgassen)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "616"
+  }, {
+    "@id" : "cf:52",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Rad.act.",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Radioactiviteit, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "691"
+  }, {
+    "@id" : "cf:53",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Q",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Debiet"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "702"
+  }, {
+    "@id" : "cf:54",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<50",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <50µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "722"
+  }, {
+    "@id" : "cf:55",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran>2<63",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie >2µm en <63µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "825"
+  }, {
+    "@id" : "cf:56",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran>50",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie >50µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "880"
+  }, {
+    "@id" : "cf:57",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "EC 25",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid (25°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "926"
+  }, {
+    "@id" : "cf:58",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "FPFV",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Filterverzadiging"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1043"
+  }, {
+    "@id" : "cf:59",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<4",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <4µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1072"
+  }, {
+    "@id" : "cf:6",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "DR",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Droogrest"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "79"
+  }, {
+    "@id" : "cf:60",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<8",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <8µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1073"
+  }, {
+    "@id" : "cf:61",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gran<32",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <32µm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1074"
+  }, {
+    "@id" : "cf:62",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Straling uv-A",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Straling, ultraviolet (type A)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1263"
+  }, {
+    "@id" : "cf:63",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Straling n",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Straling, netto"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1264"
+  }, {
+    "@id" : "cf:64",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Luchtdruk sh",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Luchtdruk op stationshoogte (QFE)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1266"
+  }, {
+    "@id" : "cf:65",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Rel.vocht",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Relatieve vochtigheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1273"
+  }, {
+    "@id" : "cf:66",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Zon t",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zonnestraling, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1279"
+  }, {
+    "@id" : "cf:67",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "DD",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Windrichting"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1280"
+  }, {
+    "@id" : "cf:68",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "VM",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Windsnelheid, scalair"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1281"
+  }, {
+    "@id" : "cf:69",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "FF",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Windsnelheid, vectorieel"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1282"
+  }, {
+    "@id" : "cf:7",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "DR105",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Droogresten (105°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "80"
+  }, {
+    "@id" : "cf:70",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Lengte",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lengte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1288"
+  }, {
+    "@id" : "cf:71",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Breedte",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Breedte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1289"
+  }, {
+    "@id" : "cf:72",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Diepte",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bemonsteringsdiepte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1290"
+  }, {
+    "@id" : "cf:73",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Dikte",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dikte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1291"
+  }, {
+    "@id" : "cf:74",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Dauwpunt",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dauwpunt"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1292"
+  }, {
+    "@id" : "cf:75",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Tv",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Temperatuursverschil"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1293"
+  }, {
+    "@id" : "cf:76",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "H+",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zuurtegraad"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1296"
+  }, {
+    "@id" : "cf:77",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Straling uv-B",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Straling, ultraviolet (type B)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1308"
+  }, {
+    "@id" : "cf:78",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "d13C",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Isotopenverhouding koolstof 13 en 12"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1326"
+  }, {
+    "@id" : "cf:79",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "d15N",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Isotopenverhouding stikstof 15 en 14"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1327"
+  }, {
+    "@id" : "cf:8",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "DR180",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Droogresten (180°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "81"
+  }, {
+    "@id" : "cf:80",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "DE*ab",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "CIE 1976 totaal kleurverschil"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1516"
+  }, {
+    "@id" : "cf:81",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Gewicht",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gewicht"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1517"
+  }, {
+    "@id" : "cf:82",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "BioDegr",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Biodegradeerbaarheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1541"
+  }, {
+    "@id" : "cf:83",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NH3-N",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "niet te gebruiken"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1667"
+  }, {
+    "@id" : "cf:84",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "BZV5 rendement",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "rendement BZV5 tov influentbelasting"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1669"
+  }, {
+    "@id" : "cf:85",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "CZV rendement",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "rendement CZV tov influentbelasting"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1670"
+  }, {
+    "@id" : "cf:86",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "N t rendement",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "rendement N t tov influentbelasting"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1672"
+  }, {
+    "@id" : "cf:87",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Fol h2o_vlucht",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "met waterdamp vluchtige fenolen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1683"
+  }, {
+    "@id" : "cf:88",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "CZV/BZV",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "CZV/BZV-verhoudingen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1702"
+  }, {
+    "@id" : "cf:89",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "BZV/N",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "BZV/N-verhouding"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1703"
+  }, {
+    "@id" : "cf:9",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "EC 20",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geleidbaarheid (20°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "82"
+  }, {
+    "@id" : "cf:90",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "BZV/P",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "BZV/P-verhouding"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1704"
+  }, {
+    "@id" : "cf:91",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "CZV/N",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "CZV/N-verhouding"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1713"
+  }, {
+    "@id" : "cf:92",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Deelgewicht 1",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gewicht fles 1 (neerslagwater)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1800"
+  }, {
+    "@id" : "cf:93",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Deelgewicht 2",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gewicht fles 2 (neerslagwater)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1801"
+  }, {
+    "@id" : "cf:94",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Bem verschil",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Verschil tss wegingen bemonsterde filter"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1858"
+  }, {
+    "@id" : "cf:95",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "Bem gem",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gemiddelde vd wegingen bemonsterde filter"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "1860"
+  }, {
+    "@id" : "cf:96",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC10-20",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 10-20 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2077"
+  }, {
+    "@id" : "cf:97",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC20-30",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 20-30 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2078"
+  }, {
+    "@id" : "cf:98",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC30-50",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 30-50 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2079"
+  }, {
+    "@id" : "cf:99",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "notation" : "NC50-70",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deeltjesaantal 50-70 nm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "vmmParameterId" : "2080"
+  }, {
+    "@id" : "vlcs:fysico-chemisch",
+    "hasTopConcept" : [ "cf:114", "cf:82", "cf:43", "cf:102", "cf:23", "cf:70", "cf:50", "cf:67", "cf:62", "cf:31", "cf:11", "cf:94", "cf:55", "cf:28", "cf:107", "cf:25", "cf:104", "cf:88", "cf:85", "cf:16", "cf:13", "cf:76", "cf:73", "cf:110", "cf:46", "cf:97", "cf:39", "cf:34", "cf:19", "cf:7", "cf:2", "cf:78", "cf:58", "cf:40", "cf:84", "cf:64", "cf:113", "cf:91", "cf:52", "cf:81", "cf:61", "cf:22", "cf:27", "cf:42", "cf:106", "cf:101", "cf:96", "cf:87", "cf:66", "cf:30", "cf:15", "cf:10", "cf:75", "cf:93", "cf:54", "cf:48", "cf:45", "cf:99", "cf:72", "cf:89", "cf:69", "cf:36", "cf:33", "cf:4", "cf:1", "cf:77", "cf:57", "cf:109", "cf:38", "cf:18", "cf:63", "cf:6", "cf:112", "cf:90", "cf:83", "cf:51", "cf:80", "cf:24", "cf:60", "cf:44", "cf:41", "cf:103", "cf:21", "cf:100", "cf:95", "cf:71", "cf:9", "cf:68", "cf:65", "cf:32", "cf:12", "cf:92", "cf:56", "cf:53", "cf:47", "cf:26", "cf:105", "cf:86", "cf:35", "cf:3", "cf:14", "cf:59", "cf:79", "cf:74", "cf:111", "cf:49", "cf:29", "cf:108", "cf:98", "cf:20", "cf:37", "cf:8", "cf:17", "cf:5" ]
+  } ],
+  "@context" : {
+    "vmmParameterId" : {
+      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+    "cf" : "https://data.omgeving.vlaanderen.be/id/concept/fysico-chemisch/",
+    "dct" : "http://purl.org/dc/terms/",
+    "gemet" : "http://www.eionet.europa.eu/gemet/concept/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "cof" : "https://data.omgeving.vlaanderen.be/id/collection/fysico-chemisch/",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "cb" : "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
