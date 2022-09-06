@@ -1,7 +1,7 @@
 # codelijst-fysico-chemische-eigenschap
 
 ## Samenvatting
-Lijst van fysico-chemische parameters, zoals die binnen het kader van het OSLO thema omgeving is opgesteld en tools om deze lijst te beheren en om te zetten naar webformaten.
+Lijst van fysico-chemische eigenschappen, zoals die binnen het kader van het OSLO thema omgeving is opgesteld en tools om deze lijst te beheren en om te zetten naar webformaten.
 
 
 ## Gebruik
