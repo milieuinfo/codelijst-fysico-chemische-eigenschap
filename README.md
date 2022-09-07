@@ -6,7 +6,7 @@ Lijst van fysico-chemische eigenschappen, zoals die binnen het kader van het OSL
 
 ## Gebruik
 
-- Voeg een definitie van een nieuwe fysico-chemische eigenschap toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.csv
+- Voeg een definitie van een nieuwe fysico-chemische eigenschap toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv
 
 ### csv naar rdf
 ```
@@ -16,7 +16,7 @@ bash csv_to_rfd.sh
 ### rdf naar csv
 ```
 cd $PROJECT_HOME/src/main/sparql
-sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemische_parameter.csv
+sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische_parameter/fysico-chemisch.csv
 ```
 
 ## Dependencies
