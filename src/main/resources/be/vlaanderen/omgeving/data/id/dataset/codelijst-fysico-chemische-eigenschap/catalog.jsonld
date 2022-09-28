@@ -2,74 +2,16 @@
   "@graph" : [ {
     "@id" : "omg_catalog:codelijst",
     "@type" : "dcat:Catalog",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.catalog.codelijst",
-    "dc:language" : {
-      "@language" : "nl",
-      "@value" : "nl"
-    },
-    "dc:source" : "Codelijsten omgeving.",
-    "alternative" : {
-      "@language" : "nl",
-      "@value" : "Dataset catalogus codelijsten omgeving."
-    },
-    "description" : {
-      "@language" : "nl",
-      "@value" : "De codelijsten met betrekking tot het hele domein omgeving van de Vlaamse Overheid."
-    },
-    "identifier" : "omg_catalog:codelijst",
-    "issued" : "2022-09-10",
-    "dcterms:language" : {
-      "@id" : "language:NLD"
-    },
-    "license" : "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "publisher" : "ovo:OVO003323",
-    "rightsHolder" : "ovo:OVO003751",
-    "spatial" : [ "https://www.geonames.org/3337388/flanders", "country:BEL" ],
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Catalogus van datasets, codelijsten, van het domein omgeving."
-    },
-    "rootResource" : "omg_catalog:dsi",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Catalogus van datasets, codelijsten, van het domein omgeving."
-    },
-    "contactPoint" : "omg_vcard:helpdesk",
     "dataset" : "omg_dataset:codelijst-fysico-chemische-eigenschap",
-    "service" : "omg_dataservice:sparqlendpoint",
-    "namedGraph" : "omg_named_graph:algemeen-catalog-publiek",
-    "homepage" : "https://data.omgeving.vlaanderen.be/doc/catalog/dsi.html"
+    "service" : "omg_dataservice:sparqlendpoint"
   }, {
     "@id" : "omg_dataservice:sparqlendpoint",
     "@type" : "dcat:DataService",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint",
-    "accessRights" : "access_right:PUBLIC",
-    "conformsTo" : "http://www.w3.org/TR/sparql11-protocol/",
-    "description" : {
-      "@language" : "nl",
-      "@value" : "Sparql endpoint api op de datasets gepubliceerd onder het DSI domein."
-    },
-    "identifier" : "omg_dataservice:sparqlendpoint",
-    "license" : "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "publisher" : "ovo:OVO003323",
-    "title" : {
-      "@language" : "nl",
-      "@value" : "Sparql endpoint DSI datasets"
-    },
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Sparql endpoint DSI datasets"
-    },
-    "contactPoint" : "omg_vcard:helpdesk",
-    "endpointDescription" : "omg_service:sparqlservice",
-    "endpointURL" : "https://data.omgeving.vlaanderen.be/sparql",
-    "landingPage" : "https://data.omgeving.vlaanderen.be/#sparqlForm",
-    "servesDataset" : "omg_dataset:codelijst-fysico-chemische-eigenschap",
-    "page" : "https://data.omgeving.vlaanderen.be/doc/dataservice/sparqlendpoint.html"
+    "servesDataset" : "omg_dataset:codelijst-fysico-chemische-eigenschap"
   }, {
     "@id" : "omg_dataset:codelijst-fysico-chemische-eigenschap",
     "@type" : "dcat:Dataset",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap",
+    "identifier" : "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap",
     "dc:language" : {
       "@language" : "nl",
       "@value" : "nl"
@@ -84,7 +26,9 @@
       "@language" : "nl",
       "@value" : "Deze dataset bevat een lijst van types fysico-chemisch gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
     },
-    "identifier" : "omg_dataset:codelijst-fysico-chemische-eigenschap",
+    "dcterms:identifier" : {
+      "@id" : "omg_dataset:codelijst-fysico-chemische-eigenschap"
+    },
     "issued" : "2022-03-01",
     "dcterms:language" : {
       "@id" : "language:NLD"
@@ -102,6 +46,7 @@
       "@language" : "nl",
       "@value" : "Dataset Codelijst fysico chemische eigenschap"
     },
+    "versionInfo" : "1.0.3",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-fysico-chemische-eigenschap_csv", "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld", "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -110,14 +55,16 @@
   }, {
     "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_csv",
     "@type" : "dcat:Distribution",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
+    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
     "accessRights" : "access_right:PUBLIC",
     "description" : {
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, geserialiseerd in csv tabelformaat."
     },
     "format" : "file_type:CSV",
-    "identifier" : "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl",
+    "dcterms:identifier" : {
+      "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl"
+    },
     "issued" : "2022-09-10",
     "rightsHolder" : "ovo:OVO003751",
     "title" : {
@@ -128,6 +75,7 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in text/csv formaat."
     },
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv",
@@ -136,14 +84,16 @@
   }, {
     "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld",
     "@type" : "dcat:Distribution",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld",
+    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld",
     "accessRights" : "access_right:PUBLIC",
     "description" : {
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, geserialiseerd in een jsonld bestand."
     },
     "format" : "file_type:JSON_LD",
-    "identifier" : "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld",
+    "dcterms:identifier" : {
+      "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld"
+    },
     "issued" : "2022-09-10",
     "rightsHolder" : "ovo:OVO003751",
     "title" : {
@@ -154,6 +104,7 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."
     },
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld",
@@ -162,14 +113,16 @@
   }, {
     "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl",
     "@type" : "dcat:Distribution",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
+    "identifier" : "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
     "accessRights" : "access_right:PUBLIC",
     "description" : {
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, geserialiseerd in Turtle bestand."
     },
     "format" : "file_type:RDF_TURTLE",
-    "identifier" : "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl",
+    "dcterms:identifier" : {
+      "@id" : "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl"
+    },
     "issued" : "2022-09-10",
     "rightsHolder" : "ovo:OVO003751",
     "title" : {
@@ -180,142 +133,14 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."
     },
+    "versionInfo" : "1.0.3",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/turtle",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html"
-  }, {
-    "@id" : "omg_graphcollection:sparqlservice",
-    "@type" : [ "sd:Dataset", "sd:GraphCollection" ],
-    "label" : {
-      "@language" : "nl",
-      "@value" : "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."
-    },
-    "namedGraph" : [ "omg_named_graph:algemeen-conceptschemes-publiek", "omg_named_graph:algemeen-catalog-publiek" ]
-  }, {
-    "@id" : "omg_named_graph:algemeen-catalog-publiek",
-    "@type" : "sd:NamedGraph",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "identifier" : "omg_named_graph:algemeen-catalog-publiek",
-    "source" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Graph algemeen-catalog-publiek"
-    },
-    "name" : "omg_graph:algemeen-catalog-publiek"
-  }, {
-    "@id" : "omg_named_graph:algemeen-conceptschemes-publiek",
-    "@type" : "sd:NamedGraph",
-    "dc:identifier" : "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
-    "identifier" : "omg_named_graph:dsi-data-intern",
-    "source" : "omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Graph algemeen-conceptschemes-publiek"
-    },
-    "name" : "omg_graph:algemeen-conceptschemes-publiek"
-  }, {
-    "@id" : "omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap",
-    "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-fysico-chemische-eigenschap/1.0.1/codelijst-fysico-chemische-eigenschap-1.0.1.jar",
-    "packageFileName" : "codelijst-fysico-chemische-eigenschap-1.0.1.jar",
-    "packageName" : "be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap",
-    "versionInfo" : "1.0.1",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Package algemeen-conceptschemes-publiek"
-    }
-  }, {
-    "@id" : "omg_package:be.vlaanderen.omgeving.dsi.data.id.graph.algemeen-catalog-publiek",
-    "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.0/algemeen-catalog-publiek-1.0.0.jar",
-    "packageFileName" : "algemeen-catalog-publiek-1.0.0.jar",
-    "packageName" : "be.vlaanderen.omgeving.dsi.data.id.graph.algemeen-catalog-publiek",
-    "versionInfo" : "1.0.0",
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Package algemeen-catalog-publiek"
-    }
-  }, {
-    "@id" : "omg_service:sparqlservice",
-    "@type" : "sd:Service",
-    "comment" : {
-      "@language" : "nl",
-      "@value" : "Een beschrijving, met de verschillende kenmerken, van de sparql service."
-    },
-    "label" : {
-      "@language" : "nl",
-      "@value" : "Sparql service conform SPARQL 1.1 Protocol."
-    },
-    "availableGraphs" : "omg_graphcollection:sparqlservice",
-    "defaultDataset" : "omg_graphcollection:sparqlservice",
-    "endpoint" : "https://data.omgeving.vlaanderen.be/sparql",
-    "feature" : [ "sd:UnionDefaultGraph", "sd:DereferencesURIs" ],
-    "resultFormat" : [ "formats:SPARQL_Results_JSON", "formats:Turtle", "formats:SPARQL_Results_XML", "formats:SPARQL_Results_CSV", "formats:N3", "formats:N-Triples", "formats:RDF_XML" ],
-    "supportedLanguage" : "sd:SPARQL10Query",
-    "url" : "https://data.omgeving.vlaanderen.be/sparql"
   } ],
   "@context" : {
-    "name" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#name",
-      "@type" : "@id"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/terms/source",
-      "@type" : "@id"
-    },
-    "identifier" : {
-      "@id" : "http://purl.org/dc/terms/identifier",
-      "@type" : "@id"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
-    "versionInfo" : {
-      "@id" : "http://spdx.org/rdf/terms#versionInfo"
-    },
-    "packageName" : {
-      "@id" : "http://spdx.org/rdf/terms#packageName"
-    },
-    "packageFileName" : {
-      "@id" : "http://spdx.org/rdf/terms#packageFileName"
-    },
-    "downloadLocation" : {
-      "@id" : "http://spdx.org/rdf/terms#downloadLocation",
-      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
-    },
-    "availableGraphs" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#availableGraphs",
-      "@type" : "@id"
-    },
-    "resultFormat" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#resultFormat",
-      "@type" : "@id"
-    },
-    "feature" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#feature",
-      "@type" : "@id"
-    },
-    "supportedLanguage" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
-      "@type" : "@id"
-    },
-    "url" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#url",
-      "@type" : "@id"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "defaultDataset" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#defaultDataset",
-      "@type" : "@id"
-    },
-    "endpoint" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#endpoint",
-      "@type" : "@id"
-    },
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
@@ -323,6 +148,9 @@
     "accessURL" : {
       "@id" : "http://www.w3.org/ns/dcat#accessURL",
       "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
     },
     "rightsHolder" : {
       "@id" : "http://purl.org/dc/terms/rightsHolder",
@@ -340,9 +168,15 @@
       "@id" : "http://www.w3.org/ns/dcat#compressFormat",
       "@type" : "@id"
     },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "page" : {
       "@id" : "http://xmlns.com/foaf/0.1/page",
       "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "accessRights" : {
       "@id" : "http://purl.org/dc/terms/accessRights",
@@ -358,70 +192,23 @@
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
     },
-    "namedGraph" : {
-      "@id" : "http://www.w3.org/ns/sparql-service-description#namedGraph",
+    "service" : {
+      "@id" : "http://www.w3.org/ns/dcat#service",
       "@type" : "@id"
     },
     "dataset" : {
       "@id" : "http://www.w3.org/ns/dcat#dataset",
       "@type" : "@id"
     },
-    "contactPoint" : {
-      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
-      "@type" : "@id"
-    },
-    "spatial" : {
-      "@id" : "http://purl.org/dc/terms/spatial",
-      "@type" : "@id"
-    },
-    "homepage" : {
-      "@id" : "http://xmlns.com/foaf/0.1/homepage",
-      "@type" : "@id"
-    },
-    "license" : {
-      "@id" : "http://purl.org/dc/terms/license",
-      "@type" : "@id"
-    },
-    "language" : "http://publications.europa.eu/resource/authority/language/",
-    "service" : {
-      "@id" : "http://www.w3.org/ns/dcat#service",
-      "@type" : "@id"
-    },
-    "rootResource" : {
-      "@id" : "http://rdfs.org/ns/void#rootResource",
-      "@type" : "@id"
-    },
-    "alternative" : {
-      "@id" : "http://purl.org/dc/terms/alternative"
-    },
-    "publisher" : {
-      "@id" : "http://purl.org/dc/terms/publisher",
-      "@type" : "@id"
-    },
     "servesDataset" : {
       "@id" : "http://www.w3.org/ns/dcat#servesDataset",
-      "@type" : "@id"
-    },
-    "landingPage" : {
-      "@id" : "http://www.w3.org/ns/dcat#landingPage",
-      "@type" : "@id"
-    },
-    "endpointDescription" : {
-      "@id" : "http://www.w3.org/ns/dcat#endpointDescription",
-      "@type" : "@id"
-    },
-    "endpointURL" : {
-      "@id" : "http://www.w3.org/ns/dcat#endpointURL",
-      "@type" : "@id"
-    },
-    "conformsTo" : {
-      "@id" : "http://purl.org/dc/terms/conformsTo",
       "@type" : "@id"
     },
     "distribution" : {
       "@id" : "http://www.w3.org/ns/dcat#distribution",
       "@type" : "@id"
     },
+    "language" : "http://publications.europa.eu/resource/authority/language/",
     "temporal" : {
       "@id" : "http://purl.org/dc/terms/temporal",
       "@type" : "@id"
@@ -430,8 +217,31 @@
       "@id" : "http://www.w3.org/ns/dcat#theme",
       "@type" : "@id"
     },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+      "@type" : "@id"
+    },
+    "alternative" : {
+      "@id" : "http://purl.org/dc/terms/alternative"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "spatial" : {
+      "@id" : "http://purl.org/dc/terms/spatial",
+      "@type" : "@id"
+    },
+    "landingPage" : {
+      "@id" : "http://www.w3.org/ns/dcat#landingPage",
+      "@type" : "@id"
+    },
     "accrualPeriodicity" : {
       "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
       "@type" : "@id"
     },
     "country" : "http://publications.europa.eu/resource/authority/country/",
