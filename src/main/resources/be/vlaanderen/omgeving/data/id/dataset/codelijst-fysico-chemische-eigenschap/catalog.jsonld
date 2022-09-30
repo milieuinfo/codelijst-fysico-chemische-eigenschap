@@ -42,11 +42,12 @@
       "@language" : "nl",
       "@value" : "Thesaurus fysico-chemischtypes"
     },
+    "rootResource" : "omg_conceptscheme:codelijst-fysico-chemische-eigenschap",
     "label" : {
       "@language" : "nl",
       "@value" : "Dataset Codelijst fysico chemische eigenschap"
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-fysico-chemische-eigenschap_csv", "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld", "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -75,10 +76,10 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in text/csv formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/csv",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html"
   }, {
@@ -104,10 +105,10 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld",
     "mediaType" : "https://www.iana.org/assignments/media-types/application/ld+json",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_jsonld.html"
   }, {
@@ -133,10 +134,10 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/turtle",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html"
   } ],
@@ -160,12 +161,12 @@
       "@id" : "http://purl.org/dc/terms/format",
       "@type" : "@id"
     },
-    "downloadURL" : {
-      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
-      "@type" : "@id"
-    },
     "compressFormat" : {
       "@id" : "http://www.w3.org/ns/dcat#compressFormat",
+      "@type" : "@id"
+    },
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
       "@type" : "@id"
     },
     "label" : {
@@ -174,9 +175,6 @@
     "page" : {
       "@id" : "http://xmlns.com/foaf/0.1/page",
       "@type" : "@id"
-    },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "accessRights" : {
       "@id" : "http://purl.org/dc/terms/accessRights",
@@ -191,6 +189,9 @@
     },
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "service" : {
       "@id" : "http://www.w3.org/ns/dcat#service",
@@ -242,6 +243,10 @@
     },
     "publisher" : {
       "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
+    },
+    "rootResource" : {
+      "@id" : "http://rdfs.org/ns/void#rootResource",
       "@type" : "@id"
     },
     "country" : "http://publications.europa.eu/resource/authority/country/",
