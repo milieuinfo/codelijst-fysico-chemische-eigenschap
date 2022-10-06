@@ -2,10 +2,19 @@
 library(tidyr)
 library(dplyr)
 library(jsonlite)
-
+library(stringr)
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv", sep=",", na.strings=c("","NA"))
 
+# fix voor vctrs_error_incompatible in pubchem column
+df <- df %>%
+  mutate_all(list(~ str_c("", .)))
+# verdubbel rijen met pipe separator
+for(col in colnames(df)) {   # for-loop over columns
+  df <- df %>%
+    separate_rows(col, sep = "\\|")%>%
+    distinct()
+}
 # members van collection uit "inverse" relatie
 collections <- na.omit(distinct(df['collection']))
 for (col in as.list(collections$collection)) {
@@ -26,7 +35,6 @@ for (scheme in as.list(schemes$topConceptOf)) {
   names(df2) <- c("uri","hasTopConcept")
   df <- bind_rows(df, df2)
 }
-
 df <- df %>%
   rename("@id" = uri,
          "@type" = type)
