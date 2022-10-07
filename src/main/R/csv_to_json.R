@@ -25,6 +25,17 @@ for (col in as.list(collections$collection)) {
   names(df2) <- c("uri","member")
   df <- bind_rows(df, df2)
 }
+# narrower uit "inverse" relatie broader
+broaders <- na.omit(distinct(df['broader']))
+for (broad in as.list(broaders$broader)) {
+  relation <- subset(df, broader == broad ,
+                   select=c(uri, broader))
+  narrowers <- as.list(relation["uri"])
+  df2 <- data.frame(broad, narrowers)
+  names(df2) <- c("uri","narrower")
+  df <- bind_rows(df, df2)
+}
+
 # hasTopConcept relatie uit inverse relatie
 schemes <- na.omit(distinct(df['topConceptOf']))
 for (scheme in as.list(schemes$topConceptOf)) {

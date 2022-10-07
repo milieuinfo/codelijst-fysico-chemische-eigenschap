@@ -1,118 +1,331 @@
-type,uri,vmmParameterId,notation,prefLabel,inScheme,topConceptOf,theme,collection
-skos:Collection,cof:water,,,Collectie van fysico-chemische eigenschappen die betrekking hebben op water.,,,,
-skos:Concept,cf:0001,-101,Gemiddeld,Gemiddeld,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0002,-2,OB,Onbekend,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0003,42,QI,Kwaliteits Index,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0004,77,d,Densiteit,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:11116,cof:water
-skos:Concept,cf:0005,78,Secchi,Doorzichtigheid,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0006,79,DR,Droogrest,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0007,80,DR105,Droogresten (105°C),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0008,81,DR180,Droogresten (180°C),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0009,82,EC 20,Geleidbaarheid (20°C),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0010,83,EC,Geleidbaarheid ter plaatse,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0011,84,GR,Gloeirest,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0012,85,GV,Gloeiverlies,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0013,86,H per.,"Hardheid, permanent",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0014,87,H tijd.,"Hardheid, tijdelijk",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0015,88,H t,"Hardheid, totaal",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0016,89,IB,Ionenbalans,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0017,90,IS,Ionensterkte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0018,91,Kleur,Kleur,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0019,93,Gran<16,Korrelgrootte distributie <16µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0020,94,Gran<2,Korrelgrootte distributie <2µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0021,95,Gran<63,Korrelgrootte distributie <63µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0022,96,Gran>63,Korrelgrootte distributie >63µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0023,97,Neerslag,Neerslag,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0024,100,pH,pH,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0025,101,pH-KCl,pH (KCl),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0026,102,Eh,Redox potentiaal,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0027,103,Reuk,Reuk,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0028,104,Salin.,Saliniteit,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0029,105,Smaak,Smaak,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0030,106,T,Temperatuur,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0031,107,Turb.,Turbiditeit,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0032,108,Turb. ps,"Turbiditeit, postsedimentair",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0033,110,VP,Vlampunt,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0034,110,VP,Vlampunt,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0035,112,Water,Watergehalte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0036,112,Water,Watergehalte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0037,114,ZS afm.,"Zwevende stoffen, afmeting",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0038,115,nSE,Aantal systematische eenheden,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0039,287,BZV5,Biochemisch zuurstofverbruik na 5d.,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0040,288,CZV,Chemisch zuurstofverbruik,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0041,289,CZV f,"Chemisch zuurstofverbruik, gefiltreerd",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0042,389,KW,Kwaliteit,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0043,446,Alpha,"Radioactiviteit, alpha",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0044,448,Beta,"Radioactiviteit, beta",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0045,453,dil.F,Dilutie factor,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0046,468,Rot,Verrotbaarheid,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0047,514,Sp.opp.,Specifiek oppervlak,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0048,571,Gran<2 bt,"Korrelgrootte distributie <2µm, totaal",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0049,611,Dagen,Dagen,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0050,612,Vol,Volume,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0051,616,pH-CO2,pH (na ontgassen),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0052,691,Rad.act.,"Radioactiviteit, totaal",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0053,702,Q,Debiet,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0054,722,Gran<50,Korrelgrootte distributie <50µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0055,825,Gran>2<63,Korrelgrootte distributie >2µm en <63µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0056,880,Gran>50,Korrelgrootte distributie >50µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0057,926,EC 25,Geleidbaarheid (25°C),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0058,1043,FPFV,Filterverzadiging,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0059,1072,Gran<4,Korrelgrootte distributie <4µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0060,1073,Gran<8,Korrelgrootte distributie <8µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0061,1074,Gran<32,Korrelgrootte distributie <32µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0062,1263,Straling uv-A,"Straling, ultraviolet (type A)",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0063,1264,Straling n,"Straling, netto",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0064,1266,Luchtdruk sh,Luchtdruk op stationshoogte (QFE),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0065,1273,Rel.vocht,Relatieve vochtigheid,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0066,1279,Zon t,"Zonnestraling, totaal",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0067,1280,DD,Windrichting,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0068,1281,VM,"Windsnelheid, scalair",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0069,1282,FF,"Windsnelheid, vectorieel",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0070,1288,Lengte,Lengte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0071,1289,Breedte,Breedte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0072,1290,Diepte,Bemonsteringsdiepte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0073,1291,Dikte,Dikte,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0074,1292,Dauwpunt,Dauwpunt,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0075,1293,Tv,Temperatuursverschil,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0076,1296,H+,Zuurtegraad,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0077,1308,Straling uv-B,"Straling, ultraviolet (type B)",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0078,1326,d13C,Isotopenverhouding koolstof 13 en 12,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0079,1327,d15N,Isotopenverhouding stikstof 15 en 14,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0080,1516,DE*ab,CIE 1976 totaal kleurverschil,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0081,1517,Gewicht,Gewicht,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0082,1541,BioDegr,Biodegradeerbaarheid,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0083,1667,NH3-N,niet te gebruiken,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0084,1669,BZV5 rendement,Rendement BZV5 ten opzichte van influentbelasting,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0085,1670,CZV rendement,Rendement CZV ten opzichte van influentbelasting,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0086,1672,N t rendement,rendement N t tov influentbelasting,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0087,1683,Fol h2o_vlucht,Met waterdamp vluchtige fenolen,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0088,1702,CZV/BZV,CZV/BZV-verhoudingen,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0089,1703,BZV/N,BZV/N-verhouding,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0090,1704,BZV/P,BZV/P-verhouding,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0091,1713,CZV/N,CZV/N-verhouding,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0092,1800,Deelgewicht 1,Gewicht fles 1 (neerslagwater),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0093,1801,Deelgewicht 2,Gewicht fles 2 (neerslagwater),vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0094,1858,Bem verschil,Verschil tss wegingen bemonsterde filter,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0095,1860,Bem gem,Gemiddelde vd wegingen bemonsterde filter,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0096,2077,NC10-20,Deeltjesaantal 10-20 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0097,2078,NC20-30,Deeltjesaantal 20-30 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0098,2079,NC30-50,Deeltjesaantal 30-50 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0099,2080,NC50-70,Deeltjesaantal 50-70 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0100,2081,NC70-100,Deeltjesaantal 70-100 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0101,2082,NC100-200,Deeltjesaantal 100-200 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0102,2083,NC200-500,Deeltjesaantal 200-500 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0103,2084,NC200-1000,Deeltjesaantal 200-1000 nm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0104,2087,MUC-EC 20,"Geleidbaarheid (20°C), MUC project",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0105,2088,MUCd-EC 20,"Geleidbaarheid (20°C), MUC project",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0106,2093,Gran<125,Korrelgrootte distributie <125µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0107,2094,Gran<250,Korrelgrootte distributie <250µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0108,2095,Gran<500,Korrelgrootte distributie <500µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0109,2096,Gran<1000,Korrelgrootte distributie <1000µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0110,2097,Gran<2000,Korrelgrootte distributie <2000µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0111,2116,pH na ZW,pH na Zahn Wellens,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0112,2117,EC 25 na ZW,Geleidbaarheid (25°C) na Zahn Wellens,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1686,cof:water
-skos:Concept,cf:0113,2118,H t na ZW,"Hardheid, totaal na Zahn Wellens",vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0114,2142,Gran<20,Korrelgrootte distributie <20µm,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:Concept,cf:0115,1671,ZS rendement,Rendement ZS ten opzichte van influentbelasting,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water
-skos:ConceptScheme,vlcs:fysico-chemisch,,,Codelijst fysico-chemische eigenschappen,,,,
+type,uri,vmmParameterId,notation,prefLabel,altLabel,inScheme,topConceptOf,theme,collection,broader
+skos:Collection,cof:water,,,Collectie van fysico-chemische eigenschappen die betrekking hebben op water.,,,,,,
+skos:Concept,cf:0001,-101,Gemiddeld,Gemiddeld,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0002,-2,OB,Onbekend,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0003,42,QI,Kwaliteits Index,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0004,77,d,Densiteit,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:11116,cof:water,
+skos:Concept,cf:0005,78,Secchi,Doorzichtigheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0006,79,DR,Droogrest,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0007,80,DR105,Droogresten (105°C),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0006
+skos:Concept,cf:0008,81,DR180,Droogresten (180°C),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0006
+skos:Concept,cf:0009,82,EC 20,Geleidbaarheid (20°C),,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0010,83,EC,Geleidbaarheid ter plaatse,,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0011,84,GR,Gloeirest,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0012,85,GV,Gloeiverlies,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0013,86,H per.,"Hardheid, permanent",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0015
+skos:Concept,cf:0014,87,H tijd.,"Hardheid, tijdelijk",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0015
+skos:Concept,cf:0015,88,H t,"Hardheid, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0016,89,IB,Ionenbalans,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0017,90,IS,Ionensterkte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0018,91,Kleur,Kleur,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0019,93,Gran<16,Korrelgrootte distributie <16µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0020,94,Gran<2,Korrelgrootte distributie <2µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0021,95,Gran<63,Korrelgrootte distributie <63µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0022,96,Gran>63,Korrelgrootte distributie >63µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0023,97,Neerslag,Neerslag,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0024,100,pH,pH,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0076
+skos:Concept,cf:0025,101,pH-KCl,pH (KCl),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0076
+skos:Concept,cf:0026,102,Eh,Redox potentiaal,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0027,103,Reuk,Geur,Reuk,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0028,104,Salin.,Saliniteit,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0029,105,Smaak,Smaak,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0030,106,T,Temperatuur,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0031,107,Turb.,Turbiditeit,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0032,108,Turb. ps,"Turbiditeit, postsedimentair",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0033,110,VP,Vlampunt,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0034,110,VP,Vlampunt,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0036,112,Water,Watergehalte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0037,114,ZS afm.,"Zwevende stoffen, afmeting",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0038,115,nSE,Aantal systematische eenheden,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0039,287,BZV5,Biochemisch zuurstofverbruik na 5d.,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0040,288,CZV,Chemisch zuurstofverbruik,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0041,289,CZV f,"Chemisch zuurstofverbruik, gefiltreerd",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0042,389,KW,Kwaliteit,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0043,446,Alpha,"Radioactiviteit, alpha",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0044,448,Beta,"Radioactiviteit, beta",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0045,453,dil.F,Dilutie factor,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0046,468,Rot,Verrotbaarheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0047,514,Sp.opp.,Specifiek oppervlak,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0048,571,Gran<2 bt,"Korrelgrootte distributie <2µm, totaal",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0049,611,Dagen,Dagen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0050,612,Vol,Volume,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0051,616,pH-CO2,pH (na ontgassen),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,Cf:0076
+skos:Concept,cf:0052,691,Rad.act.,"Radioactiviteit, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0053,702,Q,Debiet,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0054,722,Gran<50,Korrelgrootte distributie <50µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0055,825,Gran>2<63,Korrelgrootte distributie >2µm en <63µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0056,880,Gran>50,Korrelgrootte distributie >50µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0057,926,EC 25,Geleidbaarheid (25°C),,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0058,1043,FPFV,Filterverzadiging,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0059,1072,Gran<4,Korrelgrootte distributie <4µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0060,1073,Gran<8,Korrelgrootte distributie <8µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0061,1074,Gran<32,Korrelgrootte distributie <32µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0062,1263,Straling uv-A,"Straling, ultraviolet (type A)",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0063,1264,Straling n,"Straling, netto",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0064,1266,Luchtdruk sh,Luchtdruk op stationshoogte (QFE),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0065,1273,Rel.vocht,Relatieve vochtigheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0066,1279,Zon t,"Zonnestraling, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0067,1280,DD,Windrichting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0068,1281,VM,"Windsnelheid, scalair",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0069,1282,FF,"Windsnelheid, vectorieel",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0070,1288,Lengte,Lengte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0071,1289,Breedte,Breedte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0072,1290,Diepte,Bemonsteringsdiepte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0073,1291,Dikte,Dikte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0074,1292,Dauwpunt,Dauwpunt,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0075,1293,Tv,Temperatuursverschil,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0076,1296,H+,Zuurtegraad,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0077,1308,Straling uv-B,"Straling, ultraviolet (type B)",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0078,1326,d13C,Isotopenverhouding koolstof 13 en 12,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0079,1327,d15N,Isotopenverhouding stikstof 15 en 14,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0080,1516,DE*ab,CIE 1976 totaal kleurverschil,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0018
+skos:Concept,cf:0081,1517,Gewicht,Gewicht,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0082,1541,BioDegr,Biodegradeerbaarheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0083,1667,NH3-N,niet te gebruiken,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0084,1669,BZV5 rendement,Rendement BZV5 ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0085,1670,CZV rendement,Rendement CZV ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0086,1672,N t rendement,rendement N t tov influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0087,1683,Fol h2o_vlucht,Met waterdamp vluchtige fenolen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0088,1702,CZV/BZV,CZV/BZV-verhoudingen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0089,1703,BZV/N,BZV/N-verhouding,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0090,1704,BZV/P,BZV/P-verhouding,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0091,1713,CZV/N,CZV/N-verhouding,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0092,1800,Deelgewicht 1,Gewicht fles 1 (neerslagwater),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0081
+skos:Concept,cf:0093,1801,Deelgewicht 2,Gewicht fles 2 (neerslagwater),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0081
+skos:Concept,cf:0094,1858,Bem verschil,Verschil tss wegingen bemonsterde filter,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0095,1860,Bem gem,Gemiddelde vd wegingen bemonsterde filter,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0096,2077,NC10-20,Deeltjesaantal 10-20 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0097,2078,NC20-30,Deeltjesaantal 20-30 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0098,2079,NC30-50,Deeltjesaantal 30-50 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0099,2080,NC50-70,Deeltjesaantal 50-70 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0100,2081,NC70-100,Deeltjesaantal 70-100 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0101,2082,NC100-200,Deeltjesaantal 100-200 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0102,2083,NC200-500,Deeltjesaantal 200-500 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0103,2084,NC200-1000,Deeltjesaantal 200-1000 nm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:Concept,cf:0104,2087,MUC-EC 20,"Geleidbaarheid (20°C), MUC project",,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0105,2088,MUCd-EC 20,"Geleidbaarheid (20°C), MUC project",,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0106,2093,Gran<125,Korrelgrootte distributie <125µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0107,2094,Gran<250,Korrelgrootte distributie <250µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0108,2095,Gran<500,Korrelgrootte distributie <500µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0109,2096,Gran<1000,Korrelgrootte distributie <1000µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0110,2097,Gran<2000,Korrelgrootte distributie <2000µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
+skos:Concept,cf:0111,2116,pH na ZW,pH na Zahn Wellens,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0076
+skos:Concept,cf:0112,2117,EC 25 na ZW,Geleidbaarheid (25°C) na Zahn Wellens,,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
+skos:Concept,cf:0113,2118,H t na ZW,"Hardheid, totaal na Zahn Wellens",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0015
+skos:Concept,cf:0114,2142,Gran<20,Korrelgrootte distributie <20µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,Cf:0331
+skos:Concept,cf:0115,1671,ZS rendement,Rendement ZS ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
+skos:ConceptScheme,vlcs:fysico-chemisch,,,Codelijst fysico-chemische eigenschappen,,,,,,
+skos:Concept,cf:0117,,,Pid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0118,,,Vochtgehalte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0119,,,Hydrologisch type,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0120,,,Regime hydrostratigrafie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0121,,,Vertikale doorlatendheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0122,,,Horizontale doorlatendheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0123,,,Geur - Solventen,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0124,,,Geur - Minerale Olie,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0125,,,Geur - Ondefinieerbaar,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0126,,,Geur - Amoniak,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0127,,,Geur - Brandstofachtige,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0128,,,Geur - Benzine,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0129,,,Geur - Carbolineum,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0130,,,Geur - Chemisch,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0131,,,Geur - Chloor,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0132,,,Geur - Condensaat,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0133,,,Geur - Diesel,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0134,,,Geur - Glycol,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0135,,,Geur - Olie aromaten,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0136,,,Geur - Olie,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0137,,,Geur - Petroleum,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0138,,,Geur - Rotting,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0139,,,Geur - Scherpe geur,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0140,,,Geur - Teer,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0141,,,Geur - Terpentine,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0142,,,Geur - Verf (terpentine basis),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0143,,,Geur - Zoete geur,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0144,,,Geur - Zure geur,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0145,,,Geur - Slib,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0146,,,Geur - Aromaten,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
+skos:Concept,cf:0147,,,Hardheid (blijvend),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0015
+skos:Concept,cf:0148,,,Hardheid (tijdelijk),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0015
+skos:Concept,cf:0150,,,Suikergehalte (totaal),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0151,,,Vezelconcentratie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0152,,,Zuurbindende waarde,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0153,,,Korrelgrootte < 1000 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0154,,,Korrelgrootte < 125 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0155,,,Korrelgrootte < 16 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0156,,,Korrelgrootte < 180 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0157,,,Korrelgrootte < 2 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0158,,,Korrelgrootte < 250 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0159,,,Korrelgrootte < 500 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0160,,,Korrelgrootte < 63 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0161,,,Korrelgrootte < 32 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0162,,,Korrelgrootte < 50 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0163,,,Korrelgrootte > 2000 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0164,,,Korrelgrootte < 2000 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0165,,,Korrelgrootte < 355 µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0331
+skos:Concept,cf:0166,,,Asbest fractie van 1 mm tot 2mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0167,,,Asbest fractie van 2 mm tot 4 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0168,,,Asbest fractie van 4 mm tot 8 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0169,,,Asbest fractie van 8 mm tot 16 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0170,,,Asbest fractie groter dan 16 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0171,,,Zuurstofverzadiging,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0172,,,"Hardheid, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0173,,,"Korrelgrootte distributie <2µm, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0174,,,Aanwezigheid compacte laag,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0175,,,Aanwezigheid drainage,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0176,,,Aanwezigheid ijzeroerlaag,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0177,,,Aanwezigheid roest,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0178,,,Aanwezigheid schelpresten,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0179,,,Aard van de stenige bijmenging,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0180,,,Advanced Triaxiaal testing,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0181,,,"ASTM , de beschrijving",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0182,,,"ASTM , de code",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0183,,,Begrazing,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0184,,,Bemonsteringsinstrument bodem,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0185,,,Bewaard bodemmonster opslaglocatie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0186,,,Bewaard bodemmonster voorbereiding type bewaring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0187,,,Bewaard bodemmonster voorbereiding type breken zeven malen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0188,,,Bewaard bodemmonster voorbereiding type droging,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0189,,,Bodembedekking landgebruiksbestand Vlaanderen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0190,,,Bodembemonstering Cmon steken niet uitgevoerd ander landgebruik,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0191,,,Bodembemonstering obstakel in de diepte - locatie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0192,,,Bodembemonstering obstakel in de diepte - type,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0193,,,Bodembemonstering obstakels in de diepte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0194,,,Bodembemonstering steek niet uitgevoerd - locatie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0195,,,Bodembemonstering steek niet uitgevoerd - reden,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0196,,,Bodembemonstering steken niet uitgevoerd,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0197,,,Bodemgebruik,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0198,,,Bodemgebruik Aardewerk,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0197
+skos:Concept,cf:0199,,,Bodemmonster type matrix,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0200,,,Bodemmonster type verstoring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0201,,,Bodemtoestand,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0202,,,Bodemverstoring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0203,,,C/N ratio,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0204,,,Consistentie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0205,,,Consistentie - kleverigheid,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0204
+skos:Concept,cf:0206,,,Consistentie - plasticiteit,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0204
+skos:Concept,cf:0207,,,Constant rate of strain (CRS),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0208,,,Coördinaat - Bonne - E,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0209,,,Coördinaat - Bonne - N,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0210,,,Coördinaat - Bonne - S,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0211,,,Coördinaat - Bonne - W,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0212,,,Doorlatendheid in tx cel,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0213,,,Doorlatendheidsproef - algemeen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0214,,,Doorlatendheidsproef- constant verval,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0215,,,Doorlatendheidsproef- veranderlijk verval - horizontaal,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0216,,,Doorlatendheidsproef- veranderlijk verval - verticaal,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0217,,,Drainage Aardewerk-doorlaatbaarheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0218,,,Drainage Aardewerk - interne drainage,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0219,,,Drainage Aardewerk - klasse,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0220,,,Drainage Aardewerk - oppervlakkige drainage,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0221,,,(Drainage) grachten,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0222,,,Geologische aard - afzettingswijze laag 1,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0223,,,Geologische aard - afzettingswijze laag 2,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0224,,,Geologische aard - afzettingswijze laag 3,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0225,,,Geologische aard - afzettingswijze laag 4,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0226,,,Geologische aard - andere kenmerken laag 1,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0227,,,Geologische aard - andere kenmerken laag 2,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0228,,,Geologische aard - andere kenmerken laag 3,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0229,,,Geologische aard - andere kenmerken laag 4,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0230,,,Geologische aard - bovenliggend laag 1,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0231,,,Geologische aard - bovenliggend laag 2,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0232,,,Geologische aard - bovenliggend laag 3,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0233,,,Geologische aard - bovenliggend laag 4,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0234,,,Geologische aard - bovenliggend laag 5,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0235,,,Geologische aard - bovenliggend laag 6,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0236,,,Geologische aard - lithologie laag 1,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0237,,,Geologische aard - lithologie laag 2,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0238,,,Geologische aard - lithologie laag 3,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0239,,,Geologische aard - lithologie laag 4,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0240,,,Geologische aard - lithologie laag 5,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0241,,,Geologische aard - lithologie laag 6,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0242,,,Geologische aard - tijdperk laag 1,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0243,,,Geologische aard - tijdperk laag 2,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0244,,,Geologische aard - tijdperk laag 3,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0245,,,Geologische aard - tijdperk laag 4,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0246,,,Geologische aard - tijdperk laag 5,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0247,,,Geologische aard - tijdperk laag 6,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0330
+skos:Concept,cf:0248,,,Gley roest - aantal,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0249,,,Gley roest - begrenzing,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0250,,,Gley roest - contrast,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0251,,,Gley roest - grootte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0252,,,Gley roest - vorm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0253,,,Grondsoort bepaald op zicht,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0254,,,Grondsoort volgens BGGG norm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0255,,,Grondsoort volgens BGGG norm met detail grind,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0256,,,Grondsoort volgens BGGG norm zonder detail grind,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0257,,,Horizontstructuur - gradatie - aardewerk,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0258,,,Horizontstructuur - gradatie - FAO,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0259,,,Horizontstructuur - grootteklasse - aardewerk,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0260,,,Horizontstructuur - grootteklasse - FAO,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0261,,,Horizontstructuur - type - aardewerk,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0262,,,Horizontstructuur - type - FAO,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0263,,,Insporing of vertrappeling door vee,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0264,,,Kalkgehalte_beschrijvend,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0265,,,Kalkreactie met HCL,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0266,,,Kleur omschrijving,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0267,,,Kleur volgens Munsell - CHROMA (kleur1),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0268,,,Kleur volgens Munsell - CHROMA (kleur2),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0269,,,Kleur volgens Munsell - CHROMA (kleur3),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0270,,,Kleur volgens Munsell - HUE_getal (kleur1),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0271,,,Kleur volgens Munsell - HUE_getal (kleur2),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0272,,,Kleur volgens Munsell - HUE_getal (kleur3),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0273,,,Kleur volgens Munsell - HUE_letters (kleur1),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0274,,,Kleur volgens Munsell - HUE_letters (kleur2),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0275,,,Kleur volgens Munsell - HUE_letters (kleur3),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0276,,,Kleur volgens Munsell - kleurcode,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0277,,,Kleur volgens Munsell - VALUE (kleur1),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0278,,,Kleur volgens Munsell - VALUE (kleur2),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0279,,,Kleur volgens Munsell - VALUE (kleur3),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0018
+skos:Concept,cf:0280,,,Korrelverdeling d.m.v. hydrometer/areometer,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0281,,,Korrelverdeling d.m.v. laserdiffractie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0282,,,Korrelverdeling d.m.v. zeefproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0283,,,Meest losse pakking,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0284,,,Mengmonster aantal steken,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0285,,,Mengmonster ID steek,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0286,,,Mengmonster locaties steken,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0287,,,Mengmonster locatie steek,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0288,,,Mengmonster staalnamepatroon,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0289,,,Oogstresten,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0290,,,Reductie in horizont(ja/nee),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0291,,,Reliëf - aanwezigheid helling,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0292,,,Reliëf - aard,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0293,,,Reliëf - expositie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0294,,,Reliëf - helling enkelvoudig,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0295,,,Reliëf - helling meervoudig,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0296,,,Reliëf - landvorm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0297,,,Reliëf - microreliëf,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0298,,,Reliëf - positie op de helling,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0299,,,Reliëf - situering,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0300,,,Reliëf - type helling,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0301,,,Reliëf - vorm van de helling,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0302,,,Roest - kleur omschrijving,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0303,,,Samendrukkingsproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0304,,,Saturatie Index,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0305,,,Schuifweerstandskarakteristieken,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0306,,,Schuifweerstandskarakteristieken Consolidated Drained,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0307,,,Schuifweerstandskarakteristieken Consolidated Undrained,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0308,,,Schuifweerstandskarakteristieken Unconsolidated Undrained,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0309,,,Specificatie van antropogeen materiaal,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0310,,,Standaard proctorproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0311,,,Stenen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0312,,,Techniek van de boring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0313,,,Temperatuur correctie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0314,,,Type van de boring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0315,,,Vegetatie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0316,,,Versterkte proctorproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0317,,,Vinproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0318,,,Vochtgehalte gradatie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0319,,,Watertafel aanwezig binnen profielput of boring,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0320,,,Wetland,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0321,,,Zwelproef,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0322,,,Elektrische geleidbaarheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0323,,,Niet-purgeerbare organische koolstof,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0324,,,Secchi-diepte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0325,,,Waterdiepte van secchi-bepaling,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0326,,,Zwevende stoffen (105°C),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0327,,,Zwevende stoffen (550°C),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0328,,,Waterdampgehalte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0329,,,Druk,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0330,,,Geologische aard ,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
+skos:Concept,cf:0331,,,Korrelgrootte,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,

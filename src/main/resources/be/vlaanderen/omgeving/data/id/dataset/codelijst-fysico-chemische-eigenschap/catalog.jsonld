@@ -47,7 +47,7 @@
       "@language" : "nl",
       "@value" : "Dataset Codelijst fysico chemische eigenschap"
     },
-    "versionInfo" : "1.0.5",
+    "versionInfo" : "1.0.6",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-fysico-chemische-eigenschap_csv", "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld", "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -76,7 +76,7 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in text/csv formaat."
     },
-    "versionInfo" : "1.0.5",
+    "versionInfo" : "1.0.6",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv",
@@ -105,7 +105,7 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.5",
+    "versionInfo" : "1.0.6",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld",
@@ -134,7 +134,7 @@
       "@language" : "nl",
       "@value" : "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.5",
+    "versionInfo" : "1.0.6",
     "accessURL" : "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl",
@@ -187,11 +187,11 @@
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "service" : {
       "@id" : "http://www.w3.org/ns/dcat#service",

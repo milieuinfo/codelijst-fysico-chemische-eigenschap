@@ -1,8 +1,14 @@
 {
   "@graph" : [ {
+    "@id" : "Cf:0076",
+    "narrower" : "cf:0051"
+  }, {
+    "@id" : "Cf:0331",
+    "narrower" : "cf:0114"
+  }, {
     "@id" : "cof:water",
     "@type" : "skos:Collection",
-    "member" : [ "cf:0070", "cf:0021", "cf:0025", "cf:0062", "cf:0064", "cf:0066", "cf:0026", "cf:0049", "cf:0013", "cf:0052", "cf:0106", "cf:0037", "cf:0108", "cf:0001", "cf:0096", "cf:0040", "cf:0111", "cf:0084", "cf:0093", "cf:0088", "cf:0069", "cf:0029", "cf:0081", "cf:0057", "cf:0017", "cf:0020", "cf:0043", "cf:0005", "cf:0022", "cf:0024", "cf:0045", "cf:0047", "cf:0007", "cf:0009", "cf:0115", "cf:0048", "cf:0031", "cf:0102", "cf:0012", "cf:0033", "cf:0035", "cf:0103", "cf:0105", "cf:0079", "cf:0107", "cf:0063", "cf:0072", "cf:0051", "cf:0068", "cf:0028", "cf:0095", "cf:0054", "cf:0061", "cf:0099", "cf:0110", "cf:0056", "cf:0016", "cf:0039", "cf:0003", "cf:0090", "cf:0098", "cf:0042", "cf:0092", "cf:0113", "cf:0044", "cf:0004", "cf:0008", "cf:0086", "cf:0030", "cf:0080", "cf:0101", "cf:0074", "cf:0076", "cf:0083", "cf:0059", "cf:0078", "cf:0023", "cf:0071", "cf:0114", "cf:0011", "cf:0010", "cf:0104", "cf:0014", "cf:0038", "cf:0109", "cf:0002", "cf:0091", "cf:0065", "cf:0067", "cf:0027", "cf:0053", "cf:0060", "cf:0055", "cf:0015", "cf:0019", "cf:0097", "cf:0041", "cf:0050", "cf:0112", "cf:0058", "cf:0018", "cf:0085", "cf:0087", "cf:0094", "cf:0089", "cf:0100", "cf:0046", "cf:0006", "cf:0032", "cf:0073", "cf:0075", "cf:0082", "cf:0077", "cf:0034", "cf:0036" ],
+    "member" : [ "cf:0070", "cf:0021", "cf:0025", "cf:0062", "cf:0064", "cf:0066", "cf:0026", "cf:0049", "cf:0013", "cf:0052", "cf:0106", "cf:0037", "cf:0108", "cf:0001", "cf:0096", "cf:0040", "cf:0111", "cf:0084", "cf:0093", "cf:0088", "cf:0069", "cf:0029", "cf:0081", "cf:0057", "cf:0017", "cf:0020", "cf:0043", "cf:0005", "cf:0022", "cf:0024", "cf:0045", "cf:0047", "cf:0007", "cf:0009", "cf:0115", "cf:0048", "cf:0031", "cf:0102", "cf:0012", "cf:0033", "cf:0103", "cf:0105", "cf:0079", "cf:0107", "cf:0063", "cf:0072", "cf:0051", "cf:0068", "cf:0028", "cf:0095", "cf:0054", "cf:0061", "cf:0099", "cf:0110", "cf:0056", "cf:0016", "cf:0039", "cf:0003", "cf:0090", "cf:0098", "cf:0042", "cf:0092", "cf:0113", "cf:0044", "cf:0004", "cf:0008", "cf:0086", "cf:0030", "cf:0080", "cf:0101", "cf:0074", "cf:0076", "cf:0083", "cf:0059", "cf:0078", "cf:0023", "cf:0071", "cf:0114", "cf:0011", "cf:0010", "cf:0104", "cf:0014", "cf:0038", "cf:0109", "cf:0002", "cf:0091", "cf:0065", "cf:0067", "cf:0027", "cf:0053", "cf:0060", "cf:0055", "cf:0015", "cf:0019", "cf:0097", "cf:0041", "cf:0050", "cf:0112", "cf:0058", "cf:0018", "cf:0085", "cf:0087", "cf:0094", "cf:0089", "cf:0100", "cf:0046", "cf:0006", "cf:0032", "cf:0073", "cf:0075", "cf:0082", "cf:0077", "cf:0034", "cf:0036" ],
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Collectie van fysico-chemische eigenschappen die betrekking hebben op water."
@@ -71,60 +77,61 @@
     "@id" : "cf:0006",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0007", "cf:0008" ],
     "notation" : "DR",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Droogrest"
     },
     "topConceptOf" : "vlcs:fysico-chemisch",
-    "theme" : [ "gemet:6229", "gemet:1322" ],
+    "theme" : [ "gemet:1322", "gemet:6229" ],
     "vmmParameterId" : "79"
   }, {
     "@id" : "cf:0007",
     "@type" : "skos:Concept",
+    "broader" : "cf:0006",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "DR105",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Droogresten (105°C)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "80"
   }, {
     "@id" : "cf:0008",
     "@type" : "skos:Concept",
+    "broader" : "cf:0006",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "DR180",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Droogresten (180°C)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "81"
   }, {
     "@id" : "cf:0009",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "EC 20",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid (20°C)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "82"
   }, {
     "@id" : "cf:0010",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "EC",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid ter plaatse"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "83"
   }, {
@@ -154,31 +161,32 @@
   }, {
     "@id" : "cf:0013",
     "@type" : "skos:Concept",
+    "broader" : "cf:0015",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "H per.",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Hardheid, permanent"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "86"
   }, {
     "@id" : "cf:0014",
     "@type" : "skos:Concept",
+    "broader" : "cf:0015",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "H tijd.",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Hardheid, tijdelijk"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "87"
   }, {
     "@id" : "cf:0015",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0014", "cf:0013", "cf:0148", "cf:0147", "cf:0113" ],
     "notation" : "H t",
     "prefLabel" : {
       "@language" : "nl",
@@ -215,60 +223,61 @@
     "@id" : "cf:0018",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0276", "cf:0278", "cf:0275", "cf:0267", "cf:0277", "cf:0266", "cf:0279", "cf:0269", "cf:0268", "cf:0274", "cf:0273", "cf:0272", "cf:0271", "cf:0270", "cf:0080" ],
     "notation" : "Kleur",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kleur"
     },
     "topConceptOf" : "vlcs:fysico-chemisch",
-    "theme" : [ "gemet:6229", "gemet:1322" ],
+    "theme" : [ "gemet:1322", "gemet:6229" ],
     "vmmParameterId" : "91"
   }, {
     "@id" : "cf:0019",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<16",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <16µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "93"
   }, {
     "@id" : "cf:0020",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<2",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <2µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "94"
   }, {
     "@id" : "cf:0021",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<63",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <63µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "95"
   }, {
     "@id" : "cf:0022",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran>63",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie >63µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "96"
   }, {
@@ -286,25 +295,25 @@
   }, {
     "@id" : "cf:0024",
     "@type" : "skos:Concept",
+    "broader" : "cf:0076",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "pH",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "pH"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "100"
   }, {
     "@id" : "cf:0025",
     "@type" : "skos:Concept",
+    "broader" : "cf:0076",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "pH-KCl",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "pH (KCl)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "101"
   }, {
@@ -322,11 +331,16 @@
   }, {
     "@id" : "cf:0027",
     "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Reuk"
+    },
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0127", "cf:0135", "cf:0145", "cf:0126", "cf:0134", "cf:0144", "cf:0143", "cf:0125", "cf:0133", "cf:0132", "cf:0139", "cf:0138", "cf:0142", "cf:0124", "cf:0123", "cf:0129", "cf:0131", "cf:0137", "cf:0141", "cf:0130", "cf:0136", "cf:0140", "cf:0146", "cf:0128" ],
     "notation" : "Reuk",
     "prefLabel" : {
       "@language" : "nl",
-      "@value" : "Reuk"
+      "@value" : "Geur"
     },
     "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
@@ -415,18 +429,6 @@
     "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "110"
-  }, {
-    "@id" : "cf:0035",
-    "@type" : "skos:Concept",
-    "inScheme" : "vlcs:fysico-chemisch",
-    "notation" : "Water",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "Watergehalte"
-    },
-    "topConceptOf" : "vlcs:fysico-chemisch",
-    "theme" : [ "gemet:6229", "gemet:1322" ],
-    "vmmParameterId" : "112"
   }, {
     "@id" : "cf:0036",
     "@type" : "skos:Concept",
@@ -574,13 +576,13 @@
   }, {
     "@id" : "cf:0048",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<2 bt",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <2µm, totaal"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "571"
   }, {
@@ -610,13 +612,13 @@
   }, {
     "@id" : "cf:0051",
     "@type" : "skos:Concept",
+    "broader" : "Cf:0076",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "pH-CO2",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "pH (na ontgassen)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "616"
   }, {
@@ -646,49 +648,49 @@
   }, {
     "@id" : "cf:0054",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<50",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <50µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "722"
   }, {
     "@id" : "cf:0055",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran>2<63",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie >2µm en <63µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "825"
   }, {
     "@id" : "cf:0056",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran>50",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie >50µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "880"
   }, {
     "@id" : "cf:0057",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "EC 25",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid (25°C)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "926"
   }, {
@@ -706,37 +708,37 @@
   }, {
     "@id" : "cf:0059",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<4",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <4µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1072"
   }, {
     "@id" : "cf:0060",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<8",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <8µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1073"
   }, {
     "@id" : "cf:0061",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<32",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <32µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1074"
   }, {
@@ -911,13 +913,14 @@
     "@id" : "cf:0076",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0024", "cf:0111", "cf:0025" ],
     "notation" : "H+",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Zuurtegraad"
     },
     "topConceptOf" : "vlcs:fysico-chemisch",
-    "theme" : [ "gemet:6229", "gemet:1322" ],
+    "theme" : [ "gemet:1322", "gemet:6229" ],
     "vmmParameterId" : "1296"
   }, {
     "@id" : "cf:0077",
@@ -958,19 +961,20 @@
   }, {
     "@id" : "cf:0080",
     "@type" : "skos:Concept",
+    "broader" : "cf:0018",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "DE*ab",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "CIE 1976 totaal kleurverschil"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1516"
   }, {
     "@id" : "cf:0081",
     "@type" : "skos:Concept",
     "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0092", "cf:0093" ],
     "notation" : "Gewicht",
     "prefLabel" : {
       "@language" : "nl",
@@ -1102,25 +1106,25 @@
   }, {
     "@id" : "cf:0092",
     "@type" : "skos:Concept",
+    "broader" : "cf:0081",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Deelgewicht 1",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Gewicht fles 1 (neerslagwater)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1800"
   }, {
     "@id" : "cf:0093",
     "@type" : "skos:Concept",
+    "broader" : "cf:0081",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Deelgewicht 2",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Gewicht fles 2 (neerslagwater)"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1801"
   }, {
@@ -1246,133 +1250,133 @@
   }, {
     "@id" : "cf:0104",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "MUC-EC 20",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid (20°C), MUC project"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "2087"
   }, {
     "@id" : "cf:0105",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "MUCd-EC 20",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid (20°C), MUC project"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "2088"
   }, {
     "@id" : "cf:0106",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<125",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <125µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2093"
   }, {
     "@id" : "cf:0107",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<250",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <250µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2094"
   }, {
     "@id" : "cf:0108",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<500",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <500µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2095"
   }, {
     "@id" : "cf:0109",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<1000",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <1000µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2096"
   }, {
     "@id" : "cf:0110",
     "@type" : "skos:Concept",
+    "broader" : "cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<2000",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <2000µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2097"
   }, {
     "@id" : "cf:0111",
     "@type" : "skos:Concept",
+    "broader" : "cf:0076",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "pH na ZW",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "pH na Zahn Wellens"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2116"
   }, {
     "@id" : "cf:0112",
     "@type" : "skos:Concept",
+    "broader" : "cf:0322",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "EC 25 na ZW",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid (25°C) na Zahn Wellens"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1686" ],
     "vmmParameterId" : "2117"
   }, {
     "@id" : "cf:0113",
     "@type" : "skos:Concept",
+    "broader" : "cf:0015",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "H t na ZW",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Hardheid, totaal na Zahn Wellens"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2118"
   }, {
     "@id" : "cf:0114",
     "@type" : "skos:Concept",
+    "broader" : "Cf:0331",
     "inScheme" : "vlcs:fysico-chemisch",
     "notation" : "Gran<20",
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Korrelgrootte distributie <20µm"
     },
-    "topConceptOf" : "vlcs:fysico-chemisch",
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "2142"
   }, {
@@ -1388,40 +1392,2196 @@
     "theme" : [ "gemet:6229", "gemet:1322" ],
     "vmmParameterId" : "1671"
   }, {
+    "@id" : "cf:0117",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0118",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vochtgehalte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0119",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hydrologisch type"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0120",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Regime hydrostratigrafie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0121",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vertikale doorlatendheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0122",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontale doorlatendheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0123",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Solventen"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0124",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Minerale Olie"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0125",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Ondefinieerbaar"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0126",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Amoniak"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0127",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Brandstofachtige"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0128",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Benzine"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0129",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Carbolineum"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0130",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Chemisch"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0131",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Chloor"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0132",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Condensaat"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0133",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Diesel"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0134",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Glycol"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0135",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Olie aromaten"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0136",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Olie"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0137",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Petroleum"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0138",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Rotting"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0139",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Scherpe geur"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0140",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Teer"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0141",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Terpentine"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0142",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Verf (terpentine basis)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0143",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Zoete geur"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0144",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Zure geur"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0145",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Slib"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0146",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0027",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geur - Aromaten"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0147",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0015",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid (blijvend)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0148",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0015",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid (tijdelijk)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0150",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Suikergehalte (totaal)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0151",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vezelconcentratie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0152",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zuurbindende waarde"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0153",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 1000 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0154",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 125 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0155",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 16 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0156",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 180 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0157",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 2 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0158",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 250 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0159",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 500 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0160",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 63 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0161",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 32 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0162",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 50 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0163",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte > 2000 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0164",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 2000 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0165",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0331",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte < 355 µm"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0166",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Asbest fractie van 1 mm tot 2mm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0167",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Asbest fractie van 2 mm tot 4 mm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0168",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Asbest fractie van 4 mm tot 8 mm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0169",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Asbest fractie van 8 mm tot 16 mm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0170",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Asbest fractie groter dan 16 mm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0171",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zuurstofverzadiging"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0172",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hardheid, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0173",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte distributie <2µm, totaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0174",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanwezigheid compacte laag"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0175",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanwezigheid drainage"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0176",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanwezigheid ijzeroerlaag"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0177",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanwezigheid roest"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0178",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanwezigheid schelpresten"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0179",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aard van de stenige bijmenging"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0180",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Advanced Triaxiaal testing"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0181",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ASTM , de beschrijving"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0182",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ASTM , de code"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0183",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Begrazing"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0184",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bemonsteringsinstrument bodem"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0185",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bewaard bodemmonster opslaglocatie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0186",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bewaard bodemmonster voorbereiding type bewaring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0187",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bewaard bodemmonster voorbereiding type breken zeven malen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0188",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bewaard bodemmonster voorbereiding type droging"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0189",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembedekking landgebruiksbestand Vlaanderen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0190",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering Cmon steken niet uitgevoerd ander landgebruik"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0191",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering obstakel in de diepte - locatie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0192",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering obstakel in de diepte - type"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0193",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering obstakels in de diepte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0194",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering steek niet uitgevoerd - locatie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0195",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering steek niet uitgevoerd - reden"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0196",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodembemonstering steken niet uitgevoerd"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0197",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : "cf:0198",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemgebruik"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0198",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0197",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemgebruik Aardewerk"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0199",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemmonster type matrix"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0200",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemmonster type verstoring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0201",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemtoestand"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0202",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemverstoring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0203",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "C/N ratio"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0204",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0205", "cf:0206" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Consistentie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0205",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0204",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Consistentie - kleverigheid"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0206",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0204",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Consistentie - plasticiteit"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0207",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Constant rate of strain (CRS)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0208",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Coördinaat - Bonne - E"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0209",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Coördinaat - Bonne - N"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0210",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Coördinaat - Bonne - S"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0211",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Coördinaat - Bonne - W"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0212",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatendheid in tx cel"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0213",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatendheidsproef - algemeen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0214",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatendheidsproef- constant verval"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0215",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatendheidsproef- veranderlijk verval - horizontaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0216",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatendheidsproef- veranderlijk verval - verticaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0217",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drainage Aardewerk-doorlaatbaarheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0218",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drainage Aardewerk - interne drainage"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0219",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drainage Aardewerk - klasse"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0220",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drainage Aardewerk - oppervlakkige drainage"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0221",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "(Drainage) grachten"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0222",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - afzettingswijze laag 1"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0223",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - afzettingswijze laag 2"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0224",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - afzettingswijze laag 3"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0225",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - afzettingswijze laag 4"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0226",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - andere kenmerken laag 1"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0227",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - andere kenmerken laag 2"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0228",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - andere kenmerken laag 3"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0229",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - andere kenmerken laag 4"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0230",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 1"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0231",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 2"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0232",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 3"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0233",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 4"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0234",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 5"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0235",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - bovenliggend laag 6"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0236",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 1"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0237",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 2"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0238",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 3"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0239",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 4"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0240",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 5"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0241",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - lithologie laag 6"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0242",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 1"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0243",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 2"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0244",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 3"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0245",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 4"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0246",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 5"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0247",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0330",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard - tijdperk laag 6"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0248",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gley roest - aantal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0249",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gley roest - begrenzing"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0250",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gley roest - contrast"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0251",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gley roest - grootte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0252",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gley roest - vorm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0253",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondsoort bepaald op zicht"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0254",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondsoort volgens BGGG norm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0255",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondsoort volgens BGGG norm met detail grind"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0256",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondsoort volgens BGGG norm zonder detail grind"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0257",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - gradatie - aardewerk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0258",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - gradatie - FAO"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0259",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - grootteklasse - aardewerk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0260",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - grootteklasse - FAO"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0261",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - type - aardewerk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0262",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Horizontstructuur - type - FAO"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0263",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Insporing of vertrappeling door vee"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0264",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kalkgehalte_beschrijvend"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0265",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kalkreactie met HCL"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0266",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur omschrijving"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0267",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - CHROMA (kleur1)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0268",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - CHROMA (kleur2)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0269",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - CHROMA (kleur3)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0270",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_getal (kleur1)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0271",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_getal (kleur2)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0272",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_getal (kleur3)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0273",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_letters (kleur1)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0274",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_letters (kleur2)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0275",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - HUE_letters (kleur3)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0276",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - kleurcode"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0277",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - VALUE (kleur1)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0278",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - VALUE (kleur2)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0279",
+    "@type" : "skos:Concept",
+    "broader" : "cf:0018",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleur volgens Munsell - VALUE (kleur3)"
+    },
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0280",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelverdeling d.m.v. hydrometer/areometer"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0281",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelverdeling d.m.v. laserdiffractie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0282",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelverdeling d.m.v. zeefproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0283",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Meest losse pakking"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0284",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mengmonster aantal steken"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0285",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mengmonster ID steek"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0286",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mengmonster locaties steken"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0287",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mengmonster locatie steek"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0288",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mengmonster staalnamepatroon"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0289",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Oogstresten"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0290",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reductie in horizont(ja/nee)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0291",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - aanwezigheid helling"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0292",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - aard"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0293",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - expositie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0294",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - helling enkelvoudig"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0295",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - helling meervoudig"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0296",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - landvorm"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0297",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - microreliëf"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0298",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - positie op de helling"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0299",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - situering"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0300",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - type helling"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0301",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Reliëf - vorm van de helling"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0302",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Roest - kleur omschrijving"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0303",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Samendrukkingsproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0304",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Saturatie Index"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0305",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schuifweerstandskarakteristieken"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0306",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schuifweerstandskarakteristieken Consolidated Drained"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0307",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schuifweerstandskarakteristieken Consolidated Undrained"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0308",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Schuifweerstandskarakteristieken Unconsolidated Undrained"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0309",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Specificatie van antropogeen materiaal"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0310",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Standaard proctorproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0311",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stenen"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0312",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Techniek van de boring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0313",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Temperatuur correctie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0314",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Type van de boring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0315",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vegetatie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0316",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Versterkte proctorproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0317",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vinproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0318",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vochtgehalte gradatie"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0319",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Watertafel aanwezig binnen profielput of boring"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0320",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Wetland"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0321",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwelproef"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0322",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0112", "cf:0010", "cf:0009", "cf:0104", "cf:0057", "cf:0105" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Elektrische geleidbaarheid"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0323",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Niet-purgeerbare organische koolstof"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0324",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Secchi-diepte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0325",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Waterdiepte van secchi-bepaling"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0326",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende stoffen (105°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0327",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende stoffen (550°C)"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0328",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Waterdampgehalte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0329",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Druk"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:6229", "gemet:1322" ]
+  }, {
+    "@id" : "cf:0330",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0238", "cf:0242", "cf:0223", "cf:0245", "cf:0226", "cf:0230", "cf:0229", "cf:0236", "cf:0233", "cf:0240", "cf:0239", "cf:0243", "cf:0224", "cf:0227", "cf:0246", "cf:0231", "cf:0234", "cf:0237", "cf:0244", "cf:0241", "cf:0222", "cf:0247", "cf:0228", "cf:0225", "cf:0232", "cf:0235" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Geologische aard "
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:1322", "gemet:6229" ]
+  }, {
+    "@id" : "cf:0331",
+    "@type" : "skos:Concept",
+    "inScheme" : "vlcs:fysico-chemisch",
+    "narrower" : [ "cf:0156", "cf:0020", "cf:0163", "cf:0107", "cf:0110", "cf:0158", "cf:0060", "cf:0154", "cf:0059", "cf:0055", "cf:0157", "cf:0021", "cf:0161", "cf:0164", "cf:0108", "cf:0159", "cf:0061", "cf:0155", "cf:0160", "cf:0056", "cf:0019", "cf:0048", "cf:0022", "cf:0162", "cf:0106", "cf:0165", "cf:0109", "cf:0054", "cf:0153" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Korrelgrootte"
+    },
+    "topConceptOf" : "vlcs:fysico-chemisch",
+    "theme" : [ "gemet:1322", "gemet:6229" ]
+  }, {
     "@id" : "vlcs:fysico-chemisch",
     "@type" : "skos:ConceptScheme",
-    "hasTopConcept" : [ "cf:0109", "cf:0098", "cf:0095", "cf:0064", "cf:0049", "cf:0044", "cf:0013", "cf:0080", "cf:0037", "cf:0052", "cf:0032", "cf:0115", "cf:0112", "cf:0007", "cf:0067", "cf:0103", "cf:0100", "cf:0058", "cf:0055", "cf:0028", "cf:0086", "cf:0001", "cf:0105", "cf:0016", "cf:0074", "cf:0040", "cf:0083", "cf:0061", "cf:0111", "cf:0091", "cf:0071", "cf:0088", "cf:0022", "cf:0108", "cf:0097", "cf:0066", "cf:0063", "cf:0046", "cf:0043", "cf:0076", "cf:0010", "cf:0034", "cf:0054", "cf:0051", "cf:0094", "cf:0031", "cf:0114", "cf:0024", "cf:0009", "cf:0004", "cf:0069", "cf:0099", "cf:0079", "cf:0102", "cf:0048", "cf:0012", "cf:0057", "cf:0036", "cf:0027", "cf:0085", "cf:0107", "cf:0018", "cf:0104", "cf:0015", "cf:0073", "cf:0042", "cf:0082", "cf:0059", "cf:0039", "cf:0070", "cf:0060", "cf:0093", "cf:0030", "cf:0090", "cf:0087", "cf:0110", "cf:0021", "cf:0065", "cf:0045", "cf:0078", "cf:0075", "cf:0053", "cf:0033", "cf:0026", "cf:0006", "cf:0023", "cf:0003", "cf:0096", "cf:0050", "cf:0047", "cf:0014", "cf:0011", "cf:0081", "cf:0038", "cf:0029", "cf:0035", "cf:0113", "cf:0008", "cf:0068", "cf:0017", "cf:0106", "cf:0101", "cf:0041", "cf:0056", "cf:0092", "cf:0072", "cf:0089", "cf:0084", "cf:0002", "cf:0062", "cf:0019", "cf:0077", "cf:0025", "cf:0020", "cf:0005" ],
+    "hasTopConcept" : [ "cf:0173", "cf:0063", "cf:0122", "cf:0214", "cf:0028", "cf:0307", "cf:0072", "cf:0180", "cf:0290", "cf:0169", "cf:0287", "cf:0097", "cf:0311", "cf:0328", "cf:0254", "cf:0068", "cf:0192", "cf:0017", "cf:0212", "cf:0174", "cf:0076", "cf:0280", "cf:0090", "cf:0215", "cf:0029", "cf:0308", "cf:0294", "cf:0300", "cf:0040", "cf:0167", "cf:0088", "cf:0181", "cf:0117", "cf:0252", "cf:0202", "cf:0312", "cf:0255", "cf:0179", "cf:0069", "cf:0001", "cf:0193", "cf:0050", "cf:0036", "cf:0221", "cf:0264", "cf:0074", "cf:0103", "cf:0305", "cf:0077", "cf:0150", "cf:0185", "cf:0086", "cf:0295", "cf:0115", "cf:0317", "cf:0176", "cf:0041", "cf:0089", "cf:0217", "cf:0319", "cf:0200", "cf:0118", "cf:0261", "cf:0006", "cf:0100", "cf:0302", "cf:0197", "cf:0203", "cf:0034", "cf:0282", "cf:0323", "cf:0037", "cf:0314", "cf:0012", "cf:0257", "cf:0003", "cf:0046", "cf:0183", "cf:0170", "cf:0049", "cf:0031", "cf:0186", "cf:0208", "cf:0079", "cf:0152", "cf:0195", "cf:0297", "cf:0052", "cf:0043", "cf:0321", "cf:0283", "cf:0324", "cf:0248", "cf:0064", "cf:0039", "cf:0291", "cf:0288", "cf:0098", "cf:0220", "cf:0329", "cf:0188", "cf:0053", "cf:0120", "cf:0330", "cf:0018", "cf:0070", "cf:0062", "cf:0175", "cf:0065", "cf:0281", "cf:0091", "cf:0216", "cf:0285", "cf:0082", "cf:0095", "cf:0260", "cf:0309", "cf:0326", "cf:0301", "cf:0209", "cf:0015", "cf:0058", "cf:0182", "cf:0210", "cf:0172", "cf:0313", "cf:0213", "cf:0256", "cf:0027", "cf:0002", "cf:0306", "cf:0030", "cf:0250", "cf:0078", "cf:0168", "cf:0151", "cf:0310", "cf:0253", "cf:0296", "cf:0177", "cf:0067", "cf:0042", "cf:0191", "cf:0218", "cf:0262", "cf:0119", "cf:0101", "cf:0211", "cf:0303", "cf:0204", "cf:0265", "cf:0075", "cf:0084", "cf:0293", "cf:0038", "cf:0315", "cf:0258", "cf:0166", "cf:0087", "cf:0004", "cf:0251", "cf:0201", "cf:0032", "cf:0187", "cf:0178", "cf:0094", "cf:0219", "cf:0263", "cf:0073", "cf:0102", "cf:0298", "cf:0304", "cf:0044", "cf:0199", "cf:0284", "cf:0171", "cf:0081", "cf:0047", "cf:0184", "cf:0325", "cf:0085", "cf:0316", "cf:0259", "cf:0318", "cf:0005", "cf:0196", "cf:0033", "cf:0026", "cf:0322", "cf:0121", "cf:0189", "cf:0011", "cf:0299", "cf:0331", "cf:0045", "cf:0249", "cf:0071", "cf:0207", "cf:0066", "cf:0023", "cf:0190", "cf:0194", "cf:0286", "cf:0096", "cf:0083", "cf:0292", "cf:0327", "cf:0289", "cf:0099", "cf:0320", "cf:0016" ],
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Codelijst fysico-chemische eigenschappen"
     }
   } ],
   "@context" : {
-    "vmmParameterId" : {
-      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
     "theme" : {
       "@id" : "http://www.w3.org/ns/dcat#theme",
-      "@type" : "@id"
-    },
-    "topConceptOf" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
       "@type" : "@id"
     },
     "prefLabel" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
     },
-    "notation" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
-    },
     "inScheme" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type" : "@id"
     },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "vmmParameterId" : {
+      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
     "hasTopConcept" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
       "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
     },
     "member" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#member",

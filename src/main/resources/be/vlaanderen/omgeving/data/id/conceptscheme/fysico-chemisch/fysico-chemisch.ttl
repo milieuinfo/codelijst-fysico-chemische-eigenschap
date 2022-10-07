@@ -10,869 +10,17 @@
 @prefix dcat:  <http://www.w3.org/ns/dcat#> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-cf:0029  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Smaak" ;
-        skos:prefLabel     "Smaak"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "105"^^xsd:int .
-
-cf:0098  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC30-50" ;
-        skos:prefLabel     "Deeltjesaantal 30-50 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2079"^^xsd:int .
-
-cf:0010  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "EC" ;
-        skos:prefLabel     "Geleidbaarheid ter plaatse"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "83"^^xsd:int .
-
-cf:0108  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<500" ;
-        skos:prefLabel     "Korrelgrootte distributie <500µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2095"^^xsd:int .
-
-cf:0051  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "pH-CO2" ;
-        skos:prefLabel     "pH (na ontgassen)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "616"^^xsd:int .
-
-cf:0023  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Neerslag" ;
-        skos:prefLabel     "Neerslag"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "97"^^xsd:int .
-
-cf:0092  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Deelgewicht 1" ;
-        skos:prefLabel     "Gewicht fles 1 (neerslagwater)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1800"^^xsd:int .
-
-cf:0064  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Luchtdruk sh" ;
-        skos:prefLabel     "Luchtdruk op stationshoogte (QFE)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1266"^^xsd:int .
-
-cf:0036  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Water" ;
-        skos:prefLabel     "Watergehalte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "112"^^xsd:int .
-
-cf:0008  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "DR180" ;
-        skos:prefLabel     "Droogresten (180°C)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "81"^^xsd:int .
-
-cf:0077  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Straling uv-B" ;
-        skos:prefLabel     "Straling, ultraviolet (type B)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1308"^^xsd:int .
-
-cf:0049  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Dagen" ;
-        skos:prefLabel     "Dagen"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "611"^^xsd:int .
-
-cf:0102  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC200-500" ;
-        skos:prefLabel     "Deeltjesaantal 200-500 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2083"^^xsd:int .
-
-cf:0115  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "ZS rendement" ;
-        skos:prefLabel     "Rendement ZS ten opzichte van influentbelasting"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1671"^^xsd:int .
-
-cf:0030  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "T" ;
-        skos:prefLabel     "Temperatuur"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "106"^^xsd:int .
-
-cf:0002  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "OB" ;
-        skos:prefLabel     "Onbekend"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "-2"^^xsd:int .
-
-cf:0071  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Breedte" ;
-        skos:prefLabel     "Breedte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1289"^^xsd:int .
-
-cf:0043  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Alpha" ;
-        skos:prefLabel     "Radioactiviteit, alpha"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "446"^^xsd:int .
-
-cf:0015  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "H t" ;
-        skos:prefLabel     "Hardheid, totaal"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "88"^^xsd:int .
-
-cf:0084  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "BZV5 rendement" ;
-        skos:prefLabel     "Rendement BZV5 ten opzichte van influentbelasting"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1669"^^xsd:int .
-
-cf:0056  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran>50" ;
-        skos:prefLabel     "Korrelgrootte distributie >50µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "880"^^xsd:int .
-
-cf:0028  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Salin." ;
-        skos:prefLabel     "Saliniteit"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "104"^^xsd:int .
-
-cf:0097  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC20-30" ;
-        skos:prefLabel     "Deeltjesaantal 20-30 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2078"^^xsd:int .
-
-cf:0069  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "FF" ;
-        skos:prefLabel     "Windsnelheid, vectorieel"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1282"^^xsd:int .
-
-cf:0107  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<250" ;
-        skos:prefLabel     "Korrelgrootte distributie <250µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2094"^^xsd:int .
-
-cf:0050  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Vol" ;
-        skos:prefLabel     "Volume"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "612"^^xsd:int .
-
-cf:0022  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran>63" ;
-        skos:prefLabel     "Korrelgrootte distributie >63µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "96"^^xsd:int .
-
-cf:0091  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "CZV/N" ;
-        skos:prefLabel     "CZV/N-verhouding"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1713"^^xsd:int .
-
-cf:0063  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Straling n" ;
-        skos:prefLabel     "Straling, netto"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1264"^^xsd:int .
-
-cf:0035  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Water" ;
-        skos:prefLabel     "Watergehalte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "112"^^xsd:int .
-
-cf:0007  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "DR105" ;
-        skos:prefLabel     "Droogresten (105°C)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "80"^^xsd:int .
-
-cf:0076  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "H+" ;
-        skos:prefLabel     "Zuurtegraad"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1296"^^xsd:int .
-
-cf:0048  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<2 bt" ;
-        skos:prefLabel     "Korrelgrootte distributie <2µm, totaal"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "571"^^xsd:int .
-
-cf:0101  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC100-200" ;
-        skos:prefLabel     "Deeltjesaantal 100-200 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2082"^^xsd:int .
-
-cf:0089  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "BZV/N" ;
-        skos:prefLabel     "BZV/N-verhouding"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1703"^^xsd:int .
-
-cf:0114  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<20" ;
-        skos:prefLabel     "Korrelgrootte distributie <20µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2142"^^xsd:int .
-
-cf:0001  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gemiddeld" ;
-        skos:prefLabel     "Gemiddeld"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "-101"^^xsd:int .
-
-cf:0070  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Lengte" ;
-        skos:prefLabel     "Lengte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1288"^^xsd:int .
-
-cf:0042  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "KW" ;
-        skos:prefLabel     "Kwaliteit"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "389"^^xsd:int .
-
-cf:0014  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "H tijd." ;
-        skos:prefLabel     "Hardheid, tijdelijk"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "87"^^xsd:int .
-
-cf:0083  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NH3-N" ;
-        skos:prefLabel     "niet te gebruiken"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1667"^^xsd:int .
-
-cf:0055  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran>2<63" ;
-        skos:prefLabel     "Korrelgrootte distributie >2µm en <63µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "825"^^xsd:int .
-
-cf:0027  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Reuk" ;
-        skos:prefLabel     "Reuk"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "103"^^xsd:int .
-
-cf:0096  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC10-20" ;
-        skos:prefLabel     "Deeltjesaantal 10-20 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2077"^^xsd:int .
-
-cf:0068  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "VM" ;
-        skos:prefLabel     "Windsnelheid, scalair"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1281"^^xsd:int .
-
-cf:0106  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<125" ;
-        skos:prefLabel     "Korrelgrootte distributie <125µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2093"^^xsd:int .
-
-cf:0021  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<63" ;
-        skos:prefLabel     "Korrelgrootte distributie <63µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "95"^^xsd:int .
-
-cf:0090  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "BZV/P" ;
-        skos:prefLabel     "BZV/P-verhouding"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1704"^^xsd:int .
-
-cf:0062  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Straling uv-A" ;
-        skos:prefLabel     "Straling, ultraviolet (type A)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1263"^^xsd:int .
-
-cf:0034  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "VP" ;
-        skos:prefLabel     "Vlampunt"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "110"^^xsd:int .
-
-cf:0006  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "DR" ;
-        skos:prefLabel     "Droogrest"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "79"^^xsd:int .
-
-cf:0075  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Tv" ;
-        skos:prefLabel     "Temperatuursverschil"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1293"^^xsd:int .
-
-cf:0047  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Sp.opp." ;
-        skos:prefLabel     "Specifiek oppervlak"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "514"^^xsd:int .
-
-cf:0100  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC70-100" ;
-        skos:prefLabel     "Deeltjesaantal 70-100 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2081"^^xsd:int .
-
-cf:0019  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<16" ;
-        skos:prefLabel     "Korrelgrootte distributie <16µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "93"^^xsd:int .
-
-cf:0088  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "CZV/BZV" ;
-        skos:prefLabel     "CZV/BZV-verhoudingen"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1702"^^xsd:int .
-
-cf:0113  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "H t na ZW" ;
-        skos:prefLabel     "Hardheid, totaal na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2118"^^xsd:int .
-
-cf:0041  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "CZV f" ;
-        skos:prefLabel     "Chemisch zuurstofverbruik, gefiltreerd"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "289"^^xsd:int .
-
-cf:0013  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "H per." ;
-        skos:prefLabel     "Hardheid, permanent"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "86"^^xsd:int .
-
-cf:0082  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "BioDegr" ;
-        skos:prefLabel     "Biodegradeerbaarheid"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1541"^^xsd:int .
-
-cf:0054  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<50" ;
-        skos:prefLabel     "Korrelgrootte distributie <50µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "722"^^xsd:int .
-
-cf:0026  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Eh" ;
-        skos:prefLabel     "Redox potentiaal"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "102"^^xsd:int .
-
-cf:0095  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Bem gem" ;
-        skos:prefLabel     "Gemiddelde vd wegingen bemonsterde filter"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1860"^^xsd:int .
-
-cf:0067  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "DD" ;
-        skos:prefLabel     "Windrichting"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1280"^^xsd:int .
-
-cf:0039  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "BZV5" ;
-        skos:prefLabel     "Biochemisch zuurstofverbruik na 5d."@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "287"^^xsd:int .
-
-cf:0105  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "MUCd-EC 20" ;
-        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "2088"^^xsd:int .
-
-cf:0020  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<2" ;
-        skos:prefLabel     "Korrelgrootte distributie <2µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "94"^^xsd:int .
-
-cf:0061  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<32" ;
-        skos:prefLabel     "Korrelgrootte distributie <32µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1074"^^xsd:int .
-
-cf:0033  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "VP" ;
-        skos:prefLabel     "Vlampunt"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "110"^^xsd:int .
-
-cf:0005  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Secchi" ;
-        skos:prefLabel     "Doorzichtigheid"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "78"^^xsd:int .
-
-cf:0074  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Dauwpunt" ;
-        skos:prefLabel     "Dauwpunt"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1292"^^xsd:int .
-
-cf:0046  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Rot" ;
-        skos:prefLabel     "Verrotbaarheid"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "468"^^xsd:int .
-
-cf:0018  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Kleur" ;
-        skos:prefLabel     "Kleur"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "91"^^xsd:int .
-
-cf:0087  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Fol h2o_vlucht" ;
-        skos:prefLabel     "Met waterdamp vluchtige fenolen"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1683"^^xsd:int .
-
-cf:0059  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<4" ;
-        skos:prefLabel     "Korrelgrootte distributie <4µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1072"^^xsd:int .
-
-cf:0112  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "EC 25 na ZW" ;
-        skos:prefLabel     "Geleidbaarheid (25°C) na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "2117"^^xsd:int .
-
-cf:0040  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "CZV" ;
-        skos:prefLabel     "Chemisch zuurstofverbruik"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "288"^^xsd:int .
-
-cf:0012  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "GV" ;
-        skos:prefLabel     "Gloeiverlies"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "85"^^xsd:int .
-
-cf:0081  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gewicht" ;
-        skos:prefLabel     "Gewicht"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1517"^^xsd:int .
-
-cf:0053  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Q" ;
-        skos:prefLabel     "Debiet"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "702"^^xsd:int .
-
-vlcs:fysico-chemisch  a     skos:ConceptScheme ;
-        skos:hasTopConcept  cf:0109 , cf:0098 , cf:0095 , cf:0064 , cf:0049 , cf:0044 , cf:0013 , cf:0080 , cf:0115 , cf:0052 , cf:0037 , cf:0032 , cf:0112 , cf:0007 , cf:0067 , cf:0103 , cf:0100 , cf:0058 , cf:0055 , cf:0028 , cf:0086 , cf:0001 , cf:0105 , cf:0016 , cf:0074 , cf:0083 , cf:0040 , cf:0061 , cf:0111 , cf:0091 , cf:0088 , cf:0071 , cf:0022 , cf:0108 , cf:0097 , cf:0066 , cf:0063 , cf:0046 , cf:0076 , cf:0043 , cf:0010 , cf:0094 , cf:0054 , cf:0051 , cf:0034 , cf:0114 , cf:0031 , cf:0024 , cf:0009 , cf:0004 , cf:0069 , cf:0099 , cf:0102 , cf:0079 , cf:0048 , cf:0012 , cf:0057 , cf:0036 , cf:0027 , cf:0085 , cf:0107 , cf:0018 , cf:0104 , cf:0015 , cf:0073 , cf:0042 , cf:0082 , cf:0059 , cf:0039 , cf:0110 , cf:0093 , cf:0060 , cf:0090 , cf:0030 , cf:0087 , cf:0070 , cf:0021 , cf:0065 , cf:0078 , cf:0045 , cf:0075 , cf:0053 , cf:0033 , cf:0026 , cf:0023 , cf:0006 , cf:0003 , cf:0096 , cf:0050 , cf:0047 , cf:0014 , cf:0011 , cf:0081 , cf:0038 , cf:0113 , cf:0035 , cf:0029 , cf:0008 , cf:0068 , cf:0106 , cf:0101 , cf:0017 , cf:0041 , cf:0056 , cf:0092 , cf:0089 , cf:0072 , cf:0084 , cf:0002 , cf:0062 , cf:0019 , cf:0077 , cf:0025 , cf:0020 , cf:0005 ;
-        skos:prefLabel      "Codelijst fysico-chemische eigenschappen"@nl .
-
-cf:0025  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "pH-KCl" ;
-        skos:prefLabel     "pH (KCl)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "101"^^xsd:int .
-
-cf:0094  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Bem verschil" ;
-        skos:prefLabel     "Verschil tss wegingen bemonsterde filter"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1858"^^xsd:int .
-
-cf:0066  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Zon t" ;
-        skos:prefLabel     "Zonnestraling, totaal"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1279"^^xsd:int .
-
-cf:0038  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "nSE" ;
-        skos:prefLabel     "Aantal systematische eenheden"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "115"^^xsd:int .
-
-cf:0079  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "d15N" ;
-        skos:prefLabel     "Isotopenverhouding stikstof 15 en 14"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1327"^^xsd:int .
-
-cf:0104  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "MUC-EC 20" ;
-        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "2087"^^xsd:int .
-
-cf:0060  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<8" ;
-        skos:prefLabel     "Korrelgrootte distributie <8µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1073"^^xsd:int .
-
-cf:0032  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Turb. ps" ;
-        skos:prefLabel     "Turbiditeit, postsedimentair"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "108"^^xsd:int .
-
-cf:0004  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "d" ;
-        skos:prefLabel     "Densiteit"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:11116 , gemet:6229 ;
-        cs:vmmParameterId  "77"^^xsd:int .
-
-cf:0073  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Dikte" ;
-        skos:prefLabel     "Dikte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1291"^^xsd:int .
-
-cf:0045  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "dil.F" ;
-        skos:prefLabel     "Dilutie factor"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "453"^^xsd:int .
-
-cf:0017  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "IS" ;
-        skos:prefLabel     "Ionensterkte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "90"^^xsd:int .
-
-cf:0086  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "N t rendement" ;
-        skos:prefLabel     "rendement N t tov influentbelasting"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1672"^^xsd:int .
-
-cf:0058  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "FPFV" ;
-        skos:prefLabel     "Filterverzadiging"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1043"^^xsd:int .
-
-cf:0111  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "pH na ZW" ;
-        skos:prefLabel     "pH na Zahn Wellens"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2116"^^xsd:int .
-
-cf:0099  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC50-70" ;
-        skos:prefLabel     "Deeltjesaantal 50-70 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2080"^^xsd:int .
-
-cf:0011  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "GR" ;
-        skos:prefLabel     "Gloeirest"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "84"^^xsd:int .
-
-cf:0080  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "DE*ab" ;
-        skos:prefLabel     "CIE 1976 totaal kleurverschil"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1516"^^xsd:int .
-
-cf:0109  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Gran<1000" ;
-        skos:prefLabel     "Korrelgrootte distributie <1000µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2096"^^xsd:int .
-
-cf:0052  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Rad.act." ;
-        skos:prefLabel     "Radioactiviteit, totaal"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "691"^^xsd:int .
-
-cf:0024  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "pH" ;
-        skos:prefLabel     "pH"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "100"^^xsd:int .
-
-cf:0093  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Deelgewicht 2" ;
-        skos:prefLabel     "Gewicht fles 2 (neerslagwater)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1801"^^xsd:int .
-
-cf:0065  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Rel.vocht" ;
-        skos:prefLabel     "Relatieve vochtigheid"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1273"^^xsd:int .
-
-cf:0037  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "ZS afm." ;
-        skos:prefLabel     "Zwevende stoffen, afmeting"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "114"^^xsd:int .
-
-cf:0009  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "EC 20" ;
-        skos:prefLabel     "Geleidbaarheid (20°C)"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "82"^^xsd:int .
-
-cf:0078  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "d13C" ;
-        skos:prefLabel     "Isotopenverhouding koolstof 13 en 12"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1326"^^xsd:int .
-
-cf:0103  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NC200-1000" ;
-        skos:prefLabel     "Deeltjesaantal 200-1000 nm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "2084"^^xsd:int .
-
-cof:water  a            skos:Collection ;
-        skos:member     cf:0070 , cf:0021 , cf:0025 , cf:0062 , cf:0064 , cf:0066 , cf:0026 , cf:0049 , cf:0013 , cf:0052 , cf:0106 , cf:0037 , cf:0108 , cf:0001 , cf:0096 , cf:0040 , cf:0111 , cf:0084 , cf:0093 , cf:0088 , cf:0069 , cf:0029 , cf:0081 , cf:0057 , cf:0017 , cf:0020 , cf:0043 , cf:0047 , cf:0022 , cf:0024 , cf:0045 , cf:0005 , cf:0007 , cf:0009 , cf:0115 , cf:0048 , cf:0031 , cf:0102 , cf:0012 , cf:0033 , cf:0035 , cf:0103 , cf:0105 , cf:0107 , cf:0079 , cf:0063 , cf:0072 , cf:0051 , cf:0068 , cf:0028 , cf:0095 , cf:0054 , cf:0061 , cf:0110 , cf:0099 , cf:0056 , cf:0016 , cf:0039 , cf:0090 , cf:0003 , cf:0098 , cf:0092 , cf:0042 , cf:0113 , cf:0044 , cf:0004 , cf:0008 , cf:0086 , cf:0080 , cf:0030 , cf:0101 , cf:0074 , cf:0076 , cf:0083 , cf:0078 , cf:0059 , cf:0023 , cf:0114 , cf:0071 , cf:0011 , cf:0010 , cf:0104 , cf:0014 , cf:0038 , cf:0109 , cf:0002 , cf:0091 , cf:0065 , cf:0067 , cf:0027 , cf:0053 , cf:0060 , cf:0055 , cf:0015 , cf:0019 , cf:0097 , cf:0041 , cf:0112 , cf:0050 , cf:0058 , cf:0018 , cf:0085 , cf:0087 , cf:0094 , cf:0100 , cf:0089 , cf:0046 , cf:0006 , cf:0082 , cf:0073 , cf:0075 , cf:0032 , cf:0077 , cf:0034 , cf:0036 ;
-        skos:prefLabel  "Collectie van fysico-chemische eigenschappen die betrekking hebben op water."@nl .
+cf:0242  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 1"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0157  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 2 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
 
 cf:0031  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
@@ -882,37 +30,111 @@ cf:0031  a                 skos:Concept ;
         dcat:theme         gemet:1322 , gemet:6229 ;
         cs:vmmParameterId  "107"^^xsd:int .
 
-cf:0003  a                 skos:Concept ;
+cf:0212  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "QI" ;
-        skos:prefLabel     "Kwaliteits Index"@nl ;
+        skos:prefLabel     "Doorlatendheid in tx cel"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "42"^^xsd:int .
+        dcat:theme         gemet:1322 , gemet:6229 .
 
-cf:0072  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Diepte" ;
-        skos:prefLabel     "Bemonsteringsdiepte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "1290"^^xsd:int .
+cf:0127  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Brandstofachtige"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
 
-cf:0044  a                 skos:Concept ;
+cf:0001  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Beta" ;
-        skos:prefLabel     "Radioactiviteit, beta"@nl ;
+        skos:notation      "Gemiddeld" ;
+        skos:prefLabel     "Gemiddeld"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "448"^^xsd:int .
+        cs:vmmParameterId  "-101"^^xsd:int .
 
-cf:0016  a                 skos:Concept ;
+cf:0308  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "IB" ;
-        skos:prefLabel     "Ionenbalans"@nl ;
+        skos:prefLabel     "Schuifweerstandskarakteristieken Unconsolidated Undrained"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0284  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Mengmonster aantal steken"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0199  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodemmonster type matrix"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0073  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dikte" ;
+        skos:prefLabel     "Dikte"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:1322 , gemet:6229 ;
-        cs:vmmParameterId  "89"^^xsd:int .
+        cs:vmmParameterId  "1291"^^xsd:int .
+
+cf:0254  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Grondsoort volgens BGGG norm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0169  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Asbest fractie van 8 mm tot 16 mm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0043  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Alpha" ;
+        skos:prefLabel     "Radioactiviteit, alpha"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "446"^^xsd:int .
+
+cf:0224  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - afzettingswijze laag 3"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0139  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Scherpe geur"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0013  a                 skos:Concept ;
+        skos:broader       cf:0015 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H per." ;
+        skos:prefLabel     "Hardheid, permanent"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "86"^^xsd:int .
+
+cf:0109  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<1000" ;
+        skos:prefLabel     "Korrelgrootte distributie <1000µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2096"^^xsd:int .
+
+cf:0296  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - landvorm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0170  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Asbest fractie groter dan 16 mm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
 
 cf:0085  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
@@ -922,18 +144,2088 @@ cf:0085  a                 skos:Concept ;
         dcat:theme         gemet:1322 , gemet:6229 ;
         cs:vmmParameterId  "1670"^^xsd:int .
 
-cf:0057  a                 skos:Concept ;
+cf:0266  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur omschrijving"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0140  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Teer"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0055  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "EC 25" ;
-        skos:prefLabel     "Geleidbaarheid (25°C)"@nl ;
+        skos:notation      "Gran>2<63" ;
+        skos:prefLabel     "Korrelgrootte distributie >2µm en <63µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "825"^^xsd:int .
+
+cf:0321  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Zwelproef"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:1686 , gemet:6229 ;
-        cs:vmmParameterId  "926"^^xsd:int .
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0236  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 1"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
 
 cf:0110  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Gran<2000" ;
         skos:prefLabel     "Korrelgrootte distributie <2000µm"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:1322 , gemet:6229 ;
         cs:vmmParameterId  "2097"^^xsd:int .
+
+cf:0025  a                 skos:Concept ;
+        skos:broader       cf:0076 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH-KCl" ;
+        skos:prefLabel     "pH (KCl)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "101"^^xsd:int .
+
+cf:0206  a              skos:Concept ;
+        skos:broader    cf:0204 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Consistentie - plasticiteit"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0182  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "ASTM , de code"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0097  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC20-30" ;
+        skos:prefLabel     "Deeltjesaantal 20-30 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2078"^^xsd:int .
+
+cf:0278  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - VALUE (kleur2)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0152  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Zuurbindende waarde"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0067  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DD" ;
+        skos:prefLabel     "Windrichting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1280"^^xsd:int .
+
+cf:0248  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Gley roest - aantal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0122  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontale doorlatendheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0037  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "ZS afm." ;
+        skos:prefLabel     "Zwevende stoffen, afmeting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "114"^^xsd:int .
+
+cf:0303  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Samendrukkingsproef"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0218  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Drainage Aardewerk - interne drainage"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0194  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering steek niet uitgevoerd - locatie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0007  a                 skos:Concept ;
+        skos:broader       cf:0006 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DR105" ;
+        skos:prefLabel     "Droogresten (105°C)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "80"^^xsd:int .
+
+cf:0164  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 2000 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0079  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d15N" ;
+        skos:prefLabel     "Isotopenverhouding stikstof 15 en 14"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1327"^^xsd:int .
+
+vlcs:fysico-chemisch  a     skos:ConceptScheme ;
+        skos:hasTopConcept  cf:0173 , cf:0063 , cf:0122 , cf:0214 , cf:0028 , cf:0307 , cf:0072 , cf:0180 , cf:0290 , cf:0169 , cf:0287 , cf:0097 , cf:0311 , cf:0328 , cf:0254 , cf:0068 , cf:0192 , cf:0017 , cf:0212 , cf:0174 , cf:0076 , cf:0280 , cf:0090 , cf:0215 , cf:0029 , cf:0308 , cf:0300 , cf:0294 , cf:0040 , cf:0167 , cf:0088 , cf:0181 , cf:0117 , cf:0252 , cf:0202 , cf:0312 , cf:0255 , cf:0179 , cf:0069 , cf:0001 , cf:0193 , cf:0264 , cf:0036 , cf:0050 , cf:0221 , cf:0074 , cf:0103 , cf:0305 , cf:0077 , cf:0150 , cf:0185 , cf:0086 , cf:0295 , cf:0115 , cf:0317 , cf:0176 , cf:0041 , cf:0319 , cf:0217 , cf:0261 , cf:0200 , cf:0089 , cf:0118 , cf:0006 , cf:0100 , cf:0302 , cf:0197 , cf:0203 , cf:0034 , cf:0282 , cf:0323 , cf:0037 , cf:0314 , cf:0012 , cf:0257 , cf:0003 , cf:0046 , cf:0183 , cf:0170 , cf:0049 , cf:0031 , cf:0186 , cf:0208 , cf:0079 , cf:0152 , cf:0195 , cf:0297 , cf:0052 , cf:0043 , cf:0321 , cf:0283 , cf:0324 , cf:0248 , cf:0064 , cf:0039 , cf:0291 , cf:0288 , cf:0098 , cf:0220 , cf:0329 , cf:0188 , cf:0053 , cf:0120 , cf:0330 , cf:0018 , cf:0070 , cf:0062 , cf:0175 , cf:0065 , cf:0281 , cf:0091 , cf:0216 , cf:0285 , cf:0260 , cf:0095 , cf:0082 , cf:0309 , cf:0326 , cf:0301 , cf:0209 , cf:0015 , cf:0058 , cf:0182 , cf:0210 , cf:0313 , cf:0172 , cf:0213 , cf:0256 , cf:0027 , cf:0002 , cf:0306 , cf:0030 , cf:0250 , cf:0078 , cf:0168 , cf:0151 , cf:0310 , cf:0296 , cf:0253 , cf:0177 , cf:0067 , cf:0042 , cf:0191 , cf:0218 , cf:0262 , cf:0119 , cf:0101 , cf:0303 , cf:0211 , cf:0204 , cf:0265 , cf:0075 , cf:0084 , cf:0293 , cf:0038 , cf:0315 , cf:0166 , cf:0258 , cf:0087 , cf:0004 , cf:0251 , cf:0201 , cf:0187 , cf:0032 , cf:0178 , cf:0094 , cf:0219 , cf:0263 , cf:0073 , cf:0102 , cf:0304 , cf:0298 , cf:0199 , cf:0044 , cf:0284 , cf:0325 , cf:0081 , cf:0047 , cf:0184 , cf:0085 , cf:0171 , cf:0316 , cf:0259 , cf:0318 , cf:0005 , cf:0196 , cf:0033 , cf:0026 , cf:0322 , cf:0299 , cf:0189 , cf:0011 , cf:0121 , cf:0331 , cf:0249 , cf:0045 , cf:0071 , cf:0207 , cf:0023 , cf:0066 , cf:0190 , cf:0286 , cf:0194 , cf:0096 , cf:0083 , cf:0292 , cf:0327 , cf:0289 , cf:0099 , cf:0320 , cf:0016 ;
+        skos:prefLabel      "Codelijst fysico-chemische eigenschappen"@nl .
+
+cf:0134  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Glycol"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0049  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dagen" ;
+        skos:prefLabel     "Dagen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "611"^^xsd:int .
+
+cf:0315  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vegetatie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0291  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - aanwezigheid helling"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0104  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "MUC-EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "2087"^^xsd:int .
+
+cf:0019  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<16" ;
+        skos:prefLabel     "Korrelgrootte distributie <16µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "93"^^xsd:int .
+
+cf:0080  a                 skos:Concept ;
+        skos:broader       cf:0018 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DE*ab" ;
+        skos:prefLabel     "CIE 1976 totaal kleurverschil"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1516"^^xsd:int .
+
+cf:0261  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - type - aardewerk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0176  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aanwezigheid ijzeroerlaag"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0050  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Vol" ;
+        skos:prefLabel     "Volume"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "612"^^xsd:int .
+
+cf:0231  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 2"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0146  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Aromaten"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0020  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<2" ;
+        skos:prefLabel     "Korrelgrootte distributie <2µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "94"^^xsd:int .
+
+cf:0327  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Zwevende stoffen (550°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0201  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodemtoestand"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0092  a                 skos:Concept ;
+        skos:broader       cf:0081 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Deelgewicht 1" ;
+        skos:prefLabel     "Gewicht fles 1 (neerslagwater)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1800"^^xsd:int .
+
+cf:0273  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_letters (kleur1)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0188  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bewaard bodemmonster voorbereiding type droging"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0062  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling uv-A" ;
+        skos:prefLabel     "Straling, ultraviolet (type A)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1263"^^xsd:int .
+
+cf:0243  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 2"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0158  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 250 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0032  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Turb. ps" ;
+        skos:prefLabel     "Turbiditeit, postsedimentair"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "108"^^xsd:int .
+
+cf:0213  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Doorlatendheidsproef - algemeen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0128  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Benzine"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0002  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "OB" ;
+        skos:prefLabel     "Onbekend"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "-2"^^xsd:int .
+
+cf:0309  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Specificatie van antropogeen materiaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0285  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Mengmonster ID steek"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0074  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Dauwpunt" ;
+        skos:prefLabel     "Dauwpunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1292"^^xsd:int .
+
+cf:0255  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Grondsoort volgens BGGG norm met detail grind"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0044  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Beta" ;
+        skos:prefLabel     "Radioactiviteit, beta"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "448"^^xsd:int .
+
+cf:0310  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Standaard proctorproef"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0225  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - afzettingswijze laag 4"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0014  a                 skos:Concept ;
+        skos:broader       cf:0015 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H tijd." ;
+        skos:prefLabel     "Hardheid, tijdelijk"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "87"^^xsd:int .
+
+cf:0297  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - microreliëf"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0171  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Zuurstofverzadiging"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0086  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "N t rendement" ;
+        skos:prefLabel     "rendement N t tov influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1672"^^xsd:int .
+
+cf:0267  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - CHROMA (kleur1)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0141  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Terpentine"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0056  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran>50" ;
+        skos:prefLabel     "Korrelgrootte distributie >50µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "880"^^xsd:int .
+
+cf:0322  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0112 , cf:0010 , cf:0009 , cf:0104 , cf:0057 , cf:0105 ;
+        skos:prefLabel     "Elektrische geleidbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:6229 , gemet:1322 .
+
+cf:0237  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 2"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0111  a                 skos:Concept ;
+        skos:broader       cf:0076 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH na ZW" ;
+        skos:prefLabel     "pH na Zahn Wellens"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2116"^^xsd:int .
+
+cf:0026  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Eh" ;
+        skos:prefLabel     "Redox potentiaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "102"^^xsd:int .
+
+cf:0207  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Constant rate of strain (CRS)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0183  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Begrazing"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0098  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC30-50" ;
+        skos:prefLabel     "Deeltjesaantal 30-50 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2079"^^xsd:int .
+
+cf:0279  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - VALUE (kleur3)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0153  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 1000 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0068  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VM" ;
+        skos:prefLabel     "Windsnelheid, scalair"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1281"^^xsd:int .
+
+cf:0249  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Gley roest - begrenzing"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0123  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Solventen"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0038  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "nSE" ;
+        skos:prefLabel     "Aantal systematische eenheden"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "115"^^xsd:int .
+
+cf:0304  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Saturatie Index"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0219  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Drainage Aardewerk - klasse"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0280  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Korrelverdeling d.m.v. hydrometer/areometer"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0195  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering steek niet uitgevoerd - reden"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0008  a                 skos:Concept ;
+        skos:broader       cf:0006 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "DR180" ;
+        skos:prefLabel     "Droogresten (180°C)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "81"^^xsd:int .
+
+cf:0250  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Gley roest - contrast"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0165  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 355 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0220  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Drainage Aardewerk - oppervlakkige drainage"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0135  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Olie aromaten"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0316  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Versterkte proctorproef"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0292  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - aard"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0105  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "MUCd-EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "2088"^^xsd:int .
+
+cf:0081  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0092 , cf:0093 ;
+        skos:notation      "Gewicht" ;
+        skos:prefLabel     "Gewicht"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:6229 , gemet:1322 ;
+        cs:vmmParameterId  "1517"^^xsd:int .
+
+cf:0262  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - type - FAO"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0177  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aanwezigheid roest"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0051  a                 skos:Concept ;
+        skos:broader       <Cf:0076> ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH-CO2" ;
+        skos:prefLabel     "pH (na ontgassen)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "616"^^xsd:int .
+
+cf:0232  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 3"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0147  a              skos:Concept ;
+        skos:broader    cf:0015 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Hardheid (blijvend)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0021  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<63" ;
+        skos:prefLabel     "Korrelgrootte distributie <63µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "95"^^xsd:int .
+
+cf:0328  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Waterdampgehalte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0202  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodemverstoring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0117  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Pid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0093  a                 skos:Concept ;
+        skos:broader       cf:0081 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Deelgewicht 2" ;
+        skos:prefLabel     "Gewicht fles 2 (neerslagwater)"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1801"^^xsd:int .
+
+cf:0274  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_letters (kleur2)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0189  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembedekking landgebruiksbestand Vlaanderen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0063  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling n" ;
+        skos:prefLabel     "Straling, netto"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1264"^^xsd:int .
+
+cf:0244  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 3"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0159  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 500 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0033  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VP" ;
+        skos:prefLabel     "Vlampunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "110"^^xsd:int .
+
+cf:0214  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Doorlatendheidsproef- constant verval"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0129  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Carbolineum"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0190  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering Cmon steken niet uitgevoerd ander landgebruik"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0003  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "QI" ;
+        skos:prefLabel     "Kwaliteits Index"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "42"^^xsd:int .
+
+cf:0286  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Mengmonster locaties steken"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0160  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 63 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0075  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Tv" ;
+        skos:prefLabel     "Temperatuursverschil"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1293"^^xsd:int .
+
+cf:0256  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Grondsoort volgens BGGG norm zonder detail grind"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0130  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Chemisch"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0045  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "dil.F" ;
+        skos:prefLabel     "Dilutie factor"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "453"^^xsd:int .
+
+cf:0311  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Stenen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0226  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - andere kenmerken laag 1"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0100  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC70-100" ;
+        skos:prefLabel     "Deeltjesaantal 70-100 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2081"^^xsd:int .
+
+cf:0015  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0014 , cf:0013 , cf:0148 , cf:0147 , cf:0113 ;
+        skos:notation      "H t" ;
+        skos:prefLabel     "Hardheid, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:6229 , gemet:1322 ;
+        cs:vmmParameterId  "88"^^xsd:int .
+
+cf:0298  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - positie op de helling"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0172  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Hardheid, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0087  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Fol h2o_vlucht" ;
+        skos:prefLabel     "Met waterdamp vluchtige fenolen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1683"^^xsd:int .
+
+cf:0268  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - CHROMA (kleur2)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0142  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Verf (terpentine basis)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0057  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 25" ;
+        skos:prefLabel     "Geleidbaarheid (25°C)"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "926"^^xsd:int .
+
+cf:0323  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Niet-purgeerbare organische koolstof"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0238  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 3"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0112  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 25 na ZW" ;
+        skos:prefLabel     "Geleidbaarheid (25°C) na Zahn Wellens"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "2117"^^xsd:int .
+
+cf:0027  a                 skos:Concept ;
+        skos:altLabel      "Reuk"@nl ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0127 , cf:0135 , cf:0145 , cf:0126 , cf:0134 , cf:0144 , cf:0143 , cf:0125 , cf:0133 , cf:0132 , cf:0139 , cf:0138 , cf:0142 , cf:0124 , cf:0123 , cf:0129 , cf:0131 , cf:0137 , cf:0141 , cf:0130 , cf:0136 , cf:0140 , cf:0146 , cf:0128 ;
+        skos:notation      "Reuk" ;
+        skos:prefLabel     "Geur"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:6229 , gemet:1322 ;
+        cs:vmmParameterId  "103"^^xsd:int .
+
+cf:0208  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Coördinaat - Bonne - E"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0184  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bemonsteringsinstrument bodem"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0099  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC50-70" ;
+        skos:prefLabel     "Deeltjesaantal 50-70 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2080"^^xsd:int .
+
+cf:0154  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 125 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0069  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "FF" ;
+        skos:prefLabel     "Windsnelheid, vectorieel"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1282"^^xsd:int .
+
+cf:0124  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Minerale Olie"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0039  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV5" ;
+        skos:prefLabel     "Biochemisch zuurstofverbruik na 5d."@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "287"^^xsd:int .
+
+cf:0305  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Schuifweerstandskarakteristieken"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0281  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Korrelverdeling d.m.v. laserdiffractie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0009  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC 20" ;
+        skos:prefLabel     "Geleidbaarheid (20°C)"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "82"^^xsd:int .
+
+cf:0196  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering steken niet uitgevoerd"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0070  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Lengte" ;
+        skos:prefLabel     "Lengte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1288"^^xsd:int .
+
+cf:0251  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Gley roest - grootte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0166  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Asbest fractie van 1 mm tot 2mm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0040  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV" ;
+        skos:prefLabel     "Chemisch zuurstofverbruik"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "288"^^xsd:int .
+
+cf:0221  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "(Drainage) grachten"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0136  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Olie"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0010  a                 skos:Concept ;
+        skos:broader       cf:0322 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "EC" ;
+        skos:prefLabel     "Geleidbaarheid ter plaatse"@nl ;
+        dcat:theme         gemet:1686 , gemet:6229 ;
+        cs:vmmParameterId  "83"^^xsd:int .
+
+cf:0317  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vinproef"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0293  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - expositie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0106  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<125" ;
+        skos:prefLabel     "Korrelgrootte distributie <125µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2093"^^xsd:int .
+
+cf:0082  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BioDegr" ;
+        skos:prefLabel     "Biodegradeerbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1541"^^xsd:int .
+
+cf:0263  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Insporing of vertrappeling door vee"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0178  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aanwezigheid schelpresten"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0052  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rad.act." ;
+        skos:prefLabel     "Radioactiviteit, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "691"^^xsd:int .
+
+cf:0233  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 4"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0148  a              skos:Concept ;
+        skos:broader    cf:0015 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Hardheid (tijdelijk)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0022  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran>63" ;
+        skos:prefLabel     "Korrelgrootte distributie >63µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "96"^^xsd:int .
+
+cf:0329  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Druk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0203  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "C/N ratio"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0118  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vochtgehalte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0094  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Bem verschil" ;
+        skos:prefLabel     "Verschil tss wegingen bemonsterde filter"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1858"^^xsd:int .
+
+cf:0275  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_letters (kleur3)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0064  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Luchtdruk sh" ;
+        skos:prefLabel     "Luchtdruk op stationshoogte (QFE)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1266"^^xsd:int .
+
+cf:0330  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0238 , cf:0242 , cf:0223 , cf:0245 , cf:0226 , cf:0230 , cf:0229 , cf:0236 , cf:0233 , cf:0240 , cf:0239 , cf:0243 , cf:0224 , cf:0246 , cf:0227 , cf:0231 , cf:0234 , cf:0237 , cf:0244 , cf:0241 , cf:0222 , cf:0247 , cf:0228 , cf:0225 , cf:0232 , cf:0235 ;
+        skos:prefLabel     "Geologische aard "@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0245  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 4"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0034  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "VP" ;
+        skos:prefLabel     "Vlampunt"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "110"^^xsd:int .
+
+cf:0300  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - type helling"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0215  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Doorlatendheidsproef- veranderlijk verval - horizontaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0004  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d" ;
+        skos:prefLabel     "Densiteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:11116 , gemet:6229 ;
+        cs:vmmParameterId  "77"^^xsd:int .
+
+cf:0191  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering obstakel in de diepte - locatie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0287  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Mengmonster locatie steek"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0161  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 32 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0076  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0024 , cf:0111 , cf:0025 ;
+        skos:notation      "H+" ;
+        skos:prefLabel     "Zuurtegraad"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1296"^^xsd:int .
+
+cf:0257  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - gradatie - aardewerk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0131  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Chloor"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0046  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rot" ;
+        skos:prefLabel     "Verrotbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "468"^^xsd:int .
+
+cf:0312  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Techniek van de boring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0227  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - andere kenmerken laag 2"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0101  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC100-200" ;
+        skos:prefLabel     "Deeltjesaantal 100-200 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2082"^^xsd:int .
+
+cf:0016  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "IB" ;
+        skos:prefLabel     "Ionenbalans"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "89"^^xsd:int .
+
+cf:0299  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - situering"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0173  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Korrelgrootte distributie <2µm, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0088  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV/BZV" ;
+        skos:prefLabel     "CZV/BZV-verhoudingen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1702"^^xsd:int .
+
+cf:0269  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - CHROMA (kleur3)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0143  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Zoete geur"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0058  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "FPFV" ;
+        skos:prefLabel     "Filterverzadiging"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1043"^^xsd:int .
+
+cf:0324  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Secchi-diepte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0239  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 4"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0113  a                 skos:Concept ;
+        skos:broader       cf:0015 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "H t na ZW" ;
+        skos:prefLabel     "Hardheid, totaal na Zahn Wellens"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2118"^^xsd:int .
+
+cf:0028  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Salin." ;
+        skos:prefLabel     "Saliniteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "104"^^xsd:int .
+
+cf:0209  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Coördinaat - Bonne - N"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0270  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_getal (kleur1)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0185  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bewaard bodemmonster opslaglocatie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0240  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 5"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0155  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 16 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0210  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Coördinaat - Bonne - S"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0125  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Ondefinieerbaar"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0306  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Schuifweerstandskarakteristieken Consolidated Drained"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0282  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Korrelverdeling d.m.v. zeefproef"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0197  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0198 ;
+        skos:prefLabel     "Bodemgebruik"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0071  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Breedte" ;
+        skos:prefLabel     "Breedte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1289"^^xsd:int .
+
+cf:0252  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Gley roest - vorm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0167  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Asbest fractie van 2 mm tot 4 mm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0041  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV f" ;
+        skos:prefLabel     "Chemisch zuurstofverbruik, gefiltreerd"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "289"^^xsd:int .
+
+cf:0222  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - afzettingswijze laag 1"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0137  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Petroleum"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0011  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "GR" ;
+        skos:prefLabel     "Gloeirest"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "84"^^xsd:int .
+
+cf:0318  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vochtgehalte gradatie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0294  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - helling enkelvoudig"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0107  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<250" ;
+        skos:prefLabel     "Korrelgrootte distributie <250µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2094"^^xsd:int .
+
+cf:0083  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NH3-N" ;
+        skos:prefLabel     "niet te gebruiken"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1667"^^xsd:int .
+
+cf:0264  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Kalkgehalte_beschrijvend"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0179  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aard van de stenige bijmenging"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0053  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Q" ;
+        skos:prefLabel     "Debiet"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "702"^^xsd:int .
+
+cf:0234  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 5"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0023  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Neerslag" ;
+        skos:prefLabel     "Neerslag"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "97"^^xsd:int .
+
+cf:0204  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0206 , cf:0205 ;
+        skos:prefLabel     "Consistentie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0119  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Hydrologisch type"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0180  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Advanced Triaxiaal testing"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0095  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Bem gem" ;
+        skos:prefLabel     "Gemiddelde vd wegingen bemonsterde filter"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1860"^^xsd:int .
+
+cf:0276  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - kleurcode"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0150  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Suikergehalte (totaal)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0065  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Rel.vocht" ;
+        skos:prefLabel     "Relatieve vochtigheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1273"^^xsd:int .
+
+cf:0331  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0156 , cf:0163 , cf:0107 , cf:0020 , cf:0158 , cf:0110 , cf:0060 , cf:0154 , cf:0059 , cf:0055 , cf:0157 , cf:0161 , cf:0021 , cf:0164 , cf:0108 , cf:0159 , cf:0061 , cf:0155 , cf:0160 , cf:0019 , cf:0056 , cf:0162 , cf:0106 , cf:0022 , cf:0048 , cf:0165 , cf:0109 , cf:0054 , cf:0153 ;
+        skos:prefLabel     "Korrelgrootte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0246  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 5"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0120  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Regime hydrostratigrafie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0301  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - vorm van de helling"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0216  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Doorlatendheidsproef- veranderlijk verval - verticaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0192  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering obstakel in de diepte - type"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0005  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Secchi" ;
+        skos:prefLabel     "Doorzichtigheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "78"^^xsd:int .
+
+cf:0288  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Mengmonster staalnamepatroon"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0162  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 50 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0077  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Straling uv-B" ;
+        skos:prefLabel     "Straling, ultraviolet (type B)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1308"^^xsd:int .
+
+cf:0258  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - gradatie - FAO"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0132  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Condensaat"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0047  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Sp.opp." ;
+        skos:prefLabel     "Specifiek oppervlak"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "514"^^xsd:int .
+
+cf:0313  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Temperatuur correctie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0228  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - andere kenmerken laag 3"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0102  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC200-500" ;
+        skos:prefLabel     "Deeltjesaantal 200-500 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2083"^^xsd:int .
+
+cf:0017  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "IS" ;
+        skos:prefLabel     "Ionensterkte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "90"^^xsd:int .
+
+cf:0174  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aanwezigheid compacte laag"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0089  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV/N" ;
+        skos:prefLabel     "BZV/N-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1703"^^xsd:int .
+
+cf:0144  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Zure geur"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0059  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<4" ;
+        skos:prefLabel     "Korrelgrootte distributie <4µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1072"^^xsd:int .
+
+cf:0325  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Waterdiepte van secchi-bepaling"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0114  a                 skos:Concept ;
+        skos:broader       <Cf:0331> ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<20" ;
+        skos:prefLabel     "Korrelgrootte distributie <20µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2142"^^xsd:int .
+
+cf:0029  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Smaak" ;
+        skos:prefLabel     "Smaak"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "105"^^xsd:int .
+
+cf:0090  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV/P" ;
+        skos:prefLabel     "BZV/P-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1704"^^xsd:int .
+
+cf:0271  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_getal (kleur2)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0186  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bewaard bodemmonster voorbereiding type bewaring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0060  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<8" ;
+        skos:prefLabel     "Korrelgrootte distributie <8µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1073"^^xsd:int .
+
+cf:0241  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - lithologie laag 6"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+<Cf:0076>  skos:narrower  cf:0051 .
+
+cf:0156  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte < 180 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0030  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "T" ;
+        skos:prefLabel     "Temperatuur"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "106"^^xsd:int .
+
+cof:water  a            skos:Collection ;
+        skos:member     cf:0070 , cf:0021 , cf:0025 , cf:0062 , cf:0064 , cf:0066 , cf:0026 , cf:0049 , cf:0013 , cf:0052 , cf:0106 , cf:0037 , cf:0108 , cf:0001 , cf:0096 , cf:0040 , cf:0111 , cf:0084 , cf:0093 , cf:0088 , cf:0069 , cf:0029 , cf:0081 , cf:0057 , cf:0017 , cf:0020 , cf:0043 , cf:0047 , cf:0022 , cf:0024 , cf:0045 , cf:0005 , cf:0007 , cf:0009 , cf:0115 , cf:0048 , cf:0031 , cf:0102 , cf:0012 , cf:0033 , cf:0103 , cf:0105 , cf:0107 , cf:0079 , cf:0063 , cf:0072 , cf:0051 , cf:0068 , cf:0028 , cf:0095 , cf:0054 , cf:0061 , cf:0110 , cf:0099 , cf:0056 , cf:0016 , cf:0039 , cf:0090 , cf:0003 , cf:0098 , cf:0092 , cf:0042 , cf:0113 , cf:0044 , cf:0004 , cf:0008 , cf:0086 , cf:0080 , cf:0030 , cf:0101 , cf:0074 , cf:0076 , cf:0083 , cf:0078 , cf:0059 , cf:0023 , cf:0114 , cf:0071 , cf:0011 , cf:0010 , cf:0104 , cf:0014 , cf:0038 , cf:0109 , cf:0002 , cf:0091 , cf:0065 , cf:0067 , cf:0027 , cf:0053 , cf:0060 , cf:0055 , cf:0015 , cf:0019 , cf:0097 , cf:0041 , cf:0112 , cf:0050 , cf:0058 , cf:0018 , cf:0085 , cf:0087 , cf:0094 , cf:0100 , cf:0089 , cf:0046 , cf:0006 , cf:0082 , cf:0073 , cf:0075 , cf:0032 , cf:0077 , cf:0034 , cf:0036 ;
+        skos:prefLabel  "Collectie van fysico-chemische eigenschappen die betrekking hebben op water."@nl .
+
+cf:0211  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Coördinaat - Bonne - W"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0126  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Amoniak"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0307  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Schuifweerstandskarakteristieken Consolidated Undrained"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0283  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Meest losse pakking"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0198  a              skos:Concept ;
+        skos:broader    cf:0197 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Bodemgebruik Aardewerk"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0072  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Diepte" ;
+        skos:prefLabel     "Bemonsteringsdiepte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1290"^^xsd:int .
+
+cf:0253  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Grondsoort bepaald op zicht"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0168  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Asbest fractie van 4 mm tot 8 mm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0042  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "KW" ;
+        skos:prefLabel     "Kwaliteit"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "389"^^xsd:int .
+
+cf:0223  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - afzettingswijze laag 2"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0138  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Rotting"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0012  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "GV" ;
+        skos:prefLabel     "Gloeiverlies"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "85"^^xsd:int .
+
+cf:0319  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Watertafel aanwezig binnen profielput of boring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0295  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reliëf - helling meervoudig"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0108  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<500" ;
+        skos:prefLabel     "Korrelgrootte distributie <500µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2095"^^xsd:int .
+
+cf:0084  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "BZV5 rendement" ;
+        skos:prefLabel     "Rendement BZV5 ten opzichte van influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1669"^^xsd:int .
+
+cf:0265  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Kalkreactie met HCL"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0054  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<50" ;
+        skos:prefLabel     "Korrelgrootte distributie <50µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "722"^^xsd:int .
+
+cf:0320  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Wetland"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0235  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 6"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0024  a                 skos:Concept ;
+        skos:broader       cf:0076 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "pH" ;
+        skos:prefLabel     "pH"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "100"^^xsd:int .
+
+cf:0205  a              skos:Concept ;
+        skos:broader    cf:0204 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Consistentie - kleverigheid"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0181  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "ASTM , de beschrijving"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0096  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC10-20" ;
+        skos:prefLabel     "Deeltjesaantal 10-20 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2077"^^xsd:int .
+
+cf:0277  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - VALUE (kleur1)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0151  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vezelconcentratie"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0066  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Zon t" ;
+        skos:prefLabel     "Zonnestraling, totaal"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1279"^^xsd:int .
+
+cf:0247  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - tijdperk laag 6"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0121  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Vertikale doorlatendheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0036  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Water" ;
+        skos:prefLabel     "Watergehalte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "112"^^xsd:int .
+
+cf:0302  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Roest - kleur omschrijving"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0217  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Drainage Aardewerk-doorlaatbaarheid"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0193  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodembemonstering obstakels in de diepte"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0006  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0007 , cf:0008 ;
+        skos:notation      "DR" ;
+        skos:prefLabel     "Droogrest"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "79"^^xsd:int .
+
+cf:0289  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Oogstresten"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0163  a              skos:Concept ;
+        skos:broader    cf:0331 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Korrelgrootte > 2000 µm"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0078  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "d13C" ;
+        skos:prefLabel     "Isotopenverhouding koolstof 13 en 12"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1326"^^xsd:int .
+
+cf:0259  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - grootteklasse - aardewerk"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0133  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Diesel"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0048  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<2 bt" ;
+        skos:prefLabel     "Korrelgrootte distributie <2µm, totaal"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "571"^^xsd:int .
+
+cf:0314  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Type van de boring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0229  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - andere kenmerken laag 4"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0290  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Reductie in horizont(ja/nee)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0103  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "NC200-1000" ;
+        skos:prefLabel     "Deeltjesaantal 200-1000 nm"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "2084"^^xsd:int .
+
+cf:0018  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:narrower      cf:0276 , cf:0278 , cf:0275 , cf:0267 , cf:0277 , cf:0266 , cf:0279 , cf:0269 , cf:0268 , cf:0274 , cf:0273 , cf:0272 , cf:0271 , cf:0270 , cf:0080 ;
+        skos:notation      "Kleur" ;
+        skos:prefLabel     "Kleur"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "91"^^xsd:int .
+
+cf:0260  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Horizontstructuur - grootteklasse - FAO"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0175  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Aanwezigheid drainage"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0230  a              skos:Concept ;
+        skos:broader    cf:0330 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geologische aard - bovenliggend laag 1"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0145  a              skos:Concept ;
+        skos:broader    cf:0027 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Geur - Slib"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+<Cf:0331>  skos:narrower  cf:0114 .
+
+cf:0326  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Zwevende stoffen (105°C)"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0200  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bodemmonster type verstoring"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0115  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "ZS rendement" ;
+        skos:prefLabel     "Rendement ZS ten opzichte van influentbelasting"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1671"^^xsd:int .
+
+cf:0091  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "CZV/N" ;
+        skos:prefLabel     "CZV/N-verhouding"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1713"^^xsd:int .
+
+cf:0272  a              skos:Concept ;
+        skos:broader    cf:0018 ;
+        skos:inScheme   vlcs:fysico-chemisch ;
+        skos:prefLabel  "Kleur volgens Munsell - HUE_getal (kleur3)"@nl ;
+        dcat:theme      gemet:1322 , gemet:6229 .
+
+cf:0187  a                 skos:Concept ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:prefLabel     "Bewaard bodemmonster voorbereiding type breken zeven malen"@nl ;
+        skos:topConceptOf  vlcs:fysico-chemisch ;
+        dcat:theme         gemet:1322 , gemet:6229 .
+
+cf:0061  a                 skos:Concept ;
+        skos:broader       cf:0331 ;
+        skos:inScheme      vlcs:fysico-chemisch ;
+        skos:notation      "Gran<32" ;
+        skos:prefLabel     "Korrelgrootte distributie <32µm"@nl ;
+        dcat:theme         gemet:1322 , gemet:6229 ;
+        cs:vmmParameterId  "1074"^^xsd:int .
