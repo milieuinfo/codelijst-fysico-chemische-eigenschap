@@ -1,14 +1,14 @@
-@prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> .
-@prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
 @prefix cf:    <https://data.omgeving.vlaanderen.be/id/concept/fysico-chemisch/> .
+@prefix cof:   <https://data.omgeving.vlaanderen.be/id/collection/fysico-chemisch/> .
+@prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix cof:   <https://data.omgeving.vlaanderen.be/id/collection/fysico-chemisch/> .
-@prefix dcat:  <http://www.w3.org/ns/dcat#> .
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
 cf:0242  a              skos:Concept ;
         skos:broader    cf:0330 ;
@@ -747,7 +747,7 @@ cf:0177  a                 skos:Concept ;
         dcat:theme         gemet:1322 , gemet:6229 .
 
 cf:0051  a                 skos:Concept ;
-        skos:broader       <Cf:0076> ;
+        skos:broader       cf:0076 ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "pH-CO2" ;
         skos:prefLabel     "pH (na ontgassen)"@nl ;
@@ -1290,7 +1290,7 @@ cf:0161  a              skos:Concept ;
 
 cf:0076  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:narrower      cf:0024 , cf:0111 , cf:0025 ;
+        skos:narrower      cf:0024 , cf:0111 , cf:0025 , cf:0051 ;
         skos:notation      "H+" ;
         skos:prefLabel     "Zuurtegraad"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
@@ -1633,7 +1633,7 @@ cf:0065  a                 skos:Concept ;
 
 cf:0331  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
-        skos:narrower      cf:0156 , cf:0163 , cf:0107 , cf:0020 , cf:0158 , cf:0110 , cf:0060 , cf:0154 , cf:0059 , cf:0055 , cf:0157 , cf:0161 , cf:0021 , cf:0164 , cf:0108 , cf:0159 , cf:0061 , cf:0155 , cf:0160 , cf:0019 , cf:0056 , cf:0162 , cf:0106 , cf:0022 , cf:0048 , cf:0165 , cf:0109 , cf:0054 , cf:0153 ;
+        skos:narrower      cf:0156 , cf:0163 , cf:0107 , cf:0020 , cf:0114 , cf:0158 , cf:0110 , cf:0060 , cf:0154 , cf:0059 , cf:0055 , cf:0157 , cf:0161 , cf:0021 , cf:0164 , cf:0108 , cf:0159 , cf:0061 , cf:0155 , cf:0160 , cf:0019 , cf:0056 , cf:0162 , cf:0106 , cf:0022 , cf:0048 , cf:0165 , cf:0109 , cf:0054 , cf:0153 ;
         skos:prefLabel     "Korrelgrootte"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:1322 , gemet:6229 .
@@ -1779,7 +1779,7 @@ cf:0325  a                 skos:Concept ;
         dcat:theme         gemet:1322 , gemet:6229 .
 
 cf:0114  a                 skos:Concept ;
-        skos:broader       <Cf:0331> ;
+        skos:broader       cf:0331 ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Gran<20" ;
         skos:prefLabel     "Korrelgrootte distributie <20µm"@nl ;
@@ -1827,8 +1827,6 @@ cf:0241  a              skos:Concept ;
         skos:inScheme   vlcs:fysico-chemisch ;
         skos:prefLabel  "Geologische aard - lithologie laag 6"@nl ;
         dcat:theme      gemet:1322 , gemet:6229 .
-
-<Cf:0076>  skos:narrower  cf:0051 .
 
 cf:0156  a              skos:Concept ;
         skos:broader    cf:0331 ;
@@ -2173,8 +2171,6 @@ cf:0145  a              skos:Concept ;
         skos:inScheme   vlcs:fysico-chemisch ;
         skos:prefLabel  "Geur - Slib"@nl ;
         dcat:theme      gemet:1322 , gemet:6229 .
-
-<Cf:0331>  skos:narrower  cf:0114 .
 
 cf:0326  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;

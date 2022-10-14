@@ -49,7 +49,7 @@ skos:Concept,cf:0047,514,Sp.opp.,Specifiek oppervlak,,vlcs:fysico-chemisch,vlcs:
 skos:Concept,cf:0048,571,Gran<2 bt,"Korrelgrootte distributie <2µm, totaal",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
 skos:Concept,cf:0049,611,Dagen,Dagen,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0050,612,Vol,Volume,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
-skos:Concept,cf:0051,616,pH-CO2,pH (na ontgassen),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,Cf:0076
+skos:Concept,cf:0051,616,pH-CO2,pH (na ontgassen),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0076
 skos:Concept,cf:0052,691,Rad.act.,"Radioactiviteit, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0053,702,Q,Debiet,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0054,722,Gran<50,Korrelgrootte distributie <50µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
@@ -112,7 +112,7 @@ skos:Concept,cf:0110,2097,Gran<2000,Korrelgrootte distributie <2000µm,,vlcs:fys
 skos:Concept,cf:0111,2116,pH na ZW,pH na Zahn Wellens,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0076
 skos:Concept,cf:0112,2117,EC 25 na ZW,Geleidbaarheid (25°C) na Zahn Wellens,,vlcs:fysico-chemisch,,gemet:6229|gemet:1686,cof:water,cf:0322
 skos:Concept,cf:0113,2118,H t na ZW,"Hardheid, totaal na Zahn Wellens",,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0015
-skos:Concept,cf:0114,2142,Gran<20,Korrelgrootte distributie <20µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,Cf:0331
+skos:Concept,cf:0114,2142,Gran<20,Korrelgrootte distributie <20µm,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0331
 skos:Concept,cf:0115,1671,ZS rendement,Rendement ZS ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:ConceptScheme,vlcs:fysico-chemisch,,,Codelijst fysico-chemische eigenschappen,,,,,,
 skos:Concept,cf:0117,,,Pid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
