@@ -4,6 +4,8 @@
 Lijst van fysico-chemische eigenschappen, zoals die binnen het kader van het OSLO thema omgeving is opgesteld en tools om deze lijst te beheren en om te zetten naar webformaten.
 
 
+## Model
+![Model](src/main/documentation/model.png)
 ## Gebruik
 
 - Voeg een definitie van een nieuwe fysico-chemische eigenschap toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv

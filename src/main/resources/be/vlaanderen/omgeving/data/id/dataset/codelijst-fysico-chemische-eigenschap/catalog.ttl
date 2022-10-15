@@ -1,48 +1,48 @@
-@prefix country: <http://publications.europa.eu/resource/authority/country/> .
-@prefix formats: <http://www.w3.org/ns/formats/> .
-@prefix spdx:  <http://spdx.org/rdf/terms#> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/> .
-@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix access_right:        <http://publications.europa.eu/resource/authority/access-right/> .
+@prefix adms:                <http://www.w3.org/ns/adms#> .
+@prefix assettype:           <http://purl.org/adms/assettype/> .
+@prefix country:             <http://publications.europa.eu/resource/authority/country/> .
+@prefix datatheme_be:        <http://vocab.belgif.be/auth/datatheme/> .
+@prefix datatheme_eu:        <http://publications.europa.eu/resource/authority/data-theme/> .
+@prefix dc:                  <http://purl.org/dc/elements/1.1/> .
+@prefix dcat:                <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:             <http://purl.org/dc/terms/> .
+@prefix eurovoc:             <http://eurovoc.europa.eu/> .
+@prefix file_type:           <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix foaf:                <http://xmlns.com/foaf/0.1/> .
+@prefix formats:             <http://www.w3.org/ns/formats/> .
+@prefix frequency:           <http://publications.europa.eu/resource/authority/frequency/> .
+@prefix gemet:               <http://www.eionet.europa.eu/gemet/concept/> .
+@prefix language:            <http://publications.europa.eu/resource/authority/language/> .
+@prefix omg_catalog:         <https://data.omgeving.vlaanderen.be/id/catalog/> .
+@prefix omg_collection:      <https://data.omgeving.vlaanderen.be/id/collection/> .
+@prefix omg_conceptscheme:   <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix omg_dataservice:     <https://data.omgeving.vlaanderen.be/id/dataservice/> .
+@prefix omg_dataset:         <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix omg_distribution:    <https://data.omgeving.vlaanderen.be/id/distribution/> .
+@prefix omg_graph:           <https://data.omgeving.vlaanderen.be/id/graph/> .
 @prefix omg_graphcollection: <https://data.omgeving.vlaanderen.be/id/graphcollection/> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix language: <http://publications.europa.eu/resource/authority/language/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/> .
-@prefix eurovoc: <http://eurovoc.europa.eu/> .
-@prefix omg_id: <https://data.omgeving.vlaanderen.be/id/> .
-@prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/> .
-@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/> .
-@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/> .
-@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
-@prefix omg_periodoftime: <https://data.omgeving.vlaanderen.be/id/periodoftime/> .
-@prefix omg_collection: <https://data.omgeving.vlaanderen.be/id/collection/> .
-@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dcat:  <http://www.w3.org/ns/dcat#> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-@prefix assettype: <http://purl.org/adms/assettype/> .
-@prefix omg_dataservice: <https://data.omgeving.vlaanderen.be/id/dataservice/> .
-@prefix void:  <http://rdfs.org/ns/void#> .
-@prefix adms:  <http://www.w3.org/ns/adms#> .
-@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/> .
-@prefix omg_named_graph: <https://data.omgeving.vlaanderen.be/id/namedgraph/> .
-@prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/> .
-@prefix ovo:   <http://data.vlaanderen.be/id/organisatie/> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix omg_ontology: <https://data.omgeving.vlaanderen.be/id/ontology/> .
-@prefix omg_graph: <https://data.omgeving.vlaanderen.be/id/graph/> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix omg_distribution: <https://data.omgeving.vlaanderen.be/id/distribution/> .
-@prefix omg_service: <https://data.omgeving.vlaanderen.be/id/service/> .
-@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/> .
-@prefix omg_conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
-@prefix omg_package: <https://data.omgeving.vlaanderen.be/id/package/> .
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix omg_id:              <https://data.omgeving.vlaanderen.be/id/> .
+@prefix omg_named_graph:     <https://data.omgeving.vlaanderen.be/id/namedgraph/> .
+@prefix omg_ontology:        <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix omg_package:         <https://data.omgeving.vlaanderen.be/id/package/> .
+@prefix omg_periodoftime:    <https://data.omgeving.vlaanderen.be/id/periodoftime/> .
+@prefix omg_service:         <https://data.omgeving.vlaanderen.be/id/service/> .
+@prefix omg_vcard:           <https://data.omgeving.vlaanderen.be/id/vcard/> .
+@prefix ovo:                 <http://data.vlaanderen.be/id/organisatie/> .
+@prefix owl:                 <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:                 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:                <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd:                  <http://www.w3.org/ns/sparql-service-description#> .
+@prefix skos:                <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:                <http://spdx.org/rdf/terms#> .
+@prefix ssd:                 <http://www.w3.org/ns/sparql-service-description#> .
+@prefix vcard:               <http://www.w3.org/2006/vcard/ns#> .
+@prefix void:                <http://rdfs.org/ns/void#> .
+@prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
 
 omg_distribution:codelijst-fysico-chemische-eigenschap_ttl
-        a                     dcat:Distribution ;
+        rdf:type              dcat:Distribution ;
         rdfs:label            "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."@nl ;
         dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
         dcterms:accessRights  access_right:PUBLIC ;
@@ -60,7 +60,7 @@ omg_distribution:codelijst-fysico-chemische-eigenschap_ttl
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html> .
 
 omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld
-        a                     dcat:Distribution ;
+        rdf:type              dcat:Distribution ;
         rdfs:label            "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."@nl ;
         dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld" ;
         dcterms:accessRights  access_right:PUBLIC ;
@@ -78,16 +78,16 @@ omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_jsonld.html> .
 
 omg_catalog:codelijst
-        a             dcat:Catalog ;
+        rdf:type      dcat:Catalog ;
         dcat:dataset  omg_dataset:codelijst-fysico-chemische-eigenschap ;
         dcat:service  omg_dataservice:sparqlendpoint .
 
 omg_dataservice:sparqlendpoint
-        a                   dcat:DataService ;
+        rdf:type            dcat:DataService ;
         dcat:servesDataset  omg_dataset:codelijst-fysico-chemische-eigenschap .
 
 omg_distribution:codelijst-fysico-chemische-eigenschap_csv
-        a                     dcat:Distribution ;
+        rdf:type              dcat:Distribution ;
         rdfs:label            "Codelijst fysico chemische eigenschap, in text/csv formaat."@nl ;
         dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
         dcterms:accessRights  access_right:PUBLIC ;
@@ -105,7 +105,7 @@ omg_distribution:codelijst-fysico-chemische-eigenschap_csv
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html> .
 
 omg_dataset:codelijst-fysico-chemische-eigenschap
-        a                           dcat:Dataset ;
+        rdf:type                    dcat:Dataset ;
         rdfs:label                  "Dataset Codelijst fysico chemische eigenschap"@nl ;
         dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap" ;
         dc:language                 "nl"@nl ;
