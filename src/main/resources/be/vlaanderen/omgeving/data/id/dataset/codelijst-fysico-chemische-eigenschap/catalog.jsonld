@@ -1,149 +1,186 @@
 {
     "@graph": [
         {
-            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl",
-            "dcterms:issued": {
-                "@value": "2022-09-10",
-                "@type": "xsd:date"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
+            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl.1.1.0",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             },
             "dcterms:format": {
                 "@id": "file_type:RDF_TURTLE"
             },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
             },
-            "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl"
-            },
-            "@type": "dcat:Distribution",
-            "rdfs:label": {
+            "owl:versionInfo": "1.1.0",
+            "dcterms:description": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."
+                "@value": "Codelijst fysico-chemische-eigenschap, geserialiseerd in Turtle bestand."
             },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl.1.1.0"
             },
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/turtle"
             },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl.1.1.0",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html"
+            },
             "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap in Turtle rdf-formaat."
+                "@value": "Codelijst fysico-chemische-eigenschap in Turtle rdf-formaat."
             },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, geserialiseerd in Turtle bestand."
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl"
-            },
-            "owl:versionInfo": "1.0.7"
-        },
-        {
-            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld",
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, geserialiseerd in een jsonld bestand."
-            },
-            "dcterms:format": {
-                "@id": "file_type:JSON_LD"
-            },
-            "owl:versionInfo": "1.0.7",
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
             },
             "@type": "dcat:Distribution",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, in Turtle rdf-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2023-02-17",
+                "@type": "xsd:date"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/codelijst-fysico-chemische-eigenschap-1.1.0/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische-eigenschap/fysico-chemische-eigenschap.ttl"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_csv.1.1.0",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld",
-            "dcterms:issued": {
-                "@value": "2022-09-10",
-                "@type": "xsd:date"
-            },
             "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld"
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/codelijst-fysico-chemische-eigenschap-1.1.0/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische-eigenschap/fysico-chemische-eigenschap.csv"
             },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap in jsonld rdf-formaat."
+            "dcterms:format": {
+                "@id": "file_type:CSV"
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap in text/csv formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_csv.1.1.0",
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, geserialiseerd in csv tabelformaat."
+            },
+            "owl:versionInfo": "1.1.0",
+            "@type": "dcat:Distribution",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, in text/csv formaat."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_csv.1.1.0"
+            },
+            "dcterms:issued": {
+                "@value": "2023-02-17",
+                "@type": "xsd:date"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld.1.1.0",
+            "dcat:downloadURL": {
+                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/codelijst-fysico-chemische-eigenschap-1.1.0/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische-eigenschap/fysico-chemische-eigenschap.jsonld"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld.1.1.0",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, in jsonld rdf-formaat."
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap in jsonld rdf-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2023-02-17",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, geserialiseerd in een jsonld bestand."
+            },
+            "owl:versionInfo": "1.1.0",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld.1.1.0"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
+            },
+            "@type": "dcat:Distribution",
             "foaf:page": {
                 "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_jsonld.html"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             }
         },
         {
             "@id": "omg_catalog:codelijst",
-            "dcat:service": {
-                "@id": "omg_dataservice:sparqlendpoint"
-            },
             "dcat:dataset": {
                 "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap"
             },
             "@type": "dcat:Catalog"
         },
         {
-            "@id": "omg_dataservice:sparqlendpoint",
-            "dcat:servesDataset": {
-                "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap"
+            "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap",
+            "dcterms:hasVersion": {
+                "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap.1.1.0"
             },
-            "@type": "dcat:DataService"
+            "@type": "dcat:Dataset"
         },
         {
-            "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap",
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap",
-            "dcat:distribution": [
+            "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap.1.1.0",
+            "dcterms:spatial": [
                 {
-                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_csv"
+                    "@id": "country:BEL"
                 },
                 {
-                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl"
+                    "@id": "https://www.geonames.org/3337388/flanders"
                 }
             ],
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap Dataset"
             },
             "dcat:theme": [
                 {
-                    "@id": "gemet:10087"
+                    "@id": "datatheme_eu:ENVI"
                 },
                 {
-                    "@id": "datatheme_eu:ENVI"
+                    "@id": "gemet:10087"
                 },
                 {
                     "@id": "datatheme_be:ENVI"
@@ -152,115 +189,124 @@
                     "@id": "eurovoc:2407"
                 }
             ],
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap.1.1.0",
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
             },
+            "@type": "dcat:Dataset",
             "dc:language": {
                 "@language": "nl",
                 "@value": "nl"
             },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-fysico-chemische-eigenschap.html"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap"
-            },
-            "dcterms:alternative": {
+            "dcat:distribution": [
+                {
+                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap.1.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_csv.1.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld.1.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl.1.1.0"
+                }
+            ],
+            "rdfs:label": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap Dataset"
+                "@value": "Dataset Codelijst fysico-chemische-eigenschap"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
             },
             "dcterms:issued": {
-                "@value": "2022-03-01",
+                "@value": "2023-02-17",
                 "@type": "xsd:date"
             },
-            "owl:versionInfo": "1.0.7",
             "dcterms:license": {
                 "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
             },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Thesaurus fysico-chemischtypes"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van types fysico-chemisch gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
-            },
-            "@type": "dcat:Dataset",
-            "dcterms:spatial": [
-                {
-                    "@id": "https://www.geonames.org/3337388/flanders"
-                },
-                {
-                    "@id": "country:BEL"
-                }
-            ],
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:fysico-chemisch"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-fysico-chemische-eigenschap'1.1.0"
             },
             "dcterms:publisher": {
                 "@id": "ovo:OVO003323"
             },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Dataset Codelijst fysico chemische eigenschap"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_csv",
-            "@type": "dcat:Distribution",
-            "dcat:downloadURL": {
-                "@id": "https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv"
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:fysico-chemische-eigenschap"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-fysico-chemische-eigenschap.html"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "owl:versionInfo": "1.1.0",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
             },
             "dcterms:description": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, geserialiseerd in csv tabelformaat."
+                "@value": "Deze dataset bevat een lijst van fysico-chemische eigenschappen, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
             },
             "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap in text/csv formaat."
+                "@value": "Thesaurus chemische stoffen"
             },
-            "owl:versionInfo": "1.0.7",
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/csv"
-            },
-            "dcterms:format": {
-                "@id": "file_type:CSV"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-fysico-chemische-eigenschap_ttl"
-            },
-            "rdfs:label": {
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap.1.1.0",
+            "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst fysico chemische eigenschap, in text/csv formaat."
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl",
-            "dcterms:issued": {
-                "@value": "2022-09-10",
-                "@type": "xsd:date"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git"
+                "@value": "Codelijst fysico-chemische-eigenschap in jar-formaat."
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
+            "dcterms:issued": {
+                "@value": "2023-02-17",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap.1.1.0"
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-fysico-chemische-eigenschap/1.1.0/codelijst-fysico-chemische-eigenschap-1.1.0.jar"
+            },
+            "@type": [
+                "dcat:Distribution",
+                "spdx:Package"
+            ],
+            "spdx:packageFileName": "codelijst-fysico-chemische-eigenschap-1.1.0.jar",
+            "spdx:versionInfo": "1.1.0",
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap.1.1.0",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-fysico-chemische-eigenschap"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-fysico-chemische-eigenschap/1.1.0/codelijst-fysico-chemische-eigenschap-1.1.0.jar"
+            },
+            "owl:versionInfo": "1.1.0",
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap",
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst fysico-chemische-eigenschap, Jar maven package."
             }
         }
     ],

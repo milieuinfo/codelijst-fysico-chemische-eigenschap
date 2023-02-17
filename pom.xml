@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-fysico-chemische-eigenschap</artifactId>
-  <version>1.0.8-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <name>codelijst-fysico-chemische-eigenschap</name>
   <description />
 
