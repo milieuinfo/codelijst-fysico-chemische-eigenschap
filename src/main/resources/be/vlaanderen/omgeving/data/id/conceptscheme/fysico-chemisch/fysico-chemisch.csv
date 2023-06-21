@@ -1,7 +1,6 @@
 type,uri,vmmParameterId,notation,prefLabel,altLabel,inScheme,topConceptOf,theme,collection,broader
 skos:Collection,cof:water,,,Collectie van fysico-chemische eigenschappen die betrekking hebben op water.,,,,,,
 skos:Concept,cf:0001,-101,Gemiddeld,Gemiddeld,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
-skos:Concept,cf:0002,-2,OB,Onbekend,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0003,42,QI,Kwaliteits Index,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0004,77,d,Densiteit,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:11116,cof:water,
 skos:Concept,cf:0005,78,Secchi,Doorzichtigheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
@@ -81,7 +80,6 @@ skos:Concept,cf:0079,1327,d15N,Isotopenverhouding stikstof 15 en 14,,vlcs:fysico
 skos:Concept,cf:0080,1516,DE*ab,CIE 1976 totaal kleurverschil,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,cof:water,cf:0018
 skos:Concept,cf:0081,1517,Gewicht,Gewicht,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0082,1541,BioDegr,Biodegradeerbaarheid,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
-skos:Concept,cf:0083,1667,NH3-N,niet te gebruiken,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0084,1669,BZV5 rendement,Rendement BZV5 ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0085,1670,CZV rendement,Rendement CZV ten opzichte van influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,
 skos:Concept,cf:0086,1672,N t rendement,rendement N t tov influentbelasting,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,cof:water,

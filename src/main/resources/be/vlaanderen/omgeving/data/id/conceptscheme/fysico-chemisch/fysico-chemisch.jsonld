@@ -407,9 +407,6 @@
                     "@id": "cf:0027"
                 },
                 {
-                    "@id": "cf:0002"
-                },
-                {
                     "@id": "cf:0306"
                 },
                 {
@@ -630,9 +627,6 @@
                 },
                 {
                     "@id": "cf:0096"
-                },
-                {
-                    "@id": "cf:0083"
                 },
                 {
                     "@id": "cf:0292"
@@ -4674,33 +4668,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cf:0002",
-            "cs:vmmParameterId": {
-                "@value": "-2",
-                "@type": "xsd:int"
-            },
-            "dcat:theme": [
-                {
-                    "@id": "gemet:6229"
-                },
-                {
-                    "@id": "gemet:1322"
-                }
-            ],
-            "skos:topConceptOf": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Onbekend"
-            },
-            "skos:notation": "OB",
-            "skos:inScheme": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cf:0306",
             "dcat:theme": [
                 {
@@ -6229,33 +6196,6 @@
                 "@value": "Deeltjesaantal 10-20 nm"
             },
             "skos:notation": "NC10-20",
-            "skos:inScheme": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cf:0083",
-            "cs:vmmParameterId": {
-                "@value": "1667",
-                "@type": "xsd:int"
-            },
-            "dcat:theme": [
-                {
-                    "@id": "gemet:6229"
-                },
-                {
-                    "@id": "gemet:1322"
-                }
-            ],
-            "skos:topConceptOf": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "niet te gebruiken"
-            },
-            "skos:notation": "NH3-N",
             "skos:inScheme": {
                 "@id": "vlcs:fysico-chemisch"
             },
@@ -8880,9 +8820,6 @@
                     "@id": "cf:0076"
                 },
                 {
-                    "@id": "cf:0083"
-                },
-                {
                     "@id": "cf:0059"
                 },
                 {
@@ -8914,9 +8851,6 @@
                 },
                 {
                     "@id": "cf:0109"
-                },
-                {
-                    "@id": "cf:0002"
                 },
                 {
                     "@id": "cf:0091"
