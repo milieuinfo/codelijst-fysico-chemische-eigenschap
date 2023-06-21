@@ -145,8 +145,6 @@ skos:Concept,cf:0143,,,Geur - Zoete geur,,vlcs:fysico-chemisch,,gemet:6229|gemet
 skos:Concept,cf:0144,,,Geur - Zure geur,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
 skos:Concept,cf:0145,,,Geur - Slib,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
 skos:Concept,cf:0146,,,Geur - Aromaten,,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0027
-skos:Concept,cf:0147,,,Hardheid (blijvend),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0015
-skos:Concept,cf:0148,,,Hardheid (tijdelijk),,vlcs:fysico-chemisch,,gemet:6229|gemet:1322,,cf:0015
 skos:Concept,cf:0150,,,Suikergehalte (totaal),,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0151,,,Vezelconcentratie,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0152,,,Zuurbindende waarde,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
@@ -169,7 +167,6 @@ skos:Concept,cf:0168,,,Asbest fractie van 4 mm tot 8 mm,,vlcs:fysico-chemisch,vl
 skos:Concept,cf:0169,,,Asbest fractie van 8 mm tot 16 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0170,,,Asbest fractie groter dan 16 mm,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0171,,,Zuurstofverzadiging,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
-skos:Concept,cf:0172,,,"Hardheid, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0173,,,"Korrelgrootte distributie <2µm, totaal",,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0174,,,Aanwezigheid compacte laag,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,
 skos:Concept,cf:0175,,,Aanwezigheid drainage,,vlcs:fysico-chemisch,vlcs:fysico-chemisch,gemet:6229|gemet:1322,,

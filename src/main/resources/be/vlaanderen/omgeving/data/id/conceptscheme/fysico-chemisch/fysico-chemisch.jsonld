@@ -395,9 +395,6 @@
                     "@id": "cf:0210"
                 },
                 {
-                    "@id": "cf:0172"
-                },
-                {
                     "@id": "cf:0313"
                 },
                 {
@@ -1367,12 +1364,6 @@
                 },
                 {
                     "@id": "cf:0013"
-                },
-                {
-                    "@id": "cf:0148"
-                },
-                {
-                    "@id": "cf:0147"
                 },
                 {
                     "@id": "cf:0113"
@@ -4617,28 +4608,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cf:0172",
-            "dcat:theme": [
-                {
-                    "@id": "gemet:6229"
-                },
-                {
-                    "@id": "gemet:1322"
-                }
-            ],
-            "skos:topConceptOf": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hardheid, totaal"
-            },
-            "skos:inScheme": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cf:0313",
             "dcat:theme": [
                 {
@@ -7241,28 +7210,6 @@
             "@type": "skos:Concept"
         },
         {
-            "@id": "cf:0147",
-            "dcat:theme": [
-                {
-                    "@id": "gemet:6229"
-                },
-                {
-                    "@id": "gemet:1322"
-                }
-            ],
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hardheid (blijvend)"
-            },
-            "skos:inScheme": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "skos:broader": {
-                "@id": "cf:0015"
-            },
-            "@type": "skos:Concept"
-        },
-        {
             "@id": "cf:0021",
             "cs:vmmParameterId": {
                 "@value": "95",
@@ -7440,28 +7387,6 @@
             },
             "skos:broader": {
                 "@id": "cf:0330"
-            },
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cf:0148",
-            "dcat:theme": [
-                {
-                    "@id": "gemet:6229"
-                },
-                {
-                    "@id": "gemet:1322"
-                }
-            ],
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hardheid (tijdelijk)"
-            },
-            "skos:inScheme": {
-                "@id": "vlcs:fysico-chemisch"
-            },
-            "skos:broader": {
-                "@id": "cf:0015"
             },
             "@type": "skos:Concept"
         },
