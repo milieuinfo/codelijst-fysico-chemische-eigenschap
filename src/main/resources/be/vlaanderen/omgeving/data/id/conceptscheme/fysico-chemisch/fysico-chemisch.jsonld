@@ -893,10 +893,6 @@
         },
         {
             "@id": "cf:0031",
-            "cs:vmmParameterId": {
-                "@value": "107",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1042,10 +1038,6 @@
             "skos:inScheme": {
                 "@id": "vlcs:fysico-chemisch"
             },
-            "cs:vmmParameterId": {
-                "@value": "103",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1069,10 +1061,6 @@
         },
         {
             "@id": "cf:0001",
-            "cs:vmmParameterId": {
-                "@value": "-101",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1162,10 +1150,6 @@
         },
         {
             "@id": "cf:0073",
-            "cs:vmmParameterId": {
-                "@value": "1291",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1233,10 +1217,6 @@
         },
         {
             "@id": "cf:0043",
-            "cs:vmmParameterId": {
-                "@value": "446",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1304,10 +1284,6 @@
         },
         {
             "@id": "cf:0013",
-            "cs:vmmParameterId": {
-                "@value": "86",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1348,10 +1324,6 @@
                 }
             ],
             "skos:notation": "H t",
-            "cs:vmmParameterId": {
-                "@value": "88",
-                "@type": "xsd:int"
-            },
             "skos:narrower": [
                 {
                     "@id": "cf:0014"
@@ -1369,10 +1341,6 @@
         },
         {
             "@id": "cf:0109",
-            "cs:vmmParameterId": {
-                "@value": "2096",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1440,10 +1408,6 @@
         },
         {
             "@id": "cf:0085",
-            "cs:vmmParameterId": {
-                "@value": "1670",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1544,10 +1508,6 @@
                     "@id": "gemet:6229"
                 }
             ],
-            "cs:vmmParameterId": {
-                "@value": "91",
-                "@type": "xsd:int"
-            },
             "@type": "skos:Concept",
             "skos:inScheme": {
                 "@id": "vlcs:fysico-chemisch"
@@ -1585,10 +1545,6 @@
         },
         {
             "@id": "cf:0055",
-            "cs:vmmParameterId": {
-                "@value": "825",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1656,10 +1612,6 @@
         },
         {
             "@id": "cf:0110",
-            "cs:vmmParameterId": {
-                "@value": "2097",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1683,10 +1635,6 @@
         },
         {
             "@id": "cf:0025",
-            "cs:vmmParameterId": {
-                "@value": "101",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1730,10 +1678,6 @@
             },
             "skos:topConceptOf": {
                 "@id": "vlcs:fysico-chemisch"
-            },
-            "cs:vmmParameterId": {
-                "@value": "1296",
-                "@type": "xsd:int"
             },
             "dcat:theme": [
                 {
@@ -1825,10 +1769,6 @@
         },
         {
             "@id": "cf:0097",
-            "cs:vmmParameterId": {
-                "@value": "2078",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1896,10 +1836,6 @@
         },
         {
             "@id": "cf:0067",
-            "cs:vmmParameterId": {
-                "@value": "1280",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -1967,10 +1903,6 @@
         },
         {
             "@id": "cf:0037",
-            "cs:vmmParameterId": {
-                "@value": "114",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2060,10 +1992,6 @@
         },
         {
             "@id": "cf:0007",
-            "cs:vmmParameterId": {
-                "@value": "80",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2087,6 +2015,17 @@
         },
         {
             "@id": "cf:0006",
+            "dcat:theme": [
+                {
+                    "@id": "gemet:6229"
+                },
+                {
+                    "@id": "gemet:1322"
+                }
+            ],
+            "skos:topConceptOf": {
+                "@id": "vlcs:fysico-chemisch"
+            },
             "skos:prefLabel": {
                 "@language": "nl",
                 "@value": "Droogrest"
@@ -2100,25 +2039,10 @@
                     "@id": "cf:0008"
                 }
             ],
-            "dcat:theme": [
-                {
-                    "@id": "gemet:1322"
-                },
-                {
-                    "@id": "gemet:6229"
-                }
-            ],
-            "@type": "skos:Concept",
-            "skos:topConceptOf": {
-                "@id": "vlcs:fysico-chemisch"
-            },
             "skos:inScheme": {
                 "@id": "vlcs:fysico-chemisch"
             },
-            "cs:vmmParameterId": {
-                "@value": "79",
-                "@type": "xsd:int"
-            }
+            "@type": "skos:Concept"
         },
         {
             "@id": "cf:0164",
@@ -2144,10 +2068,6 @@
         },
         {
             "@id": "cf:0079",
-            "cs:vmmParameterId": {
-                "@value": "1327",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2193,10 +2113,6 @@
         },
         {
             "@id": "cf:0063",
-            "cs:vmmParameterId": {
-                "@value": "1264",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2242,10 +2158,6 @@
         },
         {
             "@id": "cf:0028",
-            "cs:vmmParameterId": {
-                "@value": "104",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2291,10 +2203,6 @@
         },
         {
             "@id": "cf:0072",
-            "cs:vmmParameterId": {
-                "@value": "1290",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2428,10 +2336,6 @@
         },
         {
             "@id": "cf:0068",
-            "cs:vmmParameterId": {
-                "@value": "1281",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2477,10 +2381,6 @@
         },
         {
             "@id": "cf:0017",
-            "cs:vmmParameterId": {
-                "@value": "90",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2548,10 +2448,6 @@
         },
         {
             "@id": "cf:0090",
-            "cs:vmmParameterId": {
-                "@value": "1704",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2597,10 +2493,6 @@
         },
         {
             "@id": "cf:0029",
-            "cs:vmmParameterId": {
-                "@value": "105",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2668,10 +2560,6 @@
         },
         {
             "@id": "cf:0040",
-            "cs:vmmParameterId": {
-                "@value": "288",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2717,10 +2605,6 @@
         },
         {
             "@id": "cf:0088",
-            "cs:vmmParameterId": {
-                "@value": "1702",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2898,10 +2782,6 @@
         },
         {
             "@id": "cf:0069",
-            "cs:vmmParameterId": {
-                "@value": "1282",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2947,10 +2827,6 @@
         },
         {
             "@id": "cf:0050",
-            "cs:vmmParameterId": {
-                "@value": "612",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -2974,10 +2850,6 @@
         },
         {
             "@id": "cf:0036",
-            "cs:vmmParameterId": {
-                "@value": "112",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3045,10 +2917,6 @@
         },
         {
             "@id": "cf:0074",
-            "cs:vmmParameterId": {
-                "@value": "1292",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3072,10 +2940,6 @@
         },
         {
             "@id": "cf:0103",
-            "cs:vmmParameterId": {
-                "@value": "2084",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3121,10 +2985,6 @@
         },
         {
             "@id": "cf:0077",
-            "cs:vmmParameterId": {
-                "@value": "1308",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3192,10 +3052,6 @@
         },
         {
             "@id": "cf:0086",
-            "cs:vmmParameterId": {
-                "@value": "1672",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3241,10 +3097,6 @@
         },
         {
             "@id": "cf:0115",
-            "cs:vmmParameterId": {
-                "@value": "1671",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3312,10 +3164,6 @@
         },
         {
             "@id": "cf:0041",
-            "cs:vmmParameterId": {
-                "@value": "289",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3339,10 +3187,6 @@
         },
         {
             "@id": "cf:0089",
-            "cs:vmmParameterId": {
-                "@value": "1703",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3476,10 +3320,6 @@
         },
         {
             "@id": "cf:0100",
-            "cs:vmmParameterId": {
-                "@value": "2081",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3572,10 +3412,6 @@
         },
         {
             "@id": "cf:0034",
-            "cs:vmmParameterId": {
-                "@value": "110",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3643,10 +3479,6 @@
         },
         {
             "@id": "cf:0012",
-            "cs:vmmParameterId": {
-                "@value": "85",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3692,10 +3524,6 @@
         },
         {
             "@id": "cf:0003",
-            "cs:vmmParameterId": {
-                "@value": "42",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3719,10 +3547,6 @@
         },
         {
             "@id": "cf:0046",
-            "cs:vmmParameterId": {
-                "@value": "468",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3768,10 +3592,6 @@
         },
         {
             "@id": "cf:0049",
-            "cs:vmmParameterId": {
-                "@value": "611",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3883,10 +3703,6 @@
         },
         {
             "@id": "cf:0052",
-            "cs:vmmParameterId": {
-                "@value": "691",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3954,10 +3770,6 @@
         },
         {
             "@id": "cf:0064",
-            "cs:vmmParameterId": {
-                "@value": "1266",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -3981,10 +3793,6 @@
         },
         {
             "@id": "cf:0039",
-            "cs:vmmParameterId": {
-                "@value": "287",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4052,10 +3860,6 @@
         },
         {
             "@id": "cf:0098",
-            "cs:vmmParameterId": {
-                "@value": "2079",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4145,10 +3949,6 @@
         },
         {
             "@id": "cf:0053",
-            "cs:vmmParameterId": {
-                "@value": "702",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4194,10 +3994,6 @@
         },
         {
             "@id": "cf:0070",
-            "cs:vmmParameterId": {
-                "@value": "1288",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4221,10 +4017,6 @@
         },
         {
             "@id": "cf:0062",
-            "cs:vmmParameterId": {
-                "@value": "1263",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4270,10 +4062,6 @@
         },
         {
             "@id": "cf:0065",
-            "cs:vmmParameterId": {
-                "@value": "1273",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4319,10 +4107,6 @@
         },
         {
             "@id": "cf:0091",
-            "cs:vmmParameterId": {
-                "@value": "1713",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4390,10 +4174,6 @@
         },
         {
             "@id": "cf:0082",
-            "cs:vmmParameterId": {
-                "@value": "1541",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4417,10 +4197,6 @@
         },
         {
             "@id": "cf:0095",
-            "cs:vmmParameterId": {
-                "@value": "1860",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4554,10 +4330,6 @@
         },
         {
             "@id": "cf:0058",
-            "cs:vmmParameterId": {
-                "@value": "1043",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4691,10 +4463,6 @@
         },
         {
             "@id": "cf:0030",
-            "cs:vmmParameterId": {
-                "@value": "106",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4740,10 +4508,6 @@
         },
         {
             "@id": "cf:0078",
-            "cs:vmmParameterId": {
-                "@value": "1326",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4877,10 +4641,6 @@
         },
         {
             "@id": "cf:0042",
-            "cs:vmmParameterId": {
-                "@value": "389",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -4970,10 +4730,6 @@
         },
         {
             "@id": "cf:0101",
-            "cs:vmmParameterId": {
-                "@value": "2082",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5041,10 +4797,6 @@
         },
         {
             "@id": "cf:0075",
-            "cs:vmmParameterId": {
-                "@value": "1293",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5068,10 +4820,6 @@
         },
         {
             "@id": "cf:0084",
-            "cs:vmmParameterId": {
-                "@value": "1669",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5117,10 +4865,6 @@
         },
         {
             "@id": "cf:0038",
-            "cs:vmmParameterId": {
-                "@value": "115",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5210,10 +4954,6 @@
         },
         {
             "@id": "cf:0087",
-            "cs:vmmParameterId": {
-                "@value": "1683",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5237,10 +4977,6 @@
         },
         {
             "@id": "cf:0004",
-            "cs:vmmParameterId": {
-                "@value": "77",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5308,10 +5044,6 @@
         },
         {
             "@id": "cf:0032",
-            "cs:vmmParameterId": {
-                "@value": "108",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5379,10 +5111,6 @@
         },
         {
             "@id": "cf:0094",
-            "cs:vmmParameterId": {
-                "@value": "1858",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5450,10 +5178,6 @@
         },
         {
             "@id": "cf:0102",
-            "cs:vmmParameterId": {
-                "@value": "2083",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5521,10 +5245,6 @@
         },
         {
             "@id": "cf:0044",
-            "cs:vmmParameterId": {
-                "@value": "448",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5570,24 +5290,6 @@
         },
         {
             "@id": "cf:0081",
-            "skos:notation": "Gewicht",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Gewicht"
-            },
-            "@type": "skos:Concept",
-            "cs:vmmParameterId": {
-                "@value": "1517",
-                "@type": "xsd:int"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "cf:0092"
-                },
-                {
-                    "@id": "cf:0093"
-                }
-            ],
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5596,19 +5298,29 @@
                     "@id": "gemet:1322"
                 }
             ],
+            "skos:topConceptOf": {
+                "@id": "vlcs:fysico-chemisch"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Gewicht"
+            },
+            "skos:notation": "Gewicht",
+            "skos:narrower": [
+                {
+                    "@id": "cf:0092"
+                },
+                {
+                    "@id": "cf:0093"
+                }
+            ],
             "skos:inScheme": {
                 "@id": "vlcs:fysico-chemisch"
             },
-            "skos:topConceptOf": {
-                "@id": "vlcs:fysico-chemisch"
-            }
+            "@type": "skos:Concept"
         },
         {
             "@id": "cf:0047",
-            "cs:vmmParameterId": {
-                "@value": "514",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5742,10 +5454,6 @@
         },
         {
             "@id": "cf:0005",
-            "cs:vmmParameterId": {
-                "@value": "78",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5791,10 +5499,6 @@
         },
         {
             "@id": "cf:0033",
-            "cs:vmmParameterId": {
-                "@value": "110",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5818,10 +5522,6 @@
         },
         {
             "@id": "cf:0026",
-            "cs:vmmParameterId": {
-                "@value": "102",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5931,10 +5631,6 @@
         },
         {
             "@id": "cf:0011",
-            "cs:vmmParameterId": {
-                "@value": "84",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -5980,10 +5676,6 @@
         },
         {
             "@id": "cf:0045",
-            "cs:vmmParameterId": {
-                "@value": "453",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6029,10 +5721,6 @@
         },
         {
             "@id": "cf:0071",
-            "cs:vmmParameterId": {
-                "@value": "1289",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6078,10 +5766,6 @@
         },
         {
             "@id": "cf:0066",
-            "cs:vmmParameterId": {
-                "@value": "1279",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6105,10 +5789,6 @@
         },
         {
             "@id": "cf:0023",
-            "cs:vmmParameterId": {
-                "@value": "97",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6176,10 +5856,6 @@
         },
         {
             "@id": "cf:0096",
-            "cs:vmmParameterId": {
-                "@value": "2077",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6269,10 +5945,6 @@
         },
         {
             "@id": "cf:0099",
-            "cs:vmmParameterId": {
-                "@value": "2080",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6318,10 +5990,6 @@
         },
         {
             "@id": "cf:0016",
-            "cs:vmmParameterId": {
-                "@value": "89",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6367,10 +6035,6 @@
         },
         {
             "@id": "cf:0104",
-            "cs:vmmParameterId": {
-                "@value": "2087",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6394,10 +6058,6 @@
         },
         {
             "@id": "cf:0019",
-            "cs:vmmParameterId": {
-                "@value": "93",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6421,10 +6081,6 @@
         },
         {
             "@id": "cf:0080",
-            "cs:vmmParameterId": {
-                "@value": "1516",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6492,10 +6148,6 @@
         },
         {
             "@id": "cf:0020",
-            "cs:vmmParameterId": {
-                "@value": "94",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6519,10 +6171,6 @@
         },
         {
             "@id": "cf:0092",
-            "cs:vmmParameterId": {
-                "@value": "1800",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6656,10 +6304,6 @@
         },
         {
             "@id": "cf:0014",
-            "cs:vmmParameterId": {
-                "@value": "87",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6727,10 +6371,6 @@
         },
         {
             "@id": "cf:0056",
-            "cs:vmmParameterId": {
-                "@value": "880",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6754,10 +6394,6 @@
         },
         {
             "@id": "cf:0112",
-            "cs:vmmParameterId": {
-                "@value": "2117",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6781,10 +6417,6 @@
         },
         {
             "@id": "cf:0010",
-            "cs:vmmParameterId": {
-                "@value": "83",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6808,10 +6440,6 @@
         },
         {
             "@id": "cf:0009",
-            "cs:vmmParameterId": {
-                "@value": "82",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6835,10 +6463,6 @@
         },
         {
             "@id": "cf:0057",
-            "cs:vmmParameterId": {
-                "@value": "926",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6862,10 +6486,6 @@
         },
         {
             "@id": "cf:0105",
-            "cs:vmmParameterId": {
-                "@value": "2088",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -6911,10 +6531,6 @@
         },
         {
             "@id": "cf:0111",
-            "cs:vmmParameterId": {
-                "@value": "2116",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7004,10 +6620,6 @@
         },
         {
             "@id": "cf:0008",
-            "cs:vmmParameterId": {
-                "@value": "81",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7075,10 +6687,6 @@
         },
         {
             "@id": "cf:0093",
-            "cs:vmmParameterId": {
-                "@value": "1801",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7102,10 +6710,6 @@
         },
         {
             "@id": "cf:0051",
-            "cs:vmmParameterId": {
-                "@value": "616",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7151,10 +6755,6 @@
         },
         {
             "@id": "cf:0021",
-            "cs:vmmParameterId": {
-                "@value": "95",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7332,10 +6932,6 @@
         },
         {
             "@id": "cf:0113",
-            "cs:vmmParameterId": {
-                "@value": "2118",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7711,10 +7307,6 @@
         },
         {
             "@id": "cf:0106",
-            "cs:vmmParameterId": {
-                "@value": "2093",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -7760,10 +7352,6 @@
         },
         {
             "@id": "cf:0022",
-            "cs:vmmParameterId": {
-                "@value": "96",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8139,10 +7727,6 @@
         },
         {
             "@id": "cf:0024",
-            "cs:vmmParameterId": {
-                "@value": "100",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8254,10 +7838,6 @@
         },
         {
             "@id": "cf:0107",
-            "cs:vmmParameterId": {
-                "@value": "2094",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8369,10 +7949,6 @@
         },
         {
             "@id": "cf:0114",
-            "cs:vmmParameterId": {
-                "@value": "2142",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8396,10 +7972,6 @@
         },
         {
             "@id": "cf:0060",
-            "cs:vmmParameterId": {
-                "@value": "1073",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8423,10 +7995,6 @@
         },
         {
             "@id": "cf:0059",
-            "cs:vmmParameterId": {
-                "@value": "1072",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8450,10 +8018,6 @@
         },
         {
             "@id": "cf:0108",
-            "cs:vmmParameterId": {
-                "@value": "2095",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8477,10 +8041,6 @@
         },
         {
             "@id": "cf:0061",
-            "cs:vmmParameterId": {
-                "@value": "1074",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8504,10 +8064,6 @@
         },
         {
             "@id": "cf:0048",
-            "cs:vmmParameterId": {
-                "@value": "571",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
@@ -8553,10 +8109,6 @@
         },
         {
             "@id": "cf:0054",
-            "cs:vmmParameterId": {
-                "@value": "722",
-                "@type": "xsd:int"
-            },
             "dcat:theme": [
                 {
                     "@id": "gemet:6229"
