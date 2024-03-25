@@ -5,7 +5,7 @@ Lijst van fysico-chemische eigenschappen, zoals die binnen het kader van het OSL
 
 
 ## Model
-![Model](src/main/documentation/model.png)
+![Model](src/documentation/model.png)
 ## Gebruik
 
 ### Voeg een definitie van een nieuwe fysico-chemische eigenschap toe aan $PROJECT_HOME/src/source/codelijst-source.csv
