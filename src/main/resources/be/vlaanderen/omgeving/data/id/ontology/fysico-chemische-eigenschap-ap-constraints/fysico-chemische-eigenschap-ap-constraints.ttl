@@ -22,27 +22,27 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 
-omg_ont:sommatie-stoffen-ap-constraints-limited
+omg_ont:fysico-chemische-eigenschap-ap-constraints-limited
     a               owl:Ontology ;
     rdfs:comment
-                    "Specifieert hoe de data in de codelijst van sommatie van stoffen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
+                    "Specifieert hoe de data in de codelijst van fysico-chemische eigenschap te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
     rdfs:label      "Sommatie van stoffen AP Constraints Limited"@en ;
-    dct:abstract    "Het sommatie van stoffen applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van sommatie van stoffen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Sommatie van stoffen Vocabularium."@en ;
+    dct:abstract    "Het fysico-chemische eigenschap applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van fysico-chemische eigenschap. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Sommatie van stoffen Vocabularium."@en ;
     dct:alternative "Sommatie van stoffen AP Shapes"@en ;
     dct:creator     omg_ag_cl:creator ;
-    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een sommatie van stoffen dat de eerste stap van de transformatie vanuit csv controleert."@en ;
+    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een fysico-chemische eigenschap dat de eerste stap van de transformatie vanuit csv controleert."@en ;
     dct:issued      "2023-10-23"^^xsd:date ;
     dct:title       "Sommatie van stoffen AP Constraints Limited"@en ;
-    xkos:belongsTo  omg_dataset:codelijst-sommatie_stoffen ;
-    xhv:last        omg_voc:sommatie-stoffen-ap-constraints-limited ;
-    owl:sameAs      omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    xkos:belongsTo  omg_dataset:codelijst-fysico-chemische-eigenschap ;
+    xhv:last        omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
+    owl:sameAs      omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     owl:versionInfo "Versie 3.0.0  maart 2024"@en .
 
 
-omg_voc:sommatie-stoffen-ap-constraints-limited
+omg_voc:fysico-chemische-eigenschap-ap-constraints-limited
     a          owl:Ontology ;
     rdfs:label "Sommatie van stoffen AP Constraints"@en ;
-    owl:sameAs omg_ont:sommatie-stoffen-ap-constraints-limited .
+    owl:sameAs omg_ont:fysico-chemische-eigenschap-ap-constraints-limited .
 
 omg_ag_cl:creator
     rdfs:label "Ontwikkelaar codelijst"@en ;
@@ -55,10 +55,10 @@ omg_ag_cl:creator
 # Node Shapes
 ons:sommatie_stoffen_schema
     a                sh:NodeShape ;
-    rdfs:label       "conceptschema van sommatie van stoffen"@en ;
-    sh:name          "conceptschema van sommatie van stoffen"@en ;
-    sh:description   "Het schema waarbinnen de sommatie van stoffen gedefinieerd zijn"@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:label       "conceptschema van fysico-chemische eigenschap"@en ;
+    sh:name          "conceptschema van fysico-chemische eigenschap"@en ;
+    sh:description   "Het schema waarbinnen de fysico-chemische eigenschap gedefinieerd zijn"@en ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:property      omg_ps:col_cs_rdf_type, omg_ps:conceptscheme_prefLabel, omg_ps:sommatie_stoffen_schema_hasTopConcept,
                      omg_ps:sommatie_stoffen_definition , omg_ps:schema_belongsTo;
     sh:closed true ;
@@ -71,8 +71,8 @@ ons:sommatie_stoffen_collection
     a                sh:NodeShape ;
     rdfs:label       "verzameling"@en ;
     sh:name          "verzameling"@en ;
-    sh:description   "Verzamelingen bundelen sommatie van stoffen met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    sh:description   "Verzamelingen bundelen fysico-chemische eigenschap met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@en ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:property      omg_ps:col_cs_rdf_type, omg_ps:sommatie_stoffen_prefLabel, omg_ps:sommatie_stoffen_collection_member,
                      omg_ps:sommatie_stoffen_inScheme ;
     sh:closed true ;
@@ -83,7 +83,7 @@ ons:sommatie_stoffen_collection
 #    rdfs:label       "classificatieniveau"@en ;
 #    sh:name          "classificatieniveau"@en ;
 #    sh:description   "Classificatieniveau's bundelen CHEMONT categorieen van gelijk taxonomisch niveau (Kingdom, Superclass, Class, Subclass)."@en ;
-#    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+#    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
 #    sh:property      omg_ps:sommatie_stoffen_prefLabel, omg_ps:sommatie_stoffen_classificationlevel_member,
 #                     omg_ps:sommatie_stoffen_inScheme ;
 #    sh:closed true ;
@@ -93,11 +93,11 @@ ons:sommatie_stoffen_collection
 
 ons:sommatie_stoffen
     a                sh:NodeShape ;
-    rdfs:label       "sommatie van stoffen"@en ;
-    sh:name          "sommatie van stoffen"@en ;
+    rdfs:label       "fysico-chemische eigenschap"@en ;
+    sh:name          "fysico-chemische eigenschap"@en ;
     sh:description   "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze lijst gaat over sommaties of groepen van stoffen."@en ;
-    rdfs:comment     "De uniciteit van een sommatie van stoffen wordt bepaald door haar uri en notatie."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:comment     "De uniciteit van een fysico-chemische eigenschap wordt bepaald door haar uri en notatie."@en ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:property      omg_ps:sommatie_stoffen_rdf_type, omg_ps:sommatie_stoffen_seeAlso,
                      omg_ps:sommatie_stoffen_notation,  omg_ps:sommatie_stoffen_exactMatch, omg_ps:sommatie_stoffen_closeMatch, omg_ps:sommatie_stoffen_inScheme,
                      omg_ps:sommatie_stoffen_comment, omg_ps:sommatie_stoffen_note, omg_ps:sommatie_stoffen_definition,
@@ -182,7 +182,7 @@ omg_ps:sommatie_stoffen_broader
     rdfs:label       "breder concept"@en ;
     sh:name          "breder concept"@en ;
     sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:broader .
 
@@ -222,7 +222,7 @@ omg_ps:sommatie_stoffen_inchikey
     rdfs:label       "InChIKey"@en ;
     sh:name          "InChIKey"@en ;
     sh:description   "InChIKey is een formaat met een vaste lengte die rechtstreeks is afgeleid van InChI. Het is gebaseerd op een sterke hash (SHA-256-algoritme) van een InChI-string."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      xsd:string ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
@@ -236,7 +236,7 @@ omg_ps:sommatie_stoffen_unique_inchikey
     rdfs:label         "unieke InChIKey"@en ;
     sh:name            "unieke InChIKey"@en ;
     sh:description     "Vanuit 1 InChIKey kan slechts naar 1 stof worden verwezen."@en ;
-    rdfs:isDefinedBy   omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy   omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf dbp:inchikey ;
     sh:path            [ sh:inversePath dbp:inchikey ] ;
@@ -250,7 +250,7 @@ omg_ps:sommatie_stoffen_altLabel
     rdfs:label       "alternatief label"@en ;
     sh:name          "alternatief label"@en ;
     sh:description   "Een alternatief lexicaal label voor een bepaalde bron."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
     sh:nodeKind      sh:Literal ;
@@ -263,7 +263,7 @@ omg_ps:sommatie_stoffen_collection_member
     rdfs:label       "onderdeel"@en ;
     sh:name          "onderdeel"@en ;
     sh:description   "Een collectie heeft minstens 1 onderdeel."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:class         skos:Concept ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -285,7 +285,7 @@ omg_ps:sommatie_stoffen_exactMatch
     rdfs:label       "heeft exacte overeenkomst"@en ;
     sh:name          "heeft exacte overeenkomst"@en ;
     sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:exactMatch .
 
@@ -294,7 +294,7 @@ omg_ps:sommatie_stoffen_closeMatch
     rdfs:label       "heeft nauwe overeenkomst"@en ;
     sh:name          "heeft nauw verwante overeenkomst"@en ;
     sh:description   "skos:closeMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:closeMatch .
 
@@ -304,7 +304,7 @@ omg_ps:sommatie_stoffen_theme
     rdfs:label       "thema"@en ;
     sh:name          "thema"@en ;
     sh:description   "verwijzing naar een concept uit http://www.eionet.europa.eu/gemet"@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:path          dcat:theme .
 
@@ -313,7 +313,7 @@ omg_ps:sommatie_stoffen_narrowMatch
     rdfs:label       "heeft specifiekere overeenkomst"@en ;
     sh:name          "heeft specifiekere overeenkomst"@en ;
     sh:description   "skos:narrowMatch wordt gebruikt om een concept binnen het ene schema te koppelen met een specifieker concept binnen een ander schema."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:narrowMatch .
 
@@ -322,7 +322,7 @@ omg_ps:sommatie_stoffen_notation
     rdfs:label       "notatie"@en ;
     sh:name          "notatie"@en ;
     sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      xsd:string ;
     sh:nodeKind      sh:Literal ;
     sh:property      omg_ps:sommatie_stoffen_unique_notation ;
@@ -333,7 +333,7 @@ omg_ps:sommatie_stoffen_unique_notation
     rdfs:label         "unieke notatie"@en ;
     sh:name            "unieke notatie"@en ;
     sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."@en ;
-    rdfs:isDefinedBy   omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy   omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf skos:notation ;
     sh:path            [ sh:inversePath skos:notation ] ;
@@ -346,7 +346,7 @@ omg_ps:sommatie_stoffen_schema_hasTopConcept
     rdfs:label       "heeft topconcept"@en ;
     sh:name          "heeft topconcept"@en ;
     sh:description   "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:class         skos:Concept ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:hasTopConcept .
@@ -355,8 +355,8 @@ omg_ps:sommatie_stoffen_comment
     a                sh:PropertyShape ;
     rdfs:label       "commentaar"@en ;
     sh:name          "commentaar"@en ;
-    sh:description   "Binnen dit schema wordt skos:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de sommatie van stoffen. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    sh:description   "Binnen dit schema wordt skos:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de fysico-chemische eigenschap. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@en ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
     sh:nodeKind      sh:Literal ;
@@ -367,7 +367,7 @@ omg_ps:sommatie_stoffen_note
         rdfs:label       "nota"@en ;
         sh:name          "nota"@en ;
         sh:description   "Een nota."@en ;
-        rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+        rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
     sh:nodeKind      sh:Literal ;
@@ -380,7 +380,7 @@ omg_ps:sommatie_stoffen_seeAlso
     rdfs:label       "zie ook"@en ;
     sh:name          "zie ook"@en ;
     sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdfs:seeAlso .
@@ -390,7 +390,7 @@ omg_ps:sommatie_stoffen_rdf_type
     rdfs:label       "rdf type"@en ;
     sh:name          "rdf type"@en ;
     sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -401,7 +401,7 @@ omg_ps:col_cs_rdf_type
     rdfs:label       "rdf type"@en ;
     sh:name          "rdf type"@en ;
     sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
@@ -415,7 +415,7 @@ omg_ps:sommatie_stoffen_definition
     rdfs:label       "definitie"@en ;
     sh:name          "definitie"@en ;
     sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
     sh:maxCount      1 ;
@@ -429,7 +429,7 @@ omg_ps:sommatie_stoffen_prefLabel
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
     sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en") ;
     sh:uniqueLang true ;
@@ -445,7 +445,7 @@ omg_ps:conceptscheme_prefLabel
     rdfs:label       "voorkeurslabel"@en ;
     sh:name          "voorkeurslabel"@en ;
     sh:description   "Het voorkeurslabel."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
     sh:uniqueLang true ;
@@ -460,7 +460,7 @@ omg_ps:sommatie_stoffen_inScheme
     rdfs:label       "is in schema"@en ;
     sh:name          "is in schema"@en ;
     sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."@en ;
-    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    rdfs:isDefinedBy omg_ont:fysico-chemische-eigenschap-ap-constraints-limited, omg_voc:fysico-chemische-eigenschap-ap-constraints-limited ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
     sh:minCount      1 ;
