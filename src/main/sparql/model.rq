@@ -1,4 +1,6 @@
-#  sparql --results=TTL --data=../../../src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl  --query ../sparql/model.rq  > ../../../src/main/documentation/model.ttl#  rdf2dot  /tmp/test.ttl | dot -Tpng > /tmp/test.png
+#  sparql --results=TTL --data=../../../src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemische-eigenschap/fysico-chemische-eigenschap.ttl  --query model.rq   > ../../../src/main/documentation/model.ttl
+# rdf2dot  ../../../src/main/documentation/model.ttl > ../../../src/main/documentation/model.dot
+# rdf2dot  ../../../src/main/documentation/model.ttl | dot -Tpng > ../../../src/main/documentation/model.png
 #
 
 prefix skos:  <http://www.w3.org/2004/02/skos/core#>
