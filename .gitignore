@@ -9,3 +9,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+codelijst-fysico-chemische-eigenschap.iml
+.mvn/wrapper/maven-wrapper.jar
+.idea/
+node_modules/
