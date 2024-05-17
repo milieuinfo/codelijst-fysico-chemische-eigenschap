@@ -21,8 +21,8 @@ source:
   context: context.json
 
 dcat:
-  path_catalog: /tmp/dcat/be/vlaanderen/omgeving/data/id/catalog/
-  path_dataset: /tmp/dcat/be/vlaanderen/omgeving/data/id/dataset/
+  path_catalog: be/vlaanderen/omgeving/data/id/catalog/
+  path_dataset: be/vlaanderen/omgeving/data/id/dataset/
   name: codelijst-fysico-chemische-eigenschap
   dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
@@ -141,3 +141,5 @@ prefixes :
   wise: http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
   xkos: http://rdf-vocabulary.ddialliance.org/xkos#
   xsd: http://www.w3.org/2001/XMLSchema#
+deploy:
+  virtuoso: virtuoso-algemeen
