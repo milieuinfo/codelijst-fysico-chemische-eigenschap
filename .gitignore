@@ -14,3 +14,5 @@ codelijst-fysico-chemische-eigenschap.iml
 .idea/
 node_modules/
 temp/
+src/.env
+src/utils/setenv.js
