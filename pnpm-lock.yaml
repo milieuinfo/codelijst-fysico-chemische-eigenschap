@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@milieuinfo/maven-metadata-generator-npm':
-        specifier: ^0.7.7
-        version: 0.7.7(@rdfjs/types@2.0.1)(@types/clownface@2.0.10)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)
+        specifier: ^0.7.8
+        version: 0.7.8(@rdfjs/types@2.0.1)(@types/clownface@2.0.10)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)
       '@zazuko/env-node':
         specifier: ^1.0.2
         version: 1.0.4(@rdfjs/types@2.0.1)(@types/clownface@2.0.10)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)
@@ -43,8 +43,8 @@ packages:
   '@isaacs/nonrecursive-glob-match@1.0.3':
     resolution: {integrity: sha512-SI7kyKHq4XXDRozw+r9GlRZkia1ZkFrpLW98r2IC2Bpr8YkFGE3fvjzmxCG0x78A++69HmDNrDvSMYBZmHGpKA==}
 
-  '@milieuinfo/maven-metadata-generator-npm@0.7.7':
-    resolution: {integrity: sha512-oTqtGfvoJFMXqbIVCeYzwpzpGvgTGecUPjj4W+1JAeyPNsMs5Xp+tUpIXpU4QNcSrpxJwxj9+BtzitsGSUpKJg==, tarball: https://repo.omgeving.vlaanderen.be/artifactory/api/npm/acd-npm/@milieuinfo/maven-metadata-generator-npm/-/@milieuinfo/maven-metadata-generator-npm-0.7.7.tgz}
+  '@milieuinfo/maven-metadata-generator-npm@0.7.8':
+    resolution: {integrity: sha512-CFHC1Yu9g39bcs5h8u5AK0Kzz4bbQXNkgCm8exQjSJJ/lCsFNxQHugDqtQNCs5FRzr00sNaJC7yd6eZWk4F0yA==, tarball: https://repo.omgeving.vlaanderen.be/artifactory/api/npm/acd-npm/@milieuinfo/maven-metadata-generator-npm/-/@milieuinfo/maven-metadata-generator-npm-0.7.8.tgz}
 
   '@rdfjs/data-model@2.1.2':
     resolution: {integrity: sha512-yoSVlyCltqbaCTse3uSdf5Vo3q4UskcTm+3klaUQTwOq7Z5aCZLtLPZatXTPzr+S0WEcjTZvD++A+r3QmgamsA==}
@@ -615,7 +615,7 @@ snapshots:
 
   '@isaacs/nonrecursive-glob-match@1.0.3': {}
 
-  '@milieuinfo/maven-metadata-generator-npm@0.7.7(@rdfjs/types@2.0.1)(@types/clownface@2.0.10)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)':
+  '@milieuinfo/maven-metadata-generator-npm@0.7.8(@rdfjs/types@2.0.1)(@types/clownface@2.0.10)(@types/rdf-dataset-ext@1.0.8)(@types/rdfjs__environment@1.0.0)(@types/rdfjs__fetch-lite@3.0.11)(@types/rdfjs__formats@4.0.1)(@types/rdfjs__namespace@2.0.10)(@types/rdfjs__term-map@2.0.10)(@types/rdfjs__term-set@2.0.9)(@types/rdfjs__traverser@0.1.5)':
     dependencies:
       '@rdfjs/dataset': 2.0.3
       '@xmldom/xmldom': 0.9.12
