@@ -1,5 +1,8 @@
 {
     "@context": {
+        "provenance": {
+            "@id": "http://purl.org/dc/terms/provenance"
+        },
         "sparql-service-description-graph": {
             "@id": "http://www.w3.org/ns/sparql-service-description#graph",
             "@type": "@id"
@@ -63,7 +66,8 @@
         },
         "theme": {
             "@id": "http://www.w3.org/ns/dcat#theme",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "title": {
             "@id": "http://purl.org/dc/terms/title",
@@ -245,7 +249,8 @@
         },
         "hasTopConcept": {
             "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "uri": {
             "@id": "@id",
@@ -272,7 +277,8 @@
         },
         "member": {
             "@id": "http://www.w3.org/2004/02/skos/core#member",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "casNumber": {
             "@id": "http://dbpedia.org/ontology/casNumber"
@@ -318,11 +324,13 @@
         },
         "narrower": {
             "@id": "http://www.w3.org/2004/02/skos/core#narrower",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "narrowerTransitive": {
             "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "narrowMatch": {
             "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
@@ -330,7 +338,8 @@
         },
         "semanticRelation": {
             "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
-            "@type": "@id"
+            "@type": "@id",
+            "@container": "@set"
         },
         "belongsTo": {
             "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
@@ -540,7 +549,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "EC",
             "prefLabel": "Geleidbaarheid ter plaatse",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -602,7 +613,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "MUC-EC 20",
             "prefLabel": "Geleidbaarheid (20°C), MUC project",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -616,7 +629,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "MUCd-EC 20",
             "prefLabel": "Geleidbaarheid (20°C), MUC project",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -630,7 +645,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<125",
             "prefLabel": "Korrelgrootte distributie <125µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -644,7 +661,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<250",
             "prefLabel": "Korrelgrootte distributie <250µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -658,7 +677,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<500",
             "prefLabel": "Korrelgrootte distributie <500µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -672,7 +693,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<1000",
             "prefLabel": "Korrelgrootte distributie <1000µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -698,7 +721,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<2000",
             "prefLabel": "Korrelgrootte distributie <2000µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -712,7 +737,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "pH na ZW",
             "prefLabel": "pH na Zahn Wellens",
-            "semanticRelation": "concept:76",
+            "semanticRelation": [
+                "concept:76"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -726,7 +753,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "EC 25 na ZW",
             "prefLabel": "Geleidbaarheid (25°C) na Zahn Wellens",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -740,7 +769,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "H t na ZW",
             "prefLabel": "Hardheid, totaal na Zahn Wellens",
-            "semanticRelation": "concept:15",
+            "semanticRelation": [
+                "concept:15"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -754,7 +785,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<20",
             "prefLabel": "Korrelgrootte distributie <20µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -857,7 +890,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Solventen",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -870,7 +905,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Minerale Olie",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -883,7 +920,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Ondefinieerbaar",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -896,7 +935,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Amoniak",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -909,7 +950,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Brandstofachtige",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -922,7 +965,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Benzine",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -935,7 +980,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Carbolineum",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -949,7 +996,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "H per.",
             "prefLabel": "Hardheid, permanent",
-            "semanticRelation": "concept:15",
+            "semanticRelation": [
+                "concept:15"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -962,7 +1011,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Chemisch",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -975,7 +1026,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Chloor",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -988,7 +1041,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Condensaat",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1001,7 +1056,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Diesel",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1014,7 +1071,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Glycol",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1027,7 +1086,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Olie aromaten",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1040,7 +1101,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Olie",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1053,7 +1116,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Petroleum",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1066,7 +1131,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Rotting",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1079,7 +1146,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Scherpe geur",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1093,7 +1162,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "H tijd.",
             "prefLabel": "Hardheid, tijdelijk",
-            "semanticRelation": "concept:15",
+            "semanticRelation": [
+                "concept:15"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1106,7 +1177,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Teer",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1119,7 +1192,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Terpentine",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1132,7 +1207,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Verf (terpentine basis)",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1145,7 +1222,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Zoete geur",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1158,7 +1237,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Zure geur",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1171,7 +1252,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Slib",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1184,7 +1267,9 @@
             "broaderTransitive": "concept:27",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geur - Aromaten",
-            "semanticRelation": "concept:27",
+            "semanticRelation": [
+                "concept:27"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1257,7 +1342,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 1000 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1270,7 +1357,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 125 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1283,7 +1372,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 16 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1296,7 +1387,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 180 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1309,7 +1402,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 2 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1322,7 +1417,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 250 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1335,7 +1432,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 500 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1360,7 +1459,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 63 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1373,7 +1474,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 32 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1386,7 +1489,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 50 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1399,7 +1504,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte > 2000 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1412,7 +1519,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 2000 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1425,7 +1534,9 @@
             "broaderTransitive": "concept:331",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Korrelgrootte < 355 µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1767,7 +1878,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<16",
             "prefLabel": "Korrelgrootte distributie <16µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1854,10 +1967,16 @@
             "id": "concept:197",
             "type": "skos:Concept",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
-            "narrower": "concept:198",
-            "narrowerTransitive": "concept:198",
+            "narrower": [
+                "concept:198"
+            ],
+            "narrowerTransitive": [
+                "concept:198"
+            ],
             "prefLabel": "Bodemgebruik",
-            "semanticRelation": "concept:198",
+            "semanticRelation": [
+                "concept:198"
+            ],
             "topConceptOf": "conceptscheme:fysico-chemische-eigenschap",
             "theme": [
                 "gemet:1322",
@@ -1871,7 +1990,9 @@
             "broaderTransitive": "concept:197",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Bodemgebruik Aardewerk",
-            "semanticRelation": "concept:197",
+            "semanticRelation": [
+                "concept:197"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1896,7 +2017,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<2",
             "prefLabel": "Korrelgrootte distributie <2µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1976,7 +2099,9 @@
             "broaderTransitive": "concept:204",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Consistentie - kleverigheid",
-            "semanticRelation": "concept:204",
+            "semanticRelation": [
+                "concept:204"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -1989,7 +2114,9 @@
             "broaderTransitive": "concept:204",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Consistentie - plasticiteit",
-            "semanticRelation": "concept:204",
+            "semanticRelation": [
+                "concept:204"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2036,7 +2163,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<63",
             "prefLabel": "Korrelgrootte distributie <63µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2160,7 +2289,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran>63",
             "prefLabel": "Korrelgrootte distributie >63µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2195,7 +2326,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - afzettingswijze laag 1",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2208,7 +2341,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - afzettingswijze laag 2",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2221,7 +2356,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - afzettingswijze laag 3",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2234,7 +2371,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - afzettingswijze laag 4",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2247,7 +2386,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - andere kenmerken laag 1",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2260,7 +2401,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - andere kenmerken laag 2",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2273,7 +2416,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - andere kenmerken laag 3",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2286,7 +2431,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - andere kenmerken laag 4",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2311,7 +2458,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 1",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2324,7 +2473,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 2",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2337,7 +2488,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 3",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2350,7 +2503,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 4",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2363,7 +2518,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 5",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2376,7 +2533,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - bovenliggend laag 6",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2389,7 +2548,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 1",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2402,7 +2563,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 2",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2415,7 +2578,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 3",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2428,7 +2593,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 4",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2442,7 +2609,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "pH",
             "prefLabel": "pH",
-            "semanticRelation": "concept:76",
+            "semanticRelation": [
+                "concept:76"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2455,7 +2624,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 5",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2468,7 +2639,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - lithologie laag 6",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2481,7 +2654,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 1",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2494,7 +2669,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 2",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2507,7 +2684,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 3",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2520,7 +2699,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 4",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2533,7 +2714,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 5",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2546,7 +2729,9 @@
             "broaderTransitive": "concept:330",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Geologische aard - tijdperk laag 6",
-            "semanticRelation": "concept:330",
+            "semanticRelation": [
+                "concept:330"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2582,7 +2767,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "pH-KCl",
             "prefLabel": "pH (KCl)",
-            "semanticRelation": "concept:76",
+            "semanticRelation": [
+                "concept:76"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2783,7 +2970,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur omschrijving",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2796,7 +2985,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - CHROMA (kleur1)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2809,7 +3000,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - CHROMA (kleur2)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2822,7 +3015,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - CHROMA (kleur3)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2926,7 +3121,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_getal (kleur1)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2939,7 +3136,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_getal (kleur2)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2952,7 +3151,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_getal (kleur3)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2965,7 +3166,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_letters (kleur1)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2978,7 +3181,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_letters (kleur2)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -2991,7 +3196,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - HUE_letters (kleur3)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -3004,7 +3211,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - kleurcode",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -3017,7 +3226,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - VALUE (kleur1)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -3030,7 +3241,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - VALUE (kleur2)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -3043,7 +3256,9 @@
             "broaderTransitive": "concept:18",
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "prefLabel": "Kleur volgens Munsell - VALUE (kleur3)",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4063,7 +4278,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<2 bt",
             "prefLabel": "Korrelgrootte distributie <2µm, totaal",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4113,7 +4330,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "pH-CO2",
             "prefLabel": "pH (na ontgassen)",
-            "semanticRelation": "concept:76",
+            "semanticRelation": [
+                "concept:76"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4151,7 +4370,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<50",
             "prefLabel": "Korrelgrootte distributie <50µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4165,7 +4386,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran>2<63",
             "prefLabel": "Korrelgrootte distributie >2µm en <63µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4179,7 +4402,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran>50",
             "prefLabel": "Korrelgrootte distributie >50µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4193,7 +4418,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "EC 25",
             "prefLabel": "Geleidbaarheid (25°C)",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -4219,7 +4446,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<4",
             "prefLabel": "Korrelgrootte distributie <4µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4257,7 +4486,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<8",
             "prefLabel": "Korrelgrootte distributie <8µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4271,7 +4502,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Gran<32",
             "prefLabel": "Korrelgrootte distributie <32µm",
-            "semanticRelation": "concept:331",
+            "semanticRelation": [
+                "concept:331"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4381,7 +4614,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "DR105",
             "prefLabel": "Droogresten (105°C)",
-            "semanticRelation": "concept:6",
+            "semanticRelation": [
+                "concept:6"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4533,7 +4768,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "DR180",
             "prefLabel": "Droogresten (180°C)",
-            "semanticRelation": "concept:6",
+            "semanticRelation": [
+                "concept:6"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4548,7 +4785,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "DE*ab",
             "prefLabel": "CIE 1976 totaal kleurverschil",
-            "semanticRelation": "concept:18",
+            "semanticRelation": [
+                "concept:18"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4670,7 +4909,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "EC 20",
             "prefLabel": "Geleidbaarheid (20°C)",
-            "semanticRelation": "concept:322",
+            "semanticRelation": [
+                "concept:322"
+            ],
             "theme": [
                 "gemet:6229",
                 "gemet:1686"
@@ -4708,7 +4949,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Deelgewicht 1",
             "prefLabel": "Gewicht fles 1 (neerslagwater)",
-            "semanticRelation": "concept:81",
+            "semanticRelation": [
+                "concept:81"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"
@@ -4722,7 +4965,9 @@
             "inScheme": "conceptscheme:fysico-chemische-eigenschap",
             "notation": "Deelgewicht 2",
             "prefLabel": "Gewicht fles 2 (neerslagwater)",
-            "semanticRelation": "concept:81",
+            "semanticRelation": [
+                "concept:81"
+            ],
             "theme": [
                 "gemet:1322",
                 "gemet:6229"

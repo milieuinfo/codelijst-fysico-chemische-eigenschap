@@ -1,4 +1,5 @@
 {
+  "provenance": {"@id": "http://purl.org/dc/terms/provenance"},
   "sparql-service-description-graph": {
     "@id" : "http://www.w3.org/ns/sparql-service-description#graph",
     "@type" : "@id"
@@ -62,7 +63,8 @@
   },
   "theme" : {
     "@id" : "http://www.w3.org/ns/dcat#theme",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "title" : {
     "@id" : "http://purl.org/dc/terms/title",
@@ -245,7 +247,8 @@
   },
   "hasTopConcept" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "uri" : {
     "@id" : "@id",
@@ -272,7 +275,8 @@
   },
   "member" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#member",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "casNumber" : {
     "@id" : "http://dbpedia.org/ontology/casNumber"
@@ -318,11 +322,13 @@
   },
   "narrower" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "narrowerTransitive" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "narrowMatch" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
@@ -330,7 +336,8 @@
   },
   "semanticRelation" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "belongsTo" : {
     "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
